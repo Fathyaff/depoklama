@@ -12,6 +12,7 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/style.css" rel="stylesheet" media="screen">
+        <link href="css/penutur_kisah.css" rel="stylesheet" media="screen">
         <link href="color/default.css" rel="stylesheet" media="screen">
 
         <!-- ======================================================= Theme Name: Alstar

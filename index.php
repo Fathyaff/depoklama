@@ -40,41 +40,6 @@ if (isset($_POST['submit'])) {
         <!-- Navigation -->
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
-                <!-- <div class="navbar-header">
-                    <button
-                        type="button"
-                        class="navbar-toggle"
-                        data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle nav</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    Logo text or image
-                    <a class="navbar-brand" href="#">MAIN INDONESIA</a>
-
-                </div> -->
-                <!-- <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="current">
-                            <a href="#intro">Home</a>
-                        </li>
-                        <li>
-                            <a href="#team">Tentang Kami</a>
-                        </li>
-                        <li>
-                            <a href="#what-we-do">Yang Kami Lakukan</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio2">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Hubungi Kami</a>
-                        </li>
-                    </ul>
-                </div> -->
                 <a class="menu-toggle rounded" href="#">
                     <i class="fa fa-bars"></i>
                   </a>
@@ -113,9 +78,6 @@ if (isset($_POST['submit'])) {
                     <div class="col-md-12">
                         <div id="rotator">
                             <h3>MUSEUM AND HERITAGE INTERACTIVE INDONESIA</h3>
-                            <!-- <h1><span class="1strotate">MUSEUM AND HERITAGE INTERACTIVE INDONESIA,
-                            MUSEUM AND HERITAGE INTERACTIVE INDONESIA, MUSEUM AND HERITAGE INTERACTIVE
-                            INDONESIA</span></h1> -->
                             <div class="line-spacer"></div>
                             <p>
                                 <span>Digital Engagement in</span>
@@ -315,271 +277,6 @@ if (isset($_POST['submit'])) {
             </div>
         </section>
 
-        <!-- Parallax 1 -->
-        <!-- <section
-            id="parallax1"
-            class="home-section parallax"
-            data-stellar-background-ratio="1.5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="color-light">
-                            <h2 class="wow bounceInDown" data-wow-delay="0.5s">Details are the key for perfection</h2>
-                            <p class="lead wow bounceInUp" data-wow-delay="1s">We mix all detailed things together</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- Services -->
-        <!-- <section id="services" class="home-section bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-2 col-md-8">
-                        <div class="section-heading">
-                            <h2>Services</h2>
-                            <div class="heading-line"></div>
-                            <p>We’ve been building unique digital products, platforms, and experiences for
-                                the past 6 years.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="carousel-service" class="service carousel slide">
-
-                            <!-- slides -->
-                            <!-- <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-offset-1 col-md-6">
-                                            <div class="wow bounceInLeft">
-                                                <h4>Website Design</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-5">
-                                            <div class="screenshot wow bounceInRight">
-                                                <img src="img/screenshots/1.png" class="img-responsive" alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-offset-1 col-md-6">
-                                            <div class="wow bounceInLeft">
-                                                <h4>Brand Identity</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-5">
-                                            <div class="screenshot wow bounceInRight">
-                                                <img src="img/screenshots/2.png" class="img-responsive" alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-offset-1 col-md-6">
-                                            <div class="wow bounceInLeft">
-                                                <h4>Web & Mobile Apps</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-5">
-                                            <div class="screenshot wow bounceInRight">
-                                                <img src="img/screenshots/3.png" class="img-responsive" alt=""/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!-- Indicators -->
-                            <!-- <ol class="carousel-indicators">
-                                <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-service" data-slide-to="1"></li>
-                                <li data-target="#carousel-service" data-slide-to="2"></li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- Works -->
-        <!-- <section id="portfolio" class="home-section bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-2 col-md-8">
-                        <div class="section-heading">
-                            <h2>Works</h2>
-                            <div class="heading-line"></div>
-                            <p>We’ve been building unique digital products, platforms, and experiences for
-                                the past 6 years.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <ul id="og-grid" class="og-grid">
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/1.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.">
-                                    <img src="img/works/thumbs/1.jpg" alt=""/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/2.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Mea an eros periculis dignissim, quo mollis nostrum elaboraret et. Id quem perfecto mel, no etiam perfecto qui. No nisl legere recusabo nam, ius an tale pericula evertitur, dicat phaedrum qui in. Usu numquam legendos in, voluptaria sadipscing ut vel. Eu eum mandamus volutpat gubergren, eos ad detracto nominati, ne eum idque elitr aliquam.">
-                                    <img src="img/works/thumbs/2.jpg" alt=""/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/3.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Vim ad persecuti appellantur. Eam ignota deterruisset eu, in omnis fierent convenire sed. Ne nulla veritus vel, liber euripidis in eos. Postea comprehensam vis in, detracto deseruisse mei ea. Ex sadipscing deterruisset concludaturque quo.">
-                                    <img src="img/works/thumbs/3.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/4.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim, an movet interesset necessitatibus mea.">
-                                    <img src="img/works/thumbs/4.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/5.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea">
-                                    <img src="img/works/thumbs/5.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/6.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Id elit saepe pro. In atomorum constituam definitionem quo, at torquatos sadipscing eum, ut eum wisi meis mentitum. Probo feugiat ea duo. An usu platonem instructior, qui dolores inciderint ad. Te elit essent mea, vim ne atqui legimus invenire, ad dolor vitae sea.">
-                                    <img src="img/works/thumbs/6.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/7.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei.">
-                                    <img src="img/works/thumbs/7.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/8.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="No nisl legere recusabo nam, ius an tale pericula evertitur, dicat phaedrum qui in. Usu numquam legendos in, voluptaria sadipscing ut vel. Eu eum mandamus volutpat gubergren, eos ad detracto nominati, ne eum idque elitr aliquam.">
-                                    <img src="img/works/thumbs/8.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/9.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Lorem ipsum dolor sit amet, ex pri quod ferri fastidii. Mazim philosophia eum ad, facilisis laboramus te est. Eam magna fabellas ut. Ne vis diceret accumsan salutandi, pro in impedit accusamus dissentias, ut nonumy eloquentiam ius.">
-                                    <img src="img/works/thumbs/9.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/10.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Duo te dico volutpat, unum elit oblique per id. Ne duo mollis sapientem intellegebat. Per at augue vidisse percipit, pri vocibus assueverit interesset ut, no dolore luptatum incorrupte nec. In mentitum forensibus nec, nibh eripuit ut pri, tale illud voluptatum ut sea. Sed oratio repudiare ei, cum an magna labitur, eu atqui augue mei. Pri consul detracto eu, solet nusquam accusam ex vim.">
-                                    <img src="img/works/thumbs/10.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/11.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Vim ad persecuti appellantur. Eam ignota deterruisset eu, in omnis fierent convenire sed. Ne nulla veritus vel, liber euripidis in eos. Postea comprehensam vis in, detracto deseruisse mei ea. Ex sadipscing deterruisset concludaturque quo.">
-                                    <img src="img/works/thumbs/11.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    data-largesrc="img/works/12.jpg"
-                                    data-title="Portfolio title"
-                                    data-description="Mea an eros periculis dignissim, quo mollis nostrum elaboraret et. Id quem perfecto mel, no etiam perfecto qui. No nisl legere recusabo nam, ius an tale pericula evertitur, dicat phaedrum qui in. Usu numquam legendos in, voluptaria sadipscing ut vel. Eu eum mandamus volutpat gubergren, eos ad detracto nominati, ne eum idque elitr aliquam.">
-                                    <img src="img/works/thumbs/12.jpg" alt="img01"/>
-                                </a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- Parallax 2 -->
-        <!-- <section
-            id="parallax2"
-            class="home-section parallax"
-            data-stellar-background-ratio="0.5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul class="clients">
-                            <li class="wow fadeInDown" data-wow-delay="0.3s">
-                                <a href="#">
-                                    <img src="img/clients/1.png" alt=""/>
-                                </a>
-                            </li>
-                            <li class="wow fadeInDown" data-wow-delay="0.6s">
-                                <a href="#">
-                                    <img src="img/clients/2.png" alt=""/>
-                                </a>
-                            </li>
-                            <li class="wow fadeInDown" data-wow-delay="0.9s">
-                                <a href="#">
-                                    <img src="img/clients/3.png" alt=""/>
-                                </a>
-                            </li>
-                            <li class="wow fadeInDown" data-wow-delay="1.1s">
-                                <a href="#">
-                                    <img src="img/clients/4.png" alt=""/>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <!-- Contact -->
         <section id="contact" class="home-section bg-gray" style="
         background-image: url(img/asets/bg-2-bw.png); background-position: center; background-size: cover;">
@@ -656,84 +353,6 @@ if (isset($_POST['submit'])) {
             </div>
         </section>
 
-        <!-- Bottom widget -->
-        <!-- <section id="bottom-widget" class="home-section bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="contact-widget wow bounceInLeft">
-                            <i class="fa fa-map-marker fa-4x"></i>
-                            <h5>Main Office</h5>
-                            <p>
-                                109 Borough High Street,
-                                <br/>London SE1 1NL
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="contact-widget wow bounceInUp">
-                            <i class="fa fa-phone fa-4x"></i>
-                            <h5>Call</h5>
-                            <p>
-                                +1 111 9998 7774
-                                <br>
-                                +1 245 4544 6855
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="contact-widget wow bounceInRight">
-                            <i class="fa fa-envelope fa-4x"></i>
-                            <h5>Email us</h5>
-                            <p>
-                                hello@alstarstudio.com
-                                <br/>sales@alstarstudio.com
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mar-top30">
-                    <div class="col-md-12">
-                        <ul class="social-network">
-                            <li>
-                                <a href="#">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <!-- Footer -->
         <?php include "templates/footer.php"; ?>
 
@@ -769,9 +388,6 @@ if (isset($_POST['submit'])) {
                                 <h5>"Hidup untuk Tidur"</h5>
                             </div>
                         </div>
-                        <!-- <button class="btn btn-primary modal-button" data-dismiss="modal" type="button" style="margin: 0 0 0 300px;">
-                            <i class="fa fa-times"></i>
-                            Close</button> -->
                         </div>
                     </div>
                     </div>
@@ -807,9 +423,6 @@ if (isset($_POST['submit'])) {
                                 <h5>"Hidup untuk Tidur"</h5>
                             </div>
                         </div>
-                        <!-- <button class="btn btn-primary modal-button" data-dismiss="modal" type="button" style="margin: 0 0 0 300px;">
-                            <i class="fa fa-times"></i>
-                            Close</button> -->
                         </div>
                     </div>
                     </div>
@@ -845,9 +458,6 @@ if (isset($_POST['submit'])) {
                                 <h5>"Hidup untuk Tidur"</h5>
                             </div>
                         </div>
-                        <!-- <button class="btn btn-primary modal-button" data-dismiss="modal" type="button" style="margin: 0 0 0 300px;">
-                            <i class="fa fa-times"></i>
-                            Close</button> -->
                         </div>
                     </div>
                     </div>
@@ -883,9 +493,6 @@ if (isset($_POST['submit'])) {
                                 <h5>"Hidup untuk Tidur"</h5>
                             </div>
                         </div>
-                        <!-- <button class="btn btn-primary modal-button" data-dismiss="modal" type="button" style="margin: 0 0 0 300px;">
-                            <i class="fa fa-times"></i>
-                            Close</button> -->
                         </div>
                     </div>
                     </div>
@@ -921,9 +528,6 @@ if (isset($_POST['submit'])) {
                                 <h5>"Hidup untuk Tidur"</h5>
                             </div>
                         </div>
-                        <!-- <button class="btn btn-primary modal-button" data-dismiss="modal" type="button" style="margin: 0 0 0 300px;">
-                            <i class="fa fa-times"></i>
-                            Close</button> -->
                         </div>
                     </div>
                     </div>
@@ -948,7 +552,7 @@ if (isset($_POST['submit'])) {
 
         <!-- Template Custom Javascript File -->
         <script src="js/custom.js"></script>
-
+        <?php include "php/penutur_kisah_1.php"; ?>
     </body>
 
 </html>

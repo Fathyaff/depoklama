@@ -19,13 +19,13 @@ General
 
 body{
 	text-align: center;
-	font-family: 'GeosansLight', GeosansLight;
-	font-size: 14px;
+	/* font-family: 'GeosansLight', GeosansLight; */
+	/* font-size: 14px; */
 	line-height: 1.6em;
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 48px;
 }
 h2 {
 	font-size: 32px;
@@ -314,9 +314,11 @@ nav.navbar.fixed-to-top{
 Home sections
 ================================= */
 
-.home-section {
+.default-section {
 	width: 100%;
-	padding: 150px 0px 150px 0px;
+	display: flex;
+	height: 100vh;
+	padding: 120px 0px 120px 0px;
 }
 
 /* --- heading --- */

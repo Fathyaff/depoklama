@@ -70,8 +70,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-6">
-                        <div class="col-1 col-sm-4">
+                    <div class="col-md-4 col-md-offset-6 carousel-box">
+                        <!-- <div class="col-1 col-sm-4">
                             <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="100%" class=" img-responsive"/>
                         </div>
                         <div class="col-1 col-sm-4">
@@ -79,6 +79,38 @@
                         </div>
                         <div class="col-1 col-sm-4">
                             <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="100%" class=" img-responsive"/>
+                        </div> -->
+                        <div class="carousel slide multi-item-carousel" id="theCarousel">
+                            <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/ferdy.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/govert.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/lili.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/suzana.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/titi.png" class="img-responsive"></a></div>
+                            </div>
+                            <!-- add  more items here -->
+                            <!-- Example item start:  -->
+
+                            <div class="item">
+                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/yano.png" class="img-responsive"></a></div>
+                            </div>
+
+                            <!--  Example item end -->
+                            </div>
+                            <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                            <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>

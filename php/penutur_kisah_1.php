@@ -1,24 +1,22 @@
 <!-- What We Do -->
-<section id="penutur-kisah-1" class="default-section bg-white" style="
-        background-image: url(img/asets/penutur_kisah/background.png); background-position: center; background-size: cover;
-    ">
+<section id="penutur-kisah-1" class="default-section bg-white" >
     <div class="container-penutur-kisah-1">
         <div class="row">
-            <div class=" col-md-12">
+            <div class="col align-self-center">
                 <div class="title-penutur-kisah">
                     <h1>Penutur Kisah</h1>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class=" col-md-12">
+            <div class="col align-self-center">
                 <div class="subtitle-penutur-kisah">
                     <p>Kisah ini diceritakan dalam berbagai sudut pandang dan
                     oleh penutur dari berbagai kalangan</p>
                 </div>
             </div>
         </div>
-        <div class="row" id="penutur-kisah-row">
+        <div class="row penutur-kisah-row-first">
             <div class="col-6 col-md-4">
                 <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="50%" class=" img-responsive"/>
             </div>
@@ -29,7 +27,28 @@
                 <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="50%" class=" img-responsive"/>
             </div>
         </div>
-
+        <div class="row penutur-kisah-row">
+            <div class="col-6 col-md-4">
+                <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="50%" class=" img-responsive"/>
+            </div>
+            <div class="col-6 col-md-4">
+                <img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" alt="" width="50%" class=" img-responsive"/>
+            </div>
+            <div class="col-6 col-md-4">
+                <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="50%" class=" img-responsive"/>
+            </div>
+        </div>
+        <div class="row penutur-kisah-row">
+            <div class="col-6 col-md-4">
+                <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="50%" class=" img-responsive"/>
+            </div>
+            <div class="col-6 col-md-4">
+                <img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" alt="" width="50%" class=" img-responsive"/>
+            </div>
+            <div class="col-6 col-md-4">
+                <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="50%" class=" img-responsive"/>
+            </div>
+        </div>
 
         <!-- The Modal -->
         <div id="modalBondan" class="modal">

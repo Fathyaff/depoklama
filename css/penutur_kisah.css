@@ -1,15 +1,28 @@
-#penutur-kisah-row #bondan {
+.penutur-kisah-row-first #bondan {
   float: right;
 }
-#penutur-kisah-row #faradiba {
+.penutur-kisah-row-first #faradiba {
   display:block;
   margin:auto;
 }
-#penutur-kisah-row #yano {
+.penutur-kisah-row-first #yano {
   float: left;
 }
-#penutur-kisah-row{
-  padding-top: 100px;
+.penutur-kisah-row #bondan {
+  float: right;
+}
+.penutur-kisah-row #faradiba {
+  display:block;
+  margin:auto;
+}
+.penutur-kisah-row #yano {
+  float: left;
+}
+.penutur-kisah-row-first {
+  padding-top: 5%;
+}
+.penutur-kisah-row {
+  padding-top: 5%;
 }
  /* The Modal (background) */
  .modal {
@@ -53,5 +66,28 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+.col-6 .col-md-4 {
+  padding: 0px;
+}
+.row {
+  margin: 0px;
+}
+.default-section {
+  background-attachment: fixed;
+}
+
+#penutur-kisah-1 {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/asets/penutur_kisah/background.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+
 }
 

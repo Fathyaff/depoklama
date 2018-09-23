@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="img/asets/logo.png" width="5%" alt=""></a>
+                    <a class="navbar-brand" href="#"><img src="img/asets/logo.png" width="5%" style="margin-top:-1%;" alt=""></a>
 
                 </div>
                 <a class="menu-toggle rounded" href="#">
@@ -69,14 +69,14 @@ if (isset($_POST['submit'])) {
                         <a class="js-scroll-trigger" href="#pengantar">Pengantar</a>
                       </li>
                       <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="#penutur_kisah_1">Penutur Kisah</a>
+                        <a class="js-scroll-trigger" href="#penutur-kisah-1">Penutur Kisah</a>
                       </li>
                       <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="#portfolio2">Asal Kota Depok</a>
+                        <a class="js-scroll-trigger" href="#asal_kata_depok">Asal Kota Depok</a>
                       </li>
-                      <li class="sidebar-nav-item">
+                      <!-- <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" href="#contact">Hubungi Kami</a>
-                      </li>
+                      </li> -->
                     </ul>
                 </div>
             </div>
@@ -87,18 +87,22 @@ if (isset($_POST['submit'])) {
             <div class="intro-text">
                 <div class="container">
                     <div class="col-md-12 logo">
+                        <img id="logo-img" src="img/asets/logo.png" width="10%" style="margin-bottom:5%" alt="">   
                         <h3>DEPOK LAMA PROJECT</h3>
+                        <p>SEJARAH, PERISTIWA, DAN TINGGALAN MATERINYA</p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 slide-kebawah">
                         <img id="slide-bawah" src="img/asets/panah.png" width="100px" alt="">
+                        <p>mulai bertualang</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- <?php include "php/video.php"; ?> -->
+        <?php include "php/video.php"; ?>
         <?php include "php/pengantar.php"; ?>
         <?php include "php/penutur_kisah_1.php"; ?>
+        <?php include "php/asal_kata_depok.php"; ?>
 
         <!-- Footer -->
         <?php include "templates/footer.php"; ?>

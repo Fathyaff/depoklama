@@ -96,7 +96,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
 
-        <?php include "php/video.php"; ?>
+        <!-- <?php include "php/video.php"; ?> -->
         <?php include "php/pengantar.php"; ?>
         <?php include "php/penutur_kisah_1.php"; ?>
 

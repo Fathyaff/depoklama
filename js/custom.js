@@ -43,7 +43,7 @@
   //slide-bawah-intro
   $('#slide-bawah').click(function(){
     $('html,body').animate({
-      scrollTop: $("#team").offset().top},
+      scrollTop: $("#video-pengantar").offset().top},
       'slow');
   });
 
@@ -81,7 +81,7 @@
       // else:
 
       images: [
-        "img/asets/bg-1.png",
+        "img/asets/bg.png",
       ],
 
       onStart: function() {},

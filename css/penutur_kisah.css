@@ -1,15 +1,28 @@
-#penutur-kisah-row #bondan {
+.penutur-kisah-row-first #bondan {
   float: right;
 }
-#penutur-kisah-row #faradiba {
+.penutur-kisah-row-first #faradiba {
   display:block;
   margin:auto;
 }
-#penutur-kisah-row #yano {
+.penutur-kisah-row-first #yano {
   float: left;
 }
-#penutur-kisah-row{
-  padding-top: 100px;
+.penutur-kisah-row #bondan {
+  float: right;
+}
+.penutur-kisah-row #faradiba {
+  display:block;
+  margin:auto;
+}
+.penutur-kisah-row #yano {
+  float: left;
+}
+.penutur-kisah-row-first {
+  padding-top: 5%;
+}
+.penutur-kisah-row {
+  padding-top: 5%;
 }
  /* The Modal (background) */
  .modal {
@@ -54,4 +67,81 @@
   text-decoration: none;
   cursor: pointer;
 }
+.col-6 .col-md-4 {
+  padding: 0px;
+}
+.row {
+  margin: 0px;
+}
+.default-section {
+  background-attachment: fixed;
+}
+
+#penutur-kisah-1 {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/asets/penutur_kisah/background.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+
+}
+
+.multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out left;
+}
+
+.multi-item-carousel .carousel-inner > .next {
+  left: 33%;
+}
+
+.multi-item-carousel .carousel-inner > .prev {
+  left: -33%;
+}
+
+.multi-item-carousel .carousel-inner .active .left .right{
+  left:-33%;
+}
+.multi-item-carousel .carousel-inner .active .left .right{
+  right:33%;
+}
+/* .multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+} */
 

@@ -1,0 +1,29 @@
+#pengantar .container-pengantar p{
+    /* margin-top: 5%; */
+	line-height: 40px;
+	font-weight: 500;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.button-pengantar img {
+	margin : 0% 0% 0 45%;
+}
+
+.play {
+	margin : 0% 0% 0 45%;
+	width:50px;
+	height:50px;
+	background-image: url(../img/asets/play.png);
+	background-size: 50px 50px;
+	float:left;
+}
+.pause {
+	margin : 0% 0% 0 45%;
+	width:50px;
+	height:50px;
+	background-image: url(../img/asets/pause.png);
+	background-size: 50px 50px;
+	float:left;
+}

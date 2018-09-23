@@ -40,6 +40,20 @@ if (isset($_POST['submit'])) {
         <!-- Navigation -->
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
+            <div class="navbar-header">
+                    <button
+                        type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle nav</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/asets/logo.png" width="5%" alt=""></a>
+
+                </div>
                 <a class="menu-toggle rounded" href="#">
                     <i class="fa fa-bars"></i>
                   </a>
@@ -52,13 +66,13 @@ if (isset($_POST['submit'])) {
                         <a class="js-scroll-trigger" href="#">Ke Halaman Utama</a>
                       </li>
                       <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="#team">Tentang Kami</a>
+                        <a class="js-scroll-trigger" href="#pengantar">Pengantar</a>
                       </li>
                       <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="#what-we-do">Yang Kami Lakukan</a>
+                        <a class="js-scroll-trigger" href="#penutur_kisah_1">Penutur Kisah</a>
                       </li>
                       <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="#portfolio2">Portfolio Kami</a>
+                        <a class="js-scroll-trigger" href="#portfolio2">Asal Kota Depok</a>
                       </li>
                       <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" href="#contact">Hubungi Kami</a>
@@ -67,9 +81,34 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
         </nav>
+
+        <!-- intro area -->
+        <div id="intro">
+            <div class="intro-text">
+                <div class="container">
+                    <div class="col-md-12 logo">
+                        <h3>DEPOK LAMA PROJECT</h3>
+                    </div>
+                    <div class="col-md-12">
+                        <img id="slide-bawah" src="img/asets/panah.png" width="100px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <?php include "php/video.php"; ?> -->
+        <?php include "php/pengantar.php"; ?>
+        <?php include "php/penutur_kisah_1.php"; ?>
+
+        <!-- Footer -->
+        <?php include "templates/footer.php"; ?>
+
+
+        <a href="#" class="back-to-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
         <!-- js -->
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        
         <script src="js/wow.min.js"></script>
         <script src="js/mb.bgndGallery.js"></script>
         <script src="js/mb.bgndGallery.effects.js"></script>
@@ -80,11 +119,11 @@ if (isset($_POST['submit'])) {
         <script src="js/grid.js"></script>
         <script src="js/stellar.js"></script>
         <!-- Contact Form JavaScript File -->
-        <script src="contactform/contactform.js"></script>
+        <!-- <script src="contactform/contactform.js"></script> -->
 
         <!-- Template Custom Javascript File -->
         <script src="js/custom.js"></script>
-        <?php include "php/penutur_kisah_1.php"; ?>
+        
     </body>
 
 </html>

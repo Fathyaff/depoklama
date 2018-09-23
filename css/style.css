@@ -396,7 +396,7 @@ Intro
 
 }
 
-.intro-text {
+/* .intro-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -408,7 +408,7 @@ Intro
   left: 0;
   right: 0;
 	z-index:999;
-}
+} */
 
 .intro-text h3 {
 	color:#ffffff;
@@ -447,14 +447,14 @@ Intro
 	font-weight: 300;
 }
 
-.slide-kebawah {
+/* .slide-kebawah {
 	margin-top : 10%;
 }
 
 .slide-kebawah p {
 	text-transform: lowercase;
 	font-size: 15px;
-}
+} */
 /* ================================
 Portfolio2
 ================================= */

@@ -12,15 +12,15 @@ var imgferdy = document.getElementById("ferdy");
 var imggovert = document.getElementById("govert");
 var imgboy = document.getElementById("boy");
 
-var descbondan = document.getElementsByClassName("bondan-desc");
-var descfaradiba = document.getElementsByClassName("faradiba-desc");
-var descyano = document.getElementsByClassName("yano-desc");
-var desclili = document.getElementsByClassName("lili-desc");
-var desctiti = document.getElementsByClassName("titi-desc");
-var descboy = document.getElementsByClassName("boy-desc");
-var descgovert = document.getElementsByClassName("govert-desc");
-var descferdy = document.getElementsByClassName("ferdy-desc");
-var descsuzana = document.getElementsByClassName("suzana-desc");
+var descbondan = document.getElementById("bondan-desc");
+var descfaradiba = document.getElementById("faradiba-desc");
+var descyano = document.getElementById("yano-desc");
+var desclili = document.getElementById("lili-desc");
+var desctiti = document.getElementById("titi-desc");
+var descboy = document.getElementById("boy-desc");
+var descgovert = document.getElementById("govert-desc");
+var descferdy = document.getElementById("ferdy-desc");
+var descsuzana = document.getElementById("suzana-desc");
 
 
 
@@ -99,31 +99,38 @@ span.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-        document.getElementById("bondan-modal").style.display = "none";
-        document.getElementById("lili-modal").style.display = "none";
-        document.getElementById("titi-modal").style.display = "none";
-        document.getElementById("ferdy-modal").style.display = "none";
-        document.getElementById("govert-modal").style.display = "none";
-        document.getElementById("yano-modal").style.display = "none";
-        document.getElementById("suzana-modal").style.display = "none";
-        document.getElementById("faradiba-modal").style.display = "none";
-        document.getElementById("boy-modal").style.display = "none";
-        descbondan.style.display = "none";
-        desclili.style.display = "none";
-        desctiti.style.display = "none";
-        descyano.style.display = "none";
-        descgovert.style.display = "none";
-        descboy.style.display = "none";
-        descsuzana.style.display = "none";
-        descferdy.style.display = "none";
-        descfaradiba.style.display = "none";
-
+window.onload = function(event){
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            document.getElementById("bondan-modal").style.display = "none";
+            document.getElementById("lili-modal").style.display = "none";
+            document.getElementById("titi-modal").style.display = "none";
+            document.getElementById("ferdy-modal").style.display = "none";
+            document.getElementById("govert-modal").style.display = "none";
+            document.getElementById("yano-modal").style.display = "none";
+            document.getElementById("suzana-modal").style.display = "none";
+            document.getElementById("faradiba-modal").style.display = "none";
+            document.getElementById("boy-modal").style.display = "none";
+            descbondan.style.display = "none";
+            desclili.style.display = "none";
+            desctiti.style.display = "none";
+            descyano.style.display = "none";
+            descgovert.style.display = "none";
+            descboy.style.display = "none";
+            descsuzana.style.display = "none";
+            descferdy.style.display = "none";
+            descfaradiba.style.display = "none";
+            modal.style.display = "none";
+        }
     }
 }
-
+// window.onload = function(){
+//     document.onclick = function(e){
+//        if(e.target.id !== 'modalBondan'){
+//           modal.style.display = 'none';
+//        }
+//     };
+//  };
 // Instantiate the Bootstrap carousel
 // $('.multi-item-carousel').carousel({
 //     interval: 2000

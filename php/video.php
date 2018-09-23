@@ -1,5 +1,7 @@
 <!-- Video Pengantar-->
-<section id="video-pengantar" class="default-section bg-white">
+<section id="video-pengantar" class="default-section bg-white" style="
+        background-image: url(img/asets/bg-video.png); background-position: center; background-size: cover;
+    ">
     <!-- <div id="video-pengantar col-md-12" >
         <div class="videoContainer">
             <iframe class="videoContainer__video" width="1920" height="1080" 
@@ -8,9 +10,9 @@
         </div>
     </div> -->
 
-    <div class="video-wrap col-md-12 style="background: url(img/asets/bg-video.png); ">
+    <!-- <div class="video-wrap col-md-12 style="background: url(img/asets/bg-video.png); ">
         <div class="overlay overlay-bg"></div>
             <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" 
             class="play-btn"><img src="img/asets/play-video.png" width="10%" alt=""></a>
-    </div>
+    </div> -->
 </section>

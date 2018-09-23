@@ -81,7 +81,7 @@
       // else:
 
       images: [
-        "img/asets/bg.png",
+        "img/asets/bg-halaman-muka.png",
       ],
 
       onStart: function() {},

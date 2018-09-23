@@ -16,7 +16,6 @@
         <link href="css/video_fullscreen.css" rel="stylesheet" media="screen">
         <link href="color/default.css" rel="stylesheet" media="screen">
         <link href="css/pengantar.css" rel="stylesheet" media="screen">
-
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <!-- ======================================================= Theme Name: Alstar

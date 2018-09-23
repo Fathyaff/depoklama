@@ -1,0 +1,141 @@
+.asal-kata-depok-row #peta {
+  float: right;
+  margin-right: -20%;
+}
+.asal-kata-depok-row #padepokan {
+  display:block;
+  margin:auto;
+}
+.asal-kata-depok-row #akronim {
+  float: left;
+  margin-left: -20%;
+}
+.asal-kata-depok-row {
+  padding-top: 5%;
+}
+
+.subtitle-asal-kata-depok {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size : 20px;
+}
+
+ /* The Modal (background) */
+ .modal-asal-kata-depok {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  margin-top: -10%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-asal-kata-depok .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 75%; /* Could be more or less, depending on screen size */
+}
+.modal-asal-kata-depok .modal-content .row-top {
+  padding-top: 5%;
+}
+.modal-asal-kata-depok .modal-content .modal-desc-content {
+  text-align: left;
+}
+
+/* The Close Button */
+.close-modal-asal-kata-depok {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-modal-asal-kata-depok:hover,
+.close-modal-asal-kata-depok:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.col-6 .col-md-4 {
+  padding: 0px;
+}
+.row {
+  margin: 0px;
+}
+
+#asal-kata-depok {
+  background: url(images/bg-pop-up.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url(../img/asets/bg-asal-kata-depok.png);
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+
+}
+
+.modal-asal-kata-depok .multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out left;
+}
+
+.modal-asal-kata-depok .multi-item-carousel .carousel-inner > .next {
+  left: 33%;
+}
+
+.modal-asal-kata-depok .multi-item-carousel .carousel-inner > .prev {
+  left: -33%;
+}
+
+.modal-asal-kata-depok .multi-item-carousel .carousel-inner .active .left .right{
+  left:-33%;
+}
+.modal-asal-kata-depok .multi-item-carousel .carousel-inner .active .left .right{
+  right:33%;
+}
+/* .multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+} */
+

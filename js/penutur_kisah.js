@@ -4,6 +4,7 @@ var modal = document.getElementById('modalBondan');
 // Get the button that opens the modal
 var imgbondan = document.getElementById("bondan");
 var imgfaradiba = document.getElementById("faradiba");
+var imgfaradibaslider = document.getElementById("faradiba-slider");
 var imgyano = document.getElementById("yano");
 var imglili = document.getElementById("lili");
 var imgtiti = document.getElementById("titi");
@@ -37,6 +38,13 @@ imgbondan.onclick = function() {
 }
 imgfaradiba.onclick = function() {
     modal.style.display = "block";
+    document.getElementById("faradiba-modal").style.display = "block";
+    descfaradiba.style.display = "block";
+}
+imgfaradibaslider.onclick = function() {
+    modal.style.display = "block";
+    document.getElementById("bondan-modal").style.display = "none";
+    descbondan.style.display = "none";
     document.getElementById("faradiba-modal").style.display = "block";
     descfaradiba.style.display = "block";
 }

@@ -53,7 +53,7 @@
         <!-- The Modal -->
         <div id="modalBondan" class="modal">
             <!-- Modal content -->
-            <div class="modal-content">
+            <div class="modal-content-penutur-kisah">
                 <span class="close">&times;</span>
                 <div class="row row-top">
                     <div class="col-4 col-md-4">

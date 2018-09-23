@@ -27,7 +27,6 @@
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  margin-top: -10%;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -42,6 +41,15 @@
   padding: 20px;
   border: 1px solid #888;
   width: 75%; /* Could be more or less, depending on screen size */
+  margin-top: 100px;
+  background-image: url("../img/asets/penutur_kisah/bg-pop-up.png");
+  background-size: contain;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 410.4px;
+  height: 500px;
 }
 .modal-asal-kata-depok .modal-content .row-top {
   padding-top: 5%;
@@ -56,6 +64,10 @@
   float: right;
   font-size: 28px;
   font-weight: bold;
+}
+
+.modal-asal-kata-depok .modal-content p {
+  color: white;
 }
 
 .close-modal-asal-kata-depok:hover,

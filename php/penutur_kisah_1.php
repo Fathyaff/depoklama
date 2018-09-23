@@ -29,25 +29,25 @@
         </div>
         <div class="row penutur-kisah-row">
             <div class="col-6 col-md-4">
-                <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="50%" class=" img-responsive"/>
+                <img id="ferdy" src="img/asets/penutur_kisah/ferdy.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <div class="col-6 col-md-4">
-                <img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" alt="" width="50%" class=" img-responsive"/>
+                <img id="lili" src="img/asets/penutur_kisah/lili.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <div class="col-6 col-md-4">
-                <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="50%" class=" img-responsive"/>
+                <img id="titi" src="img/asets/penutur_kisah/titi.png" alt="" width="50%" class=" img-responsive"/>
             </div>
         </div>
         <div class="row penutur-kisah-row">
             <div class="col-6 col-md-4">
-                <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="50%" class=" img-responsive"/>
+                <img id="govert" src="img/asets/penutur_kisah/govert.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <div class="col-6 col-md-4">
-                <img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" alt="" width="50%" class=" img-responsive"/>
+                <img id="suzana" src="img/asets/penutur_kisah/suzana.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <!-- <div class="col-6 col-md-4">
                 <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="50%" class=" img-responsive"/>
-            </div>
+            </div> -->
         </div>
 
         <!-- The Modal -->
@@ -57,7 +57,14 @@
                 <span class="close">&times;</span>
                 <div class="row row-top">
                     <div class="col-4 col-md-4">
-                        <img src="img/asets/penutur_kisah/bondan.png" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/bondan.png" id="bondan-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/faradiba.png" id="faradiba-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/yano.png" id="yano-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/ferdy.png" id="ferdy-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/govert.png" id="govert-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/lili.png" id="lili-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/suzana.png" id="suzana-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/titi.png" id="titi-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
                         <p>Dr. Bondan Kanumoyoso, M.Hum</p>
                     </div>
                     <div class="col-8 col-md-8">

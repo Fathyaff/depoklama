@@ -8,15 +8,22 @@
 .penutur-kisah-row-first #yano {
   float: left;
 }
-.penutur-kisah-row #bondan {
+.penutur-kisah-row #ferdy {
   float: right;
 }
-.penutur-kisah-row #faradiba {
+.penutur-kisah-row #lili {
   display:block;
   margin:auto;
 }
-.penutur-kisah-row #yano {
+.penutur-kisah-row #titi {
   float: left;
+}
+.penutur-kisah-row #govert {
+  float: right;
+}
+.penutur-kisah-row #suzana {
+  display:block;
+  margin:auto;
 }
 .penutur-kisah-row-first {
   padding-top: 5%;

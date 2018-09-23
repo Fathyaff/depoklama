@@ -10,6 +10,19 @@ var imgtiti = document.getElementById("titi");
 var imgsuzana = document.getElementById("suzana");
 var imgferdy = document.getElementById("ferdy");
 var imggovert = document.getElementById("govert");
+var imgboy = document.getElementById("boy");
+
+var descbondan = document.getElementsByClassName("bondan-desc");
+var descfaradiba = document.getElementsByClassName("faradiba-desc");
+var descyano = document.getElementsByClassName("yano-desc");
+var desclili = document.getElementsByClassName("lili-desc");
+var desctiti = document.getElementsByClassName("titi-desc");
+var descboy = document.getElementsByClassName("boy-desc");
+var descgovert = document.getElementsByClassName("govert-desc");
+var descferdy = document.getElementsByClassName("ferdy-desc");
+var descsuzana = document.getElementsByClassName("suzana-desc");
+
+
 
 var imgbondanmodalcontent
 
@@ -20,39 +33,47 @@ var span = document.getElementsByClassName("close")[0];
 imgbondan.onclick = function() {
     modal.style.display = "block";
     document.getElementById("bondan-modal").style.display = "block";
+    descbondan.style.display = "block";
 }
 imgfaradiba.onclick = function() {
     modal.style.display = "block";
     document.getElementById("faradiba-modal").style.display = "block";
-
+    descfaradiba.style.display = "block";
 }
 imgyano.onclick = function() {
     modal.style.display = "block";
     document.getElementById("yano-modal").style.display = "block";
-
+    descyano.style.display = "block";
 }
 imglili.onclick = function() {
     modal.style.display = "block";
     document.getElementById("lili-modal").style.display = "block";
+    desclili.style.display = "block";
 }
 imgtiti.onclick = function() {
     modal.style.display = "block";
     document.getElementById("titi-modal").style.display = "block";
-
+    desctiti.style.display = "block";
 }
 imgferdy.onclick = function() {
     modal.style.display = "block";
     document.getElementById("ferdy-modal").style.display = "block";
-
+    descferdy.style.display = "block";
 }
 imggovert.onclick = function() {
     modal.style.display = "block";
     document.getElementById("govert-modal").style.display = "block";
+    descgovert.style.display = "block";
 }
 imgsuzana.onclick = function() {
     modal.style.display = "block";
     document.getElementById("suzana-modal").style.display = "block";
-
+    descsuzana.style.display = "block";
+}
+imgboy.onclick = function() {
+    modal.style.display = "block";
+    document.getElementById("boy-modal").style.display = "block";
+    descboy.style.display = "block";
 }
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -65,6 +86,16 @@ span.onclick = function() {
     document.getElementById("yano-modal").style.display = "none";
     document.getElementById("suzana-modal").style.display = "none";
     document.getElementById("faradiba-modal").style.display = "none";
+    document.getElementById("boy-modal").style.display = "none";
+    descbondan.style.display = "none";
+    desclili.style.display = "none";
+    desctiti.style.display = "none";
+    descyano.style.display = "none";
+    descgovert.style.display = "none";
+    descboy.style.display = "none";
+    descsuzana.style.display = "none";
+    descferdy.style.display = "none";
+    descfaradiba.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
@@ -79,6 +110,17 @@ window.onclick = function(event) {
         document.getElementById("yano-modal").style.display = "none";
         document.getElementById("suzana-modal").style.display = "none";
         document.getElementById("faradiba-modal").style.display = "none";
+        document.getElementById("boy-modal").style.display = "none";
+        descbondan.style.display = "none";
+        desclili.style.display = "none";
+        desctiti.style.display = "none";
+        descyano.style.display = "none";
+        descgovert.style.display = "none";
+        descboy.style.display = "none";
+        descsuzana.style.display = "none";
+        descferdy.style.display = "none";
+        descfaradiba.style.display = "none";
+
     }
 }
 

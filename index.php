@@ -108,7 +108,7 @@ if (isset($_POST['submit'])) {
             <i class="fa fa-chevron-up"></i>
         </a>
         <!-- js -->
-        
+
         <script src="js/wow.min.js"></script>
         <script src="js/mb.bgndGallery.js"></script>
         <script src="js/mb.bgndGallery.effects.js"></script>
@@ -123,7 +123,7 @@ if (isset($_POST['submit'])) {
 
         <!-- Template Custom Javascript File -->
         <script src="js/custom.js"></script>
-        
+
     </body>
 
 </html>

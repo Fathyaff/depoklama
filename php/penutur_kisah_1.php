@@ -66,7 +66,15 @@
                         <img src="img/asets/penutur_kisah/suzana.png" id="suzana-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
                         <img src="img/asets/penutur_kisah/titi.png" id="titi-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
                         <img src="img/asets/penutur_kisah/boy.png" id="boy-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <p>Dr. Bondan Kanumoyoso, M.Hum</p>
+                        <p style="display: none;" id="bondan-name">Bondan Kanumoyoso</p>
+                        <p style="display: none;" id="lili-name">Lilie Suratminto</p>
+                        <p style="display: none;" id="titi-name">Tri Wahyuning Mudaryanti</p>
+                        <p style="display: none;" id="boy-name">Boy Loen</p>
+                        <p style="display: none;" id="ferdy-name">Ferdy Jonathans</p>
+                        <p style="display: none;" id="suzana-name"> Suzana Leander</p>
+                        <p style="display: none;" id="govert-name">Govert Reinoud Soedira</p>
+                        <p style="display: none;" id="yano-name">Yano Jonathans</p>
+                        <p style="display: none;" id="faradiba-name">Ratu Farah Diba</p>
                     </div>
                     <div class="col-8 col-md-8">
                         <p style="display:none"class="modal-desc-content" id="bondan-desc">Bondan Kanumoyoso merupakan salah satu pengajar dalam Program Studi Ilmu Sejarah Fakultas Ilmu Pengetahuan Budaya Universitas Indonesia. Pria yang akrab disapa Mas Bondan juga menjabat sebagai pengurus Masyarakat Sejarawan Indonesia bidang Pendidikan dan Pertemuan Ilmiah. Disertasinya di Universitas Leiden yang berjudul “Beyond the City Wall: Society and Economic Development in the Ommelanden of Batavia, 1684-1740” juga cukup banyak membahas wilayah Depok pada masa pemerintahan VOC.
@@ -95,37 +103,32 @@
                         <p style="display:none"class="modal-desc-content" id="boy-desc">Boy Loen atau Om Boy lahir pada 5 Maret 1950. Salah satu keturunan fam Loen ini pernah menjabat sebagai Sekretaris di Yayasan Lembaga Cornelis Chastelein (YLCC) pada tahun 2010. Kini, beliau mengabdikan hidupnya sebagai pengajar di SMA Kasih Depok.
                         </p>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-4 col-md-offset-6 carousel-box">
-                        <!-- <div class="col-1 col-sm-4">
-                            <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="100%" class=" img-responsive"/>
-                        </div>
-                        <div class="col-1 col-sm-4">
-                            <img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" alt="" width="100%" class=" img-responsive"/>
-                        </div>
-                        <div class="col-1 col-sm-4">
-                            <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="100%" class=" img-responsive"/>
-                        </div> -->
                         <div class="carousel slide multi-item-carousel" id="theCarousel">
                             <div class="carousel-inner">
                             <div class="item active">
                                 <div class="col-xs-4"><img id="faradiba-slider" src="img/asets/penutur_kisah/faradiba.png" class="img-responsive"></a></div>
                             </div>
                             <div class="item">
-                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/ferdy.png" class="img-responsive"></a></div>
+                                <div class="col-xs-4"><img id="ferdy-slider" src="img/asets/penutur_kisah/ferdy.png" class="img-responsive"></a></div>
                             </div>
                             <div class="item">
-                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/govert.png" class="img-responsive"></a></div>
+                                <div class="col-xs-4"><img id="govert-slider" src="img/asets/penutur_kisah/govert.png" class="img-responsive"></a></div>
                             </div>
                             <div class="item">
-                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/lili.png" class="img-responsive"></a></div>
+                                <div class="col-xs-4"><img id="lili-slider" src="img/asets/penutur_kisah/lili.png" class="img-responsive"></a></div>
                             </div>
                             <div class="item">
-                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/suzana.png" class="img-responsive"></a></div>
+                                <div class="col-xs-4"><img id="suzana-slider" src="img/asets/penutur_kisah/suzana.png" class="img-responsive"></a></div>
                             </div>
                             <div class="item">
-                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/titi.png" class="img-responsive"></a></div>
+                                <div class="col-xs-4"><img id="titi-slider" src="img/asets/penutur_kisah/titi.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4"><img id="bondan-slider" src="img/asets/penutur_kisah/bondan.png" class="img-responsive"></a></div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-4"><img id="boy-slider" src="img/asets/penutur_kisah/boy.png" class="img-responsive"></a></div>
                             </div>
                             <!-- add  more items here -->
                             <!-- Example item start:  -->
@@ -136,8 +139,12 @@
 
                             <!--  Example item end -->
                             </div>
-                            <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                            <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                            <a class="left carousel-control" style= "background-image: none;" href="#theCarousel" data-slide="prev">
+                            <img src="img/asets/slide 2.png" alt="" width="50%" class=" img-responsive"/>
+                            </a>
+                            <a class="right carousel-control" style= "background-image: none;" href="#theCarousel" data-slide="next">
+                            <img style="margin-left: 20px;"src="img/asets/slide.png" alt="" width="50%" class=" img-responsive"/>
+                            </a>
                         </div>
                     </div>
                 </div>

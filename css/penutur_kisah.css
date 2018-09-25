@@ -1,35 +1,74 @@
 .penutur-kisah-row-first #bondan {
   float: right;
+  cursor: pointer;
 }
 .penutur-kisah-row-first #faradiba {
   display:block;
   margin:auto;
+  cursor: pointer;
 }
 .penutur-kisah-row-first #yano {
   float: left;
+  cursor: pointer;
 }
 .penutur-kisah-row #ferdy {
   float: right;
+  cursor: pointer;
 }
 .penutur-kisah-row #lili {
   display:block;
   margin:auto;
+  cursor: pointer;
 }
 .penutur-kisah-row #titi {
   float: left;
+  cursor: pointer;
 }
 .penutur-kisah-row #govert {
   float: right;
+  cursor: pointer;
 }
 .penutur-kisah-row #suzana {
   display:block;
   margin:auto;
+  cursor: pointer;
+}
+.penutur-kisah-row #boy {
+  cursor: pointer;
 }
 .penutur-kisah-row-first {
   padding-top: 5%;
 }
 .penutur-kisah-row {
   padding-top: 5%;
+}
+
+#bondan-slider {
+  cursor: pointer;
+}
+#faradiba-slider {
+  cursor: pointer;
+}
+#lili-slider {
+  cursor: pointer;
+}
+#titi-slider {
+  cursor: pointer;
+}
+#boy-slider {
+  cursor: pointer;
+}
+#yano-slider {
+  cursor: pointer;
+}
+#ferdy-slider {
+  cursor: pointer;
+}
+#suzana-slider {
+  cursor: pointer;
+}
+#govert-slider {
+  cursor: pointer;
 }
 
 .subtitle-penutur-kisah p {
@@ -81,7 +120,7 @@
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;

@@ -1,0 +1,222 @@
+/*==================================
+======  PLAY PAUSE TITI =========
+====================================*/
+
+.play-titi {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/titi.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-titi:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/titi_play.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .pause-titi {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/titi_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  
+  /*==================================
+  ======  PLAY PAUSE BONDAN =========
+  ====================================*/
+  .play-bondan {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/bondan.png);
+      background-size: 100% 100%;
+      /* float: left; */
+  }
+  .play-bondan:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/bondan_play.png);
+      background-size: 100% 100%;
+      /* float: left; */
+  }
+  .pause-bondan {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/bondan_pause.png);
+      background-size: 100% 100%;
+      /* float: left; */
+  }
+  
+  
+  /*=====================================
+  ======  PLAY PAUSE LILI ==========
+  =======================================*/
+  .play-lili {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/lilie.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-lili:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/lilie_play.png);
+      background-size: 100% 100%;
+      float:left;
+  }
+  .pause-lili{
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/lilie_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  
+  
+  /*=====================================
+  ======  PLAY PAUSE YANO ==========
+  =======================================*/
+  
+  .play-yano {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/yano.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-yano:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/yano_play.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .pause-yano{
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/yano_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  
+  /*=====================================
+  ======  PLAY PAUSE FERDY ==========
+  =======================================*/
+  .play-ferdy {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/ferdy.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-ferdy:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/ferdy_play.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .pause-ferdy{
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/ferdy_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  
+  /*=====================================
+  ======  PLAY PAUSE BOY ==========
+  =======================================*/
+  .play-boy {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/boy.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-boy:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/boy_play.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .pause-boy{
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/boy_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+
+
+  /*=====================================
+  ======  PLAY PAUSE FARA ==========
+  =======================================*/
+  .play-fara {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/fara.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-fara:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/fara_play.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .pause-fara{
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/fara_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  /* =================================================================== */

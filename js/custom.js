@@ -43,7 +43,7 @@
   //slide-bawah-intro
   $('#slide-bawah').click(function(){
     $('html,body').animate({
-      scrollTop: $("#video-pengantar").offset().top},
+      scrollTop: $(".videoContainer").offset().top},
       'slow');
   });
 

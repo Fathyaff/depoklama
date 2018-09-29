@@ -16,7 +16,7 @@
                     <p>Asal usul sebuah nama kerap kali menjadi penting. Meskipun Shakespeare pernah menyatakan
                     bahwa "apalah arti sebuah nama", namun tetap saja masalah nama dapat menjadi hal yang kontroversial. 
                     Banyak versi yang kami temukan mengenai asal usul istilah Depok. Bagaimana penjelasannya? </p>
-                    <p>Ayo dengarkan kisah Para Penutur!</p>
+                    <p id="ayosimak">Ayo dengarkan kisah Para Penutur!</p>
                 </div>
             </div>
         </div>
@@ -52,21 +52,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-3">
                                 <audio id="audioPetaBondan">
                                     <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-peta-bondan" class="play-peta-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 45%;margin-bottom: -3%;">
+                                <div style="position:relative" id="toggle-peta-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:18%;margin-bottom: -3%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-3">
                                 <audio id="audioPetaTiti">
                                     <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-peta-titi" class="play-peta-titi"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:23%;margin-bottom:-3%">
+                                <div style="position:relative" id="toggle-peta-titi" class="play-titi"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%">
                                     <p>Bu Titi</p>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
-                        <img id="petaimg" src="img/asets/asal_kata_depok/gambar_peta.png" alt="" width="90%" class=" img-responsive"/>
+                        <img id="petaimg" src="img/asets/asal_kata_depok/gambar_peta.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                             <p style="text-align:justify">Peta kadaster adalah jenis peta dengan skala yang sangat besar. 
@@ -102,21 +102,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-3">
                                 <audio id="audioPadepokanTiti">
                                     <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-padepokan-titi" class="play-padepokan-titi"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 56%;margin-bottom: -3%;">
+                                <div style="position:relative" id="toggle-padepokan-titi" class="play-titi"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:30%;margin-bottom: -3%;">
                                     <p>Bu Titi</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-3">
                                 <audio id="audioPadepokanLili">
                                     <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-padepokan-lili" class="play-padepokan-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
+                                <div style="position:relative" id="toggle-padepokan-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:17%;margin-bottom:-3%">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
-                        <img src="img/asets/asal_kata_depok/gambar_padepokan.png" alt="" width="90%" class=" img-responsive"/>
+                        <img src="img/asets/asal_kata_depok/gambar_padepokan.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                                 <p style="text-align:justify">dalam kamus bahasa Jawa, diketahui bahwa depok berasal dari kata
@@ -158,7 +158,7 @@
                                 <audio id="audioAkronimYano">
                                     <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-akronim-yano" class="play-akronim-yano"></div>
+                                <div style="position:relative" id="toggle-akronim-yano" class="play-yano"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;">
                                     <p>Om Yano</p>
                                 </div>
@@ -167,7 +167,7 @@
                                 <audio id="audioAkronimLili">
                                         <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-akronim-lili" class="play-akronim-lili"></div>
+                                <div style="position:relative" id="toggle-akronim-lili" class="play-lili"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;">
                                     <p>Meneer Lilie</p>
                                 </div>
@@ -176,7 +176,7 @@
                                 <audio id="audioAkronimFerdy">
                                         <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-akronim-ferdy" class="play-akronim-ferdy"></div>
+                                <div style="position:relative" id="toggle-akronim-ferdy" class="play-ferdy"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 23%;margin-bottom: -3%;">
                                     <p>Om Ferdy</p>
                                 </div>
@@ -185,16 +185,17 @@
                                 <audio id="audioAkronimBoy">
                                         <source src="audio/proklamasi.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-akronim-boy" class="play-akronim-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 27%;margin-bottom: -3%;">
+                                <div style="position:relative" id="toggle-akronim-boy" class="play-boy"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
-                        <img id="deEersteimg" src="img/asets/asal_kata_depok/DeEerste.png" alt="" width="90%" class=" img-responsive"/>
+                        <img id="deEersteimg" src="img/asets/asal_kata_depok/DeEerste.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
+                            <h2>Tahukah kamu?</h2>
                             <p style="text-align:justify">Akronim ini merupakan bentuk kerinduan warga Depok di Belanda
                             akan tanah kelahirannya, sekaligus pengingat bahwa komunitas kristen protestan pertama dibentuk di Depok.</p>
                         </div>

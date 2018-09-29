@@ -103,7 +103,12 @@ if (isset($_POST['submit'])) {
         <?php include "php/pengantar.php"; ?>
         <?php include "php/penutur_kisah_1.php"; ?>
         <?php include "php/asal_kata_depok.php"; ?>
-
+        <section class="container-content"  style="
+        background-image: url(img/asets/bg-dmc.png); background-size: cover;background-attachment:fixed;background-position: center; padding-top:-50%; padding-botton:-30%; background-size: cover;
+        ">
+        <?php include "php/depok_masa_chastelein.php"; ?>
+        <?php include "php/siapakah_cornelis_chastelein.php"; ?>
+        </section>
         <!-- Footer -->
         <?php include "templates/footer.php"; ?>
 

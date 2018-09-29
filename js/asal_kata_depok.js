@@ -69,23 +69,23 @@ $(document).ready(function() {
 
 
     $('#toggle-peta-titi').bind("click", function() {
-      if ($(this).attr("class") == "play-peta-titi"){
+      if ($(this).attr("class") == "play-titi"){
         playAudioPetaTiti();
-        $(this).attr("class", "pause-peta-titi");
+        $(this).attr("class", "pause-titi");
       } else{
         pauseAudioPetaTiti();
-        $(this).attr("class", "play-peta-titi");
+        $(this).attr("class", "play-titi");
       }
          
     });
 
     $('#toggle-peta-bondan').bind("click", function() {
-        if ($(this).attr("class") == "play-peta-bondan"){
+        if ($(this).attr("class") == "play-bondan"){
           playAudioPetaBondan();
-          $(this).attr("class", "pause-peta-bondan");
+          $(this).attr("class", "pause-bondan");
         } else{
           pauseAudioPetaBondan();
-          $(this).attr("class", "play-peta-bondan");
+          $(this).attr("class", "play-bondan");
         }
       });
 
@@ -113,23 +113,23 @@ $(document).ready(function() {
 
 
     $('#toggle-padepokan-titi').bind("click", function() {
-      if ($(this).attr("class") == "play-padepokan-titi"){
+      if ($(this).attr("class") == "play-titi"){
         playAudioPadepokanTiti();
-        $(this).attr("class", "pause-padepokan-titi");
+        $(this).attr("class", "pause-titi");
       } else{
         pauseAudioPadepokanTiti();
-        $(this).attr("class", "play-padepokan-titi");
+        $(this).attr("class", "play-titi");
       }
          
     });
 
     $('#toggle-padepokan-lili').bind("click", function() {
-        if ($(this).attr("class") == "play-padepokan-lili"){
+        if ($(this).attr("class") == "play-lili"){
             playAudioPadepokanLili();
-          $(this).attr("class", "pause-padepokan-lili");
+          $(this).attr("class", "pause-lili");
         } else{
             pauseAudioPadepokanLili();
-          $(this).attr("class", "play-padepokan-lili");
+          $(this).attr("class", "play-lili");
         }
       });
     
@@ -174,43 +174,43 @@ $(document).ready(function() {
     } 
 
     $('#toggle-akronim-yano').bind("click", function() {
-      if ($(this).attr("class") == "play-akronim-Yano"){
+      if ($(this).attr("class") == "play-Yano"){
         playAudioAkronimYano();
-        $(this).attr("class", "pause-akronim-yano");
+        $(this).attr("class", "pause-yano");
       } else{
         pauseAudioAkronimYano();
-        $(this).attr("class", "play-akronim-yano");
+        $(this).attr("class", "play-yano");
       }
          
     });
 
     $('#toggle-akronim-ferdy').bind("click", function() {
-        if ($(this).attr("class") == "play-akronim-ferdy"){
+        if ($(this).attr("class") == "play-ferdy"){
             playAudioAkronimFerdy();
-          $(this).attr("class", "pause-akronim-ferdy");
+          $(this).attr("class", "pause-ferdy");
         } else{
             pauseAudioAkronimFerdy();
-          $(this).attr("class", "play-akronim-ferdy");
+          $(this).attr("class", "play-ferdy");
         }
       });
 
       $('#toggle-akronim-lili').bind("click", function() {
-        if ($(this).attr("class") == "play-akronim-lili"){
+        if ($(this).attr("class") == "play-lili"){
             playAudioAkronimLili();
-          $(this).attr("class", "pause-akronim-lili");
+          $(this).attr("class", "pause-lili");
         } else{
             pauseAudioAkronimLili();
-          $(this).attr("class", "play-akronim-lili");
+          $(this).attr("class", "play-lili");
         }
       });
 
       $('#toggle-akronim-boy').bind("click", function() {
-        if ($(this).attr("class") == "play-akronim-boy"){
+        if ($(this).attr("class") == "play-boy"){
             playAudioAkronimBoy();
-          $(this).attr("class", "pause-akronim-boy");
+          $(this).attr("class", "pause-boy");
         } else{
             pauseAudioAkronimBoy();
-          $(this).attr("class", "play-akronim-boy");
+          $(this).attr("class", "play-boy");
         }
       });
   });

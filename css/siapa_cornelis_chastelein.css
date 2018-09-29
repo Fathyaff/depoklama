@@ -1,35 +1,48 @@
-.asal-kata-depok-row #peta {
+.scc-row #keluarga {
   cursor: pointer;
   float: right;
   margin-right: -10%;
 }
-.asal-kata-depok-row #padepokan {
+.scc-row #pribadi {
   display:inline;
   cursor: pointer;
-  /* margin:auto; */
+  margin-left: 10%;
+  margin-right: -10%;
 }
-.asal-kata-depok-row #akronim {
+
+.scc-row #karir {
+  cursor: pointer;
+  display:inline;
+  margin-left: -10%;
+  margin-right: 10%;
+}
+
+.scc-row #tanah {
   cursor: pointer;
   float: left;
   margin-left: -10%;
 }
 
-.asal-kata-depok-row #modalPeta #petaimg:hover {
-   
-}
-
-.asal-kata-depok-row {
+.scc-row {
   padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: white;
 }
 
-.subtitle-asal-kata-depok {
+.subtitle-scc {
   margin-left: 25%;
   margin-right: 25%;
   font-size : 20px;
+  color: white;
+}
+
+.title-scc h1{
+  color: white;
 }
 
  /* The Modal (background) */
- .modal-asal-kata-depok {
+ .modal-scc{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -43,7 +56,7 @@
 }
 
 /* Modal Content/Box */
-.modal-asal-kata-depok .modal-content {
+.modal-scc .modal-content {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -59,28 +72,28 @@
   height: 410.4px;
   height: 500px;
 }
-.modal-asal-kata-depok .modal-content .row-top {
+.modal-scc .modal-content .row-top {
   padding-top: 5%;
 }
-.modal-asal-kata-depok .modal-content .modal-desc-content {
+.modal-scc .modal-content .modal-desc-content {
   text-align: left;
   font-size: 18px;
 }
 
 /* The Close Button */
-.close-modal-asal-kata-depok {
+.close-modal-scc {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.modal-asal-kata-depok .modal-content p {
+.modal-scc .modal-content p {
   color: white;
 }
 
-.close-modal-asal-kata-depok:hover,
-.close-modal-asal-kata-depok:focus {
+.close-modal-scc:hover,
+.close-modal-scc:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -92,35 +105,21 @@
   margin: 0px;
 }
 
-#asal-kata-depok {
-  background: url(images/bg-pop-up.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-image: url(../img/asets/bg-asal-kata-depok.png);
-  background-position: center;
-  background-size: cover;
-  height: auto;
-  overflow: hidden;
-
-}
-
-.modal-asal-kata-depok .multi-item-carousel .carousel-inner > .item {
+.modal-scc .multi-item-carousel .carousel-inner > .item {
   transition: 500ms ease-in-out left;
 }
 
-.modal-asal-kata-depok .multi-item-carousel .carousel-inner > .next {
+.modal-scc .multi-item-carousel .carousel-inner > .next {
   left: 33%;
 }
 
-.modal-asal-kata-depok .multi-item-carousel .carousel-inner > .prev {
+.modal-scc .multi-item-carousel .carousel-inner > .prev {
   left: -33%;
 }
 
-.modal-asal-kata-depok .multi-item-carousel .carousel-inner .active .left .right{
+.modal-scc .multi-item-carousel .carousel-inner .active .left .right{
   left:-33%;
 }
-.modal-asal-kata-depok .multi-item-carousel .carousel-inner .active .left .right{
+.modal-scc .multi-item-carousel .carousel-inner .active .left .right{
   right:33%;
 }

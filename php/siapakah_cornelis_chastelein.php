@@ -73,10 +73,10 @@
                         <img id="petaimg" src="img/asets/depok-masa-chastelein/bartolomeo.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="text-align:justify">St. Bartholomew’s Night adalah pembunuhan massal Kaum Huguenots yang beragama 
+                            <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">St. Bartholomew’s Night adalah pembunuhan massal Kaum Huguenots yang beragama 
                             Protestan Calvinis oleh Kaum Katolik Perancis pada malam 23-24 Agustus 1572. Kejadian ini menyebabkan Anthony, 
                             ayah Cornelis Chastelein, migrasi ke Belanda dan bertemu dengan Maria, ibu Chastelein.</p>
-                            <p class="desc-gambar">Lukisan St. Bartholomew's Day Massacre Karya Francois Dubois</p>
+                            <p class="desc-gambar" style="text-align:center;font-size:8pt; line-height:10pt;">Lukisan St. Bartholomew's Day Massacre Karya Francois Dubois</p>
                         </div>
 
                     </div>
@@ -119,14 +119,14 @@
                         <img src="img/asets/depok-masa-chastelein/kalvinis.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                                <p style="text-align:justify">Yohanes Calvin merupakan seorang teolog kristen 
+                                <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">Yohanes Calvin merupakan seorang teolog kristen 
                                 terkemuka dari perancis yang dikenal dengan ajaran Calvinisme. 
                                 Ajaran ini merupakan turunan dari Lutheran yang menentang kekuasaan 
                                 Gereja Katholik Roma pada masa itu. Calvinisme mengajarkan mengenai 
                                 persamaan hak diantara semua manusia, menentang korupsi dan kapitalisme, 
                                 serta mengasihi sesama manusia. Menurut pendapat penutur kami, dikarenakan paham 
                                 inilah Chastelein merasa tidak setuju dengan kebijakan yang digunakan VOC di Indonesia.</p>
-                                <p class="desc-gambar">Potret Yohanes Calvin</p>
+                                <p class="desc-gambar" style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">Potret Yohanes Calvin</p>
                             </div>
                     </div>
                 </div>
@@ -185,13 +185,13 @@
                         <img id="deEersteimg" src="img/asets/depok-masa-chastelein/bartolomeo.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="text-align:justify">Ommenlanden adalah wilayah di luar tembok Batavia. 
+                            <p style="margin-top:-5%;text-align:center;font-size:8pt; line-height:10pt;">Ommenlanden adalah wilayah di luar tembok Batavia. 
                             Kepemilikan lahan di daerah Ommenlanden bisa diberikan oleh VOC sebagai bentuk penghargaan atau 
                             bisa dibeli untuk dikuasai. Sistem kepemilikan lahan ini diberi status sebagai tanah partikelir. 
                             Tanah partikelir mengizinkan pemilik tanah membuat aturan sesuai dengan keinginannya layaknya seorang raja, 
                             asalkan tidak bertentangan dengan hukum VOC. Tujuan dari praktik ini untuk mendukung perkembangan kota Batavia, 
                             bila tanah dibiarkan dikuasai oleh orang bumiputera dikhawatirkan arah pembangunannya tidak sesuai dengan visi VOC.</p>
-                            <p class="desc-gambar">Peta Kota Batavia tahun 1682</p>
+                            <p class="desc-gambar" style="margin-top:-2%;font-size:8pt; line-height:10pt;">Peta Kota Batavia tahun 1682</p>
                         </div>
                     </div>
                 </div>

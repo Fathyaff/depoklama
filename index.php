@@ -109,6 +109,13 @@ if (isset($_POST['submit'])) {
         <?php include "php/depok_masa_chastelein.php"; ?>
         <?php include "php/siapakah_cornelis_chastelein.php"; ?>
         </section>
+        <?php include "php/kehidupan_masa_chastelein.php"; ?>
+        <section class="container-content"  style="
+        background-image: url(img/asets/bg-kwc.png); background-size: cover;background-attachment:fixed;background-position: center; padding-top:-50%; padding-botton:-30%; background-size: cover;
+        ">
+        <?php include "php/kematian_warisan_chastelein.php"; ?>
+        <?php include "php/voting_cc.php"; ?>
+        </section>
         <!-- Footer -->
         <?php include "templates/footer.php"; ?>
 

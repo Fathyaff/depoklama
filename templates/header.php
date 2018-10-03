@@ -19,6 +19,9 @@
         <link href="css/asal_kata_depok.css" rel="stylesheet" media="screen">
         <link href="css/depok_masa_chastelein.css" rel="stylesheet" media="screen">
         <link href="css/siapa_cornelis_chastelein.css" rel="stylesheet" media="screen">
+        <link href="css/kehidupan_depok_masa_chastelein.css" rel="stylesheet" media="screen">
+        <link href="css/kwc.css" rel="stylesheet" media="screen">
+        <link href="css/voting_cc.css" rel="stylesheet" media="screen">
         <link href="css/play_pause.css" rel="stylesheet" media="screen">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>

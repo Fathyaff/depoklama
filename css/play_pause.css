@@ -219,4 +219,35 @@
       background-size: 100% 100%;
       /* float:left; */
   }
+
+  /*=====================================
+  ======  PLAY PAUSE SUZANA ==========
+  =======================================*/
+  .play-suzana {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/suzana.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-suzana:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/suzana_play.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .pause-suzana{
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/suzana_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
   /* =================================================================== */

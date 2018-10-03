@@ -77,7 +77,7 @@
                         <img id="petaimg" src="img/asets/asal_kata_depok/gambar_peta.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="text-align:justify">Peta kadaster adalah jenis peta dengan skala yang sangat besar. 
+                            <p style="margin-top:-3%;text-align:center;font-size:12pt; line-height:15pt;">Peta kadaster adalah jenis peta dengan skala yang sangat besar. 
                             Pada umumnya peta ini digunakan untuk menggambarkan peta kepemilikan tanah atau perencanaan bangunan.</p>
                         </div>
 
@@ -127,7 +127,7 @@
                         <img src="img/asets/asal_kata_depok/gambar_padepokan.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                                <p style="text-align:justify">dalam kamus bahasa Jawa, diketahui bahwa depok berasal dari kata
+                                <p style="margin-top:-3%;text-align:center;font-size:12pt; line-height:15pt;">dalam kamus bahasa Jawa, diketahui bahwa depok berasal dari kata
                                     "padepokan" yang berarti tempat berguru</p>
                             </div>
                     </div>
@@ -196,7 +196,7 @@
                         <img id="deEersteimg" src="img/asets/asal_kata_depok/DeEerste.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="text-align:justify">Akronim ini merupakan bentuk kerinduan warga Depok di Belanda
+                            <p style="margin-top:-3%;text-align:center;font-size:12pt; line-height:15pt;">Akronim ini merupakan bentuk kerinduan warga Depok di Belanda
                             akan tanah kelahirannya, sekaligus pengingat bahwa komunitas kristen protestan pertama dibentuk di Depok.</p>
                         </div>
                     </div>

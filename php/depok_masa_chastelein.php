@@ -1,6 +1,6 @@
 <!-- What We Do -->
 <section id="depok-masa-chastelein" class="default-section">
-    <div class="container-asal-kata-depok">
+    <div class="container-depok-masa-chastelein">
         <div class="row">
             <div class="col align-self-center">
                 <div class="title-depok-masa-chastelein">

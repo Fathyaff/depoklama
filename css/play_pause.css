@@ -250,4 +250,36 @@
       background-size: 100% 100%;
       /* float:left; */
   }
+  
+  /*=====================================
+  ======  PLAY PAUSE GOVERT ==========
+  =======================================*/
+  .play-govert {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/govert.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .play-govert:hover {
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/govert_play.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  .pause-govert{
+    cursor: pointer;
+      /* margin : 0% 0% 0 45%; */
+      width:100px;
+      height:130px;
+      background-image: url(../img/asets/penutur/govert_pause.png);
+      background-size: 100% 100%;
+      /* float:left; */
+  }
+  /* =================================================================== */
   /* =================================================================== */

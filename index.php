@@ -87,7 +87,7 @@ if (isset($_POST['submit'])) {
             <div class="intro-text">
                 <div class="container">
                     <div class="col-md-12 logo">
-                        <img id="logo-img" src="img/asets/logo.png" width="10%" style="margin-top:10%;margin-bottom: 5%" alt="">   
+                        <img id="logo-img" src="img/asets/logo.png" width="10%" style="margin-top:10%;margin-bottom: 5%" alt="">
                         <h3>DEPOK LAMA PROJECT</h3>
                         <p>SEJARAH, PERISTIWA, DAN TINGGALAN MATERINYA</p>
                     </div>
@@ -98,7 +98,7 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-
+        <?php include "php/preloader.php"; ?>
         <?php include "php/video.php"; ?>
         <?php include "php/pengantar.php"; ?>
         <?php include "php/penutur_kisah_1.php"; ?>

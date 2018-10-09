@@ -17,6 +17,7 @@
         <link href="color/default.css" rel="stylesheet" media="screen">
         <link href="css/pengantar.css" rel="stylesheet" media="screen">
         <link href="css/asal_kata_depok.css" rel="stylesheet" media="screen">
+<<<<<<< Updated upstream
         <link href="css/depok_masa_chastelein.css" rel="stylesheet" media="screen">
         <link href="css/siapa_cornelis_chastelein.css" rel="stylesheet" media="screen">
         <link href="css/kehidupan_depok_masa_chastelein.css" rel="stylesheet" media="screen">
@@ -27,6 +28,9 @@
         <link href="css/gedoran.css" rel="stylesheet" media="screen">
         <link href="css/saksi_gedoran.css" rel="stylesheet" media="screen">
         <link href="css/nica.css" rel="stylesheet" media="screen">
+=======
+        <link href="css/preloader.css" rel="stylesheet" media="screen">
+>>>>>>> Stashed changes
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <!-- ======================================================= Theme Name: Alstar

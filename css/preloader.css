@@ -1,0 +1,120 @@
+.preloader {
+  background-image: url(../img/asets/preloader/bg.png);
+  /* position: absolute; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+
+.preloader p {
+  /* position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* position: relative;
+  top: 50%;
+  transform: translateY(-50%); */
+  font-size: 20px;
+  color: white;
+}
+
+.preloader .paragraph-first {
+  padding-top: 30px;
+}
+.preloader .paragraph-second {
+  /* margin-top: -20px; */
+}
+.preloader img {
+  /* position:absolute; */
+  top:15%;
+  margin-top: -8%;
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+.headset-putih {
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+  /* width: 0;
+  transition: 2s width; */
+  /* text-transform: uppercase;
+  font: bold 26vmax/.8 Open Sans, Impact;
+  background: black; */
+  /* display: table; */
+  /* color: white; */
+  /* mix-blend-mode: multiply */
+  /* position: absolute; */
+}
+/* .headset-putih:hover {
+  width: 300px;
+} */
+
+.headset-kuning {
+  /* display: none;
+  animation: changeToYellow 5s; */
+  /* width: 100px; */
+  transition: 2s width;
+  /* position: absolute; */
+}
+
+@-webkit-keyframes changeToYellow {
+  to {
+    display: block;
+  }
+}
+
+@keyframes changeToYellow {
+  to {
+    display: block;
+  }
+}
+
+#progressbar {
+  background-color: black;
+  /* background-color: white; */
+  border-radius: 8px;
+  padding: 3px;
+  width: 400px;
+  display: inline-block;
+}
+
+#progressbar div {
+  /* background-color: #0063C6; */
+  background-color: yellow;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  animation:loadbar 20s;
+  -webkit-animation:loadbar 20s;
+}
+
+@keyframes loadbar {
+
+0% {
+    width: 0%;
+}
+
+ 100% {
+    width: 100%;
+ }
+
+}
+@-webkit-keyframes loadbar {
+
+  0% {
+      width: 0%;
+  }
+
+  100% {
+      width: 100%;
+  }
+
+}

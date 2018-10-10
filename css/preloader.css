@@ -32,37 +32,17 @@
   /* margin-top: -20px; */
 }
 .preloader img {
-  /* position:absolute; */
   top:15%;
   margin-top: -8%;
-  /* display: block; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
 .headset-putih {
   -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
   transition: width 2s;
-  /* width: 0;
-  transition: 2s width; */
-  /* text-transform: uppercase;
-  font: bold 26vmax/.8 Open Sans, Impact;
-  background: black; */
-  /* display: table; */
-  /* color: white; */
-  /* mix-blend-mode: multiply */
-  /* position: absolute; */
 }
-/* .headset-putih:hover {
-  width: 300px;
-} */
 
 .headset-kuning {
-  /* display: none;
-  animation: changeToYellow 5s; */
-  /* width: 100px; */
   transition: 2s width;
-  /* position: absolute; */
 }
 
 @-webkit-keyframes changeToYellow {
@@ -117,4 +97,37 @@
       width: 100%;
   }
 
+}
+
+/* The Modal (background) */
+.modal-preloader {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-preloader {
+  background-color: #fefefe;
+  /* margin: 15% auto; 15% from the top and centered */
+  /* padding: 20px; */
+  border: 1px solid #888;
+  width: 75%; /* Could be more or less, depending on screen size */
+  /* margin-top: 100px; */
+  z-index:2;
+  /* background-image: url("../img/asets/penutur_kisah/bg-pop-up.png"); */
+  /* background-size: contain;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  height: 100%;
+  width: 100%;
 }

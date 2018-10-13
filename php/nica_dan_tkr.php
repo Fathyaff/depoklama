@@ -1,16 +1,16 @@
 <!-- What We Do -->
-<section id="voting-cc" class="default-section">
-    <div class="container-voting-cc">
+<section id="voting-nica-tkr" class="default-section">
+    <div class="container-voting-nica-tkr">
         <div class="row">
             <div class="col align-self-center">
-                <div class="title-voting-cc">
-                    <h1>Cornelis Chastelein<br> Penjajah, Orang Suci, atau Pebisnis?</h1>
+                <div class="title-voting-nica-tkr">
+                    <h1>NICA DAN TKR<br> MANA YANG LEBIH BAIK</h1>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col align-self-center">
-                <div class="subtitle-voting-cc">
+                <div class="subtitle-voting-nica-tkr">
                     <p style="text-align:center">Berdasarkan kisah ini diketahui bahwa Cornelis Chastelein berbeda dengan tuan tanah lainnya pada masa itu yang hanya
                         memanfaatkan tanah dan budaknya untuk kepentingan pribadi. Chastelein membangun Depok untuk dijadikan percontohan
                         koloni yang penduduknya dapat hidup dengan mandiri. Bagi keturunan budak-budaknya, Chastelein merupakan orang suci
@@ -24,27 +24,27 @@
                 </div>
             </div>
         </div>
-        <div class="row voting-cc-row">
+        <div class="row voting-nica-tkr-row">
         <div class="row">
             <div class="col align-self-center">
-                <div class="title-button-voting-cc">
+                <div class="title-button-voting-nica-tkr">
                     <h1>Cornelis Chastelein<br> Penjajah, Orang Suci, atau Pebisnis?</h1>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col align-self-center">
-                <div class="button-voting-cc">
+                <div class="button-voting-nica-tkr">
                     <div class="col-6 col-md-4">
-                        <img id="voting-button-penjajah" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverPenjajah();" onmouseout="offHoverPenjajah();"/>
+                        <img class="voting-button" src="img/asets/voting/circle.png" />
                         <h4 class="text-voting-button"> PENJAJAH </h4>
                     </div>
                     <div class="col-6 col-md-4">
-                        <img id="voting-button-orang-suci" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverOrangSuci();" onmouseout="offHoverOrangSuci();"/>
+                        <img class="voting-button" src="img/asets/voting/circle.png" />
                         <h4 class="text-voting-button"> ORANG SUCI </h4>
                     </div>
                     <div class="col-6 col-md-4">
-                        <img id="voting-button-pebisnis" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverPebisnis();" onmouseout="offHoverPebisnis();"/>
+                        <img class="voting-button" src="img/asets/voting/circle.png" />
                         <h4 class="text-voting-button"> PEBISNIS </h4>
                     </div>
                 </div>
@@ -52,11 +52,11 @@
         </div>
         <!-- <div class="row">
             <div class="col align-self-center">
-                <div class="text-button-voting-cc">
+                <div class="text-button-voting-nica-tkr">
                 </div>
             </div>
         </div> -->
     </div>
 </section>
-        <script src="js/voting-cc.js"></script>
+        <script src="js/voting-nica-tkr.js"></script>
 

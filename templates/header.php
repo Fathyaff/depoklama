@@ -27,6 +27,7 @@
         <link href="css/gedoran.css" rel="stylesheet" media="screen">
         <link href="css/saksi_gedoran.css" rel="stylesheet" media="screen">
         <link href="css/nica.css" rel="stylesheet" media="screen">
+        <link href="css/nica-tkr.css" rel="stylesheet" media="screen">
         <link href="css/preloader.css" rel="stylesheet" media="screen">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>

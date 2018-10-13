@@ -11,14 +11,14 @@
         <div class="row">
             <div class="col align-self-center">
                 <div class="subtitle-nica">
-                    <p><i>Nederlandsch-Indie Civil Administratie</i> atau NICA dibentuk untuk mengembalikan 
-                        pemerintahan sipil dan hukum pemerintah kolonial Hindia-Belanda dari kedudukan 
-                        Jepang di Hindia-Belanda. Selayaknya sebuah sistem pemerintahan, 
-                        NICA memiliki tentara yang bertugas dalam bidang pertahanan dan keamanan. 
-                        Meski bermaksud untuk mengambil alih sistem pemerintahan Indonesia, 
-                        namun NICA tetap menjamin keselamatan masyarakat Indonesia. 
-                        Hal ini dibuktikan saat terjadi peristiwa Gedoran. 
-                        
+                    <p><i>Nederlandsch-Indie Civil Administratie</i> atau NICA dibentuk untuk mengembalikan
+                        pemerintahan sipil dan hukum pemerintah kolonial Hindia-Belanda dari kedudukan
+                        Jepang di Hindia-Belanda. Selayaknya sebuah sistem pemerintahan,
+                        NICA memiliki tentara yang bertugas dalam bidang pertahanan dan keamanan.
+                        Meski bermaksud untuk mengambil alih sistem pemerintahan Indonesia,
+                        namun NICA tetap menjamin keselamatan masyarakat Indonesia.
+                        Hal ini dibuktikan saat terjadi peristiwa Gedoran.
+
                     </p>
                     <p id="ayosimak">Bagaimana kisahnya? <br>Simak para penutur!</p>
                 </div>
@@ -47,11 +47,11 @@
                     <div class="col-8 col-md-8">
                         <div class="row">
                             <p class="modal-desc-content">
-                                Dialah J. P. Leander, orang Depok yang pergi mencari bantuan sesaat setelah terjadi Gedoran. 
-                                Ia pergi menyusuri Sungai Ciliwung dengan geteknya, dari Lenteng Agung hingga Matraman. 
-                                Ia bergegas mendatangi markas NICA untuk memohon bantuan. 
-                                “Orang Depok mau diserang!” begitu seruannya. 
-                                Tentara NICA pun segera datang ke Depok dan Bogor untuk menyelamatkan. 
+                                Dialah J. P. Leander, orang Depok yang pergi mencari bantuan sesaat setelah terjadi Gedoran.
+                                Ia pergi menyusuri Sungai Ciliwung dengan geteknya, dari Lenteng Agung hingga Matraman.
+                                Ia bergegas mendatangi markas NICA untuk memohon bantuan.
+                                “Orang Depok mau diserang!” begitu seruannya.
+                                Tentara NICA pun segera datang ke Depok dan Bogor untuk menyelamatkan.
                                 Dengarkan kisah penutur selengkapnya!
                             </p>
                         </div>
@@ -72,19 +72,19 @@
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                             <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
-                            NICA dibentuk pada 3 April 1944 di Australia. 
-                            Pembentukan NICA atas dasar kesepakatan yang berjudul <i>“Van Mook - MacArthur Civil Affairs Agreement”</i>. 
-                            Sesuai namanya, kesepakatan ini melibatkan Letnan Gubernur Jenderal Hindia Belanda, H.J. Van Mook dan Panglima 
-                            Tertinggi Wilayah Pasifik Barat Daya atau South West Pacific Area (SWPA), Jenderal Douglas MacArthur dari 
-                            Amerika Serikat. Kesepakatan ini berisi tentang penyerahan wilayah Hindia-Belanda ke tangan NICA dari pasukan sekutu. 
-                            Namun, penandatanganan kesepakatan baru dilakukan pada 10 Desember 1944 karena adanya penundaan politis 
+                            NICA dibentuk pada 3 April 1944 di Australia.
+                            Pembentukan NICA atas dasar kesepakatan yang berjudul <i>“Van Mook - MacArthur Civil Affairs Agreement”</i>.
+                            Sesuai namanya, kesepakatan ini melibatkan Letnan Gubernur Jenderal Hindia Belanda, H.J. Van Mook dan Panglima
+                            Tertinggi Wilayah Pasifik Barat Daya atau South West Pacific Area (SWPA), Jenderal Douglas MacArthur dari
+                            Amerika Serikat. Kesepakatan ini berisi tentang penyerahan wilayah Hindia-Belanda ke tangan NICA dari pasukan sekutu.
+                            Namun, penandatanganan kesepakatan baru dilakukan pada 10 Desember 1944 karena adanya penundaan politis
                             di Departemen Luar Negeri Amerika Serikat.</p>
-                           
+
                         </div>
 
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- The Modal -->
@@ -95,12 +95,12 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
-                            <p class="modal-desc-content">Pilihannya hanya dua: pergi atau tinggal! Itulah yang harus dipilih kaum Depok. 
-                                Memang tak mudah untuk tinggal, karena bayangan Gedoran akan terus menghantui. 
-                                Namun tak mudah pula untuk pergi, karena bagaimanapun Depok sudah menjadi rumah. 
-                                Mereka yang memilih pergi biasanya orang-orang yang berpendidikan dan tidak bergantung dengan pertanian 
-                                peninggalan Chastelein, begitu kata Pak Boy Loen. Mereka yang memilih meninggalkan Depok pergi ke Belanda atau 
-                                ke kota-kota lain di Indonesia, seperti Bandung. 
+                            <p class="modal-desc-content">Pilihannya hanya dua: pergi atau tinggal! Itulah yang harus dipilih kaum Depok.
+                                Memang tak mudah untuk tinggal, karena bayangan Gedoran akan terus menghantui.
+                                Namun tak mudah pula untuk pergi, karena bagaimanapun Depok sudah menjadi rumah.
+                                Mereka yang memilih pergi biasanya orang-orang yang berpendidikan dan tidak bergantung dengan pertanian
+                                peninggalan Chastelein, begitu kata Pak Boy Loen. Mereka yang memilih meninggalkan Depok pergi ke Belanda atau
+                                ke kota-kota lain di Indonesia, seperti Bandung.
                                 Sedangkan mereka yang tinggal akan hidup dengan mengurus dan mengelola tanahnya di Depok.
                             </p>
                         </div>
@@ -114,7 +114,7 @@
                                     <p>Om Boy</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
@@ -122,17 +122,17 @@
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                                 <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
-                                Kaum Depok yang hijrah ke Belanda pasca tragedi Gedoran membentuk komunitas sendiri di 
-                                Negeri Kincir Angin itu. Komunitas ini tak jarang mereka mengadakan kegiatan bakti sosial 
-                                untuk membantu kaum Depok lain yang tinggal di Depok. 
-                                Istilah <i>De Eerste Protestantse Organisatie van Kristenen</i> atau disingkat DEPOK pun 
-                                lahir dari komunitas ini. Akronim ini dibuat untuk mengingatkan mereka terhadap 
+                                Kaum Depok yang hijrah ke Belanda pasca tragedi Gedoran membentuk komunitas sendiri di
+                                Negeri Kincir Angin itu. Komunitas ini tak jarang mereka mengadakan kegiatan bakti sosial
+                                untuk membantu kaum Depok lain yang tinggal di Depok.
+                                Istilah <i>De Eerste Protestantse Organisatie van Kristenen</i> atau disingkat DEPOK pun
+                                lahir dari komunitas ini. Akronim ini dibuat untuk mengingatkan mereka terhadap
                                 tanah yang merupakan tempat kelahiran mereka.</p>
-                               
+
                             </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -144,12 +144,12 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
-                            <p class="modal-desc-content">Tidak mudah bagi kaum Depok untuk berbagi kisah Gedoran. 
-                                “...merupakan suatu trauma yang luar biasa (bagi) angkatan orang tua ibu, 
-                                karena mereka takut.” begitu tutur Bu Suzana. Rasa trauma yang melekat erat 
-                                membuat mereka memilih untuk tak ingin lagi mengingatnya. 
-                                “Yang berlalu, biarlah berlalu” begitu prinsipnya. Namun demikian, 
-                                peristiwa ini telah menjadi bagian dari sejarah panjang Depok. 
+                            <p class="modal-desc-content">Tidak mudah bagi kaum Depok untuk berbagi kisah Gedoran.
+                                “...merupakan suatu trauma yang luar biasa (bagi) angkatan orang tua ibu,
+                                karena mereka takut.” begitu tutur Bu Suzana. Rasa trauma yang melekat erat
+                                membuat mereka memilih untuk tak ingin lagi mengingatnya.
+                                “Yang berlalu, biarlah berlalu” begitu prinsipnya. Namun demikian,
+                                peristiwa ini telah menjadi bagian dari sejarah panjang Depok.
                                 Bukankah kita harus menghargai sejarah?
                             </p>
                         </div>
@@ -163,7 +163,7 @@
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
@@ -171,15 +171,15 @@
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                                 <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
-                                “Saya berpatokan, bangsa yang besar adalah bangsa yang menghormati sejarah. 
-                                Mau diapain lagi? Udah terjadi, kok. Tetapi kita tidak bisa mengelak dari kejadian itu. 
+                                “Saya berpatokan, bangsa yang besar adalah bangsa yang menghormati sejarah.
+                                Mau diapain lagi? Udah terjadi, kok. Tetapi kita tidak bisa mengelak dari kejadian itu.
                                 Kita sebagai bangsa, tidak boleh dipecah-pecah karena agama.” - Suzana Leander, kaum Depok.</p>
                             </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
-         
+
         <script src="js/nica.js"></script>
 

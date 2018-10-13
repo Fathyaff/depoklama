@@ -1,3 +1,3 @@
 $(document).ready( function() {
-  $('.modal-preloader').delay(20000).fadeOut();
+  $('.modal-preloader').delay(1).fadeOut();
 });

@@ -60,7 +60,7 @@
                         <div class="row">
                             <div class="col-6 col-md-4">
                                 <audio id="audioKeluargaLili">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/cornelis-chastelein/Audio-Keluarga-Meneer-Lilie-11.53-13.53.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-keluarga-lili" class="play-lili"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
@@ -105,7 +105,7 @@
                         <div class="row">
                             <div class="col-6 col-md-4">
                                 <audio id="audioPribadiBondan">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/cornelis-chastelein/Audio-Pribadi-Pak-Bondan.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-pribadi-bondan" class="play-bondan"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
@@ -154,7 +154,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioKarirLili">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/cornelis-chastelein/Audio-Karir-Meneer-Lilie-14.09.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-karir-lili" class="play-lili"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%">
@@ -163,7 +163,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioKarirBoy">
-                                        <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                        <source src="audio/cornelis-chastelein/Audio-Karir-Om-Boy-11.01.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-karir-boy" class="play-boy"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%">
@@ -172,7 +172,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioKarirBondan">
-                                        <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                        <source src="audio/cornelis-chastelein/Audio-Karir-Pak-Bondan-03.10.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-karir-bondan" class="play-bondan"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
@@ -217,7 +217,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioTanahTiti">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/cornelis-chastelein/Audio-Tanah-Bu-Titi-12.00.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-tanah-titi" class="play-titi"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 28%;margin-bottom: -3%;">
@@ -226,7 +226,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioTanahFara">
-                                        <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                        <source src="audio/cornelis-chastelein/Audio-Tanah-Bu-faradibah-08.06.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-tanah-fara" class="play-fara"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 28%;margin-bottom: -3%;">
@@ -235,7 +235,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioTanahFerdy">
-                                        <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                        <source src="audio/cornelis-chastelein/Audio-Tanah-Pak-Ferdy-10.02.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-tanah-ferdy" class="play-ferdy"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 23%;margin-bottom: -3%;">

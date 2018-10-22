@@ -50,7 +50,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioKematianSuzana">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/kematian-cc/Audio-Kematian-Bu-Suzana-00.58.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-kematian-suzana" class="play-suzana"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left:18%;margin-bottom: -3%;">
@@ -96,7 +96,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioCikalYano">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/kematian-cc/Audio-Cikal-Om-Yano-39.55.wav" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-cikal-yano" class="play-yano"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;">
@@ -105,7 +105,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioCikalLili">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/kematian-cc/Audio-Cikal-Meneer-Lilie-26.54.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-cikal-lili" class="play-lili"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:17%;margin-bottom:-3%">
@@ -152,7 +152,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioOtonomTiti">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/kematian-cc/Audio-Otonom-Bu-Titi-24.57.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-otonom-titi" class="play-titi"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 30%;margin-bottom: -3%;">

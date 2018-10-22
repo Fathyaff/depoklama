@@ -1,0 +1,27 @@
+ 
+  .bangunan-bersejarah-row {
+    padding-top: 5%;
+  }
+  
+  .subtitle-bangunan-bersejarah {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size : 20px;
+    color: white;
+  }
+  
+  .title-bangunan-bersejarah h1{
+      color: white;
+  }
+  /* #depok-masa-chastelein {
+    background: url(images/bg-pop-up.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(../img/asets/bg-dmc.png);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+  
+  } */

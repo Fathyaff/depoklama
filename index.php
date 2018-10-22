@@ -125,11 +125,19 @@ if (isset($_POST['submit'])) {
         <?php include "php/peristiwa_berdarah_depok.php"; ?>
         <?php include "php/gedoran.php"; ?>
         <?php include "php/saksi_gedoran_depok.php"; ?>
-        <?php include "php/penyelamatan_nica.php"; ?>
 
         <!-- PENYELAMATAN NICA YANG TIDAK DISENGAJA -->
+        <?php include "php/penyelamatan_nica.php"; ?>
         </section>
 
+        <section class="container-content"  style="
+        background-image: url(img/asets/bg-bangunan.png); background-size: cover;background-attachment:fixed;background-position: center; padding-top:-50%; padding-botton:-30%; background-size: cover;
+        ">
+        <?php include "php/arti_menjadi_kaum.php"; ?>
+        <?php include "php/bangunan_bersejarah.php"; ?>
+        <?php include "php/tangggapan_warga_depok.php"; ?>
+        <?php include "php/tentang_kami.php"; ?>
+        </section>
         <!-- Footer -->
         <?php include "templates/footer.php"; ?>
 

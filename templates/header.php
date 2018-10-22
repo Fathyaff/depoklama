@@ -28,6 +28,10 @@
         <link href="css/saksi_gedoran.css" rel="stylesheet" media="screen">
         <link href="css/nica.css" rel="stylesheet" media="screen">
         <link href="css/preloader.css" rel="stylesheet" media="screen">
+        <link href="css/tanggapan.css" rel="stylesheet" media="screen">
+        <link href="css/tentang_kami.css" rel="stylesheet" media="screen">
+        <link href="css/bangunan_bersejarah.css" rel="stylesheet" media="screen">
+        <link href="css/arti_kaum.css" rel="stylesheet" media="screen">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <!-- ======================================================= Theme Name: Alstar

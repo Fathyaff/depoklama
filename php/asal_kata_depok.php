@@ -54,7 +54,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioPetaBondan">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/asal-kota-depok/Audio-Peta-Pak-Bondan-00.50.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-peta-bondan" class="play-bondan"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left:18%;margin-bottom: -3%;">
@@ -63,7 +63,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioPetaTiti">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/asal-kota-depok/Audio-Peta-Bu-Titi-05.00.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-peta-titi" class="play-titi"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%">
@@ -104,7 +104,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioPadepokanTiti">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/asal-kota-depok/Audio-Pedepokan-Bu-Titi-06.00.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-padepokan-titi" class="play-titi"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left:30%;margin-bottom: -3%;">
@@ -113,7 +113,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioPadepokanLili">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/asal-kota-depok/Audio-Pedepokan-Meneer-Lilie-00.19-04.25.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-padepokan-lili" class="play-lili"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:17%;margin-bottom:-3%">
@@ -156,7 +156,7 @@
                         <div class="row">
                             <div class="col-6 col-md-3">
                                 <audio id="audioAkronimYano">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/asal-kota-depok/Audio-Akronim-Om-Yano-03.49.wav" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-akronim-yano" class="play-yano"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;">
@@ -165,7 +165,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioAkronimLili">
-                                        <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                        <source src="audio/asal-kota-depok/Audio-Akronim-Meneer-Lilie-02.49.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-akronim-lili" class="play-lili"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;">
@@ -174,7 +174,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioAkronimFerdy">
-                                        <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                        <source src="audio/asal-kota-depok/Audio-Akronim-Pak-Ferdy-04.00-05.01.wav" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-akronim-ferdy" class="play-ferdy"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 23%;margin-bottom: -3%;">
@@ -183,7 +183,7 @@
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioAkronimBoy">
-                                        <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                        <source src="audio/asal-kota-depok/Audio-Akronim-Om-Boy-01.43-05.51.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-akronim-boy" class="play-boy"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%">

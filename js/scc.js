@@ -169,6 +169,69 @@ $(document).ready(function() {
         }
       });
 
+    /* ===============================================================
+    ==================== PLAY PAUSE TANAH ========================
+    ==================================================================*/
+    var audioTanahBuTiti = document.getElementById("audioTanahTiti"); 
+    var audioTanahBuFara = document.getElementById("audioTanahFara"); 
+    var audioTanahFerdy = document.getElementById("audioTanahFerdy"); 
+
+    function playAudioTanahTiti() { 
+        audioTanahBuTiti.play(); 
+    } 
+
+    function pauseAudioTanahTiti() { 
+        audioTanahBuTiti.pause(); 
+    } 
+
+    function playAudioTanahFara() { 
+        audioTanahBuFara.play(); 
+    } 
+
+    function pauseAudioTanahFara() { 
+        audioTanahBuFara.pause(); 
+    } 
+
+    function playAudioTanahFerdy() { 
+        audioTanahFerdy.play(); 
+    } 
+
+    function pauseAudioTanahFerdy() { 
+        audioTanahFerdy.pause(); 
+    } 
+
+    $('#toggle-tanah-titi').bind("click", function() {
+      if ($(this).attr("class") == "play-titi"){
+        playAudioTanahTiti();
+        $(this).attr("class", "pause-titi");
+      } else{
+        pauseAudioTanahTiti();
+        $(this).attr("class", "play-titi");
+      }
+         
+    });
+
+
+    $('#toggle-tanah-fara').bind("click", function() {
+        if ($(this).attr("class") == "play-fara"){
+          playAudioTanahFara();
+          $(this).attr("class", "pause-fara");
+        } else{
+          pauseAudioTanahFara();
+          $(this).attr("class", "play-fara");
+        }
+    });
+
+    $('#toggle-tanah-ferdy').bind("click", function() {
+        if ($(this).attr("class") == "play-ferdy"){
+            playAudioTanahFerdy();
+            $(this).attr("class", "pause-ferdy");
+        } else{
+            pauseAudioTanahFerdy();
+            $(this).attr("class", "play-ferdy");
+        }
+    });
+
   });
 
 

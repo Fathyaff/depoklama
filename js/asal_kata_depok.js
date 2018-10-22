@@ -25,18 +25,7 @@ $(document).ready(function() {
     modalAkronim.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span_close_peta.onclick = function() {
-        modalPeta.style.display = "none";
-    }
-
-    span_close_padepokan.onclick = function() {
-        modalPadepokan.style.display = "none";
-    }
-
-    span_close_akronim.onclick = function() {
-        modalAkronim.style.display = "none";
-    }
+    
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
@@ -89,6 +78,11 @@ $(document).ready(function() {
         }
       });
 
+        // When the user clicks on <span> (x), close the modal
+    span_close_peta.onclick = function() {
+        modalPeta.style.display = "none";
+        
+    }
     /* ===============================================================
     ==================== PLAY PAUSE PADEPOKAN ========================
     ==================================================================*/
@@ -174,7 +168,7 @@ $(document).ready(function() {
     } 
 
     $('#toggle-akronim-yano').bind("click", function() {
-      if ($(this).attr("class") == "play-Yano"){
+      if ($(this).attr("class") == "play-yano"){
         playAudioAkronimYano();
         $(this).attr("class", "pause-yano");
       } else{
@@ -213,6 +207,17 @@ $(document).ready(function() {
           $(this).attr("class", "play-boy");
         }
       });
+
+    
+
+    span_close_padepokan.onclick = function() {
+        modalPadepokan.style.display = "none";
+    }
+
+    span_close_akronim.onclick = function() {
+        modalAkronim.style.display = "none";
+        
+    }
   });
 
 

@@ -58,7 +58,7 @@
                         <div class="row">
                             <div class="col-6 col-md-4">
                                 <audio id="audioKronologiSuzana">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/nica/Audio-Kronologi-Bu-Suzana-24.55-25.52.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-kronologi-suzana" class="play-suzana"></div>
                                 <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
@@ -107,7 +107,7 @@
                         <div class="row">
                             <div class="col-6 col-md-4">
                                 <audio id="audioWdpgBoy">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/nica/Audio-Warga-Depok-Pasca-Gedoran-Om-Boy-14.13-15.05.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-wdpg-boy" class="play-boy"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
@@ -156,7 +156,7 @@
                         <div class="row">
                             <div class="col-6 col-md-4">
                                 <audio id="audioPesanSuzana">
-                                    <source src="audio/proklamasi.mp3" type="audio/mpeg">
+                                    <source src="audio/nica/Audio-Pesan-Bu-Suzana-18.00-18.22.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-pesan-suzana" class="play-suzana"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">

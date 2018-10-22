@@ -117,7 +117,7 @@ if (isset($_POST['submit'])) {
         <?php include "php/voting_cc.php"; ?>
         <?php include "php/video_proklamasi.php"; ?>
         </section>
-        
+
         <section class="container-content"  style="
         background-image: url(img/asets/bg-gedoran.png); background-size: cover;background-attachment:fixed;background-position: center; padding-top:-50%; padding-botton:-30%; background-size: cover;
         ">
@@ -125,6 +125,8 @@ if (isset($_POST['submit'])) {
         <?php include "php/peristiwa_berdarah_depok.php"; ?>
         <?php include "php/gedoran.php"; ?>
         <?php include "php/saksi_gedoran_depok.php"; ?>
+        <?php include "php/penyelamatan_nica.php"; ?>
+        <?php include "php/nica_dan_tkr.php"; ?>
 
         <!-- PENYELAMATAN NICA YANG TIDAK DISENGAJA -->
         <?php include "php/penyelamatan_nica.php"; ?>

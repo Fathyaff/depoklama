@@ -27,6 +27,7 @@
         <link href="css/gedoran.css" rel="stylesheet" media="screen">
         <link href="css/saksi_gedoran.css" rel="stylesheet" media="screen">
         <link href="css/nica.css" rel="stylesheet" media="screen">
+        <link href="css/nica-tkr.css" rel="stylesheet" media="screen">
         <link href="css/preloader.css" rel="stylesheet" media="screen">
         <link href="css/tanggapan.css" rel="stylesheet" media="screen">
         <link href="css/tentang_kami.css" rel="stylesheet" media="screen">

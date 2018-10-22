@@ -1,17 +1,31 @@
- 
+
   .voting-cc-row {
     padding-top: 5%;
   }
-  
+
   .subtitle-voting-cc {
     margin-left: 20%;
     margin-right: 20%;
     font-size : 20px;
     color: white;
   }
-  
+
   .title-voting-cc h1{
       color: white;
+  }
+
+  .voting-button{
+    cursor: pointer;
+    width: 10%;
+  }
+
+  .text-voting-button{
+    color: white;
+  }
+
+  .title-button-voting-cc h1{
+    margin-bottom: 300px;
+    color: white;
   }
   /* #depok-masa-chastelein {
     background: url(images/bg-pop-up.jpg) no-repeat center center fixed;
@@ -23,5 +37,5 @@
     background-position: center;
     background-size: cover;
     height: auto;
-  
+
   } */

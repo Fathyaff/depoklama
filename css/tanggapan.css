@@ -1,17 +1,26 @@
  
-  .tentang-kami-row {
+  .tanggapan-warga-depok-row {
     padding-top: 5%;
   }
   
-  .subtitle-tentang-kami {
+  .subtitle-tanggapan-warga-depok {
     margin-left: 25%;
     margin-right: 25%;
     font-size : 20px;
     color: white;
   }
   
-  .title-tentang-kami h1{
+  .title-tanggapan-warga-depok h1{
       color: white;
+  }
+
+  .tanggapan-desc p{
+    margin-top:10%;
+    text-align:center;
+    font-size:7pt;
+    line-height:10pt;
+    margin-left:4%; 
+    margin-right:13%
   }
   /* #depok-masa-chastelein {
     background: url(images/bg-pop-up.jpg) no-repeat center center fixed;

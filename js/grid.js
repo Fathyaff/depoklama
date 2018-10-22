@@ -36,7 +36,7 @@ $special = $event.special.debouncedresize = {
 			dispatch() :
 			resizeTimeout = setTimeout( dispatch, $special.threshold );
 	},
-	threshold: 250
+	threshold: 412
 };
 
 // ======================= imagesLoaded Plugin ===============================
@@ -191,7 +191,7 @@ var Grid = (function() {
 		support = Modernizr.csstransitions,
 		// default settings
 		settings = {
-			minHeight : 500,
+			minHeight : 412,
 			speed : 350,
 			easing : 'ease'
 		};
@@ -321,7 +321,7 @@ var Grid = (function() {
 			// create Preview structure:
 			this.$title = $( '<h4></h4>' );
 			this.$description = $( '<p></p>' );
-			this.$href = $( '<a href="#" class="btn btn-theme">External link</a>' );
+			this.$href = $( '' );
 			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
 			this.$loading = $( '<div class="og-loading"></div>' );
 			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );

@@ -1,18 +1,21 @@
 #pengantar .container-pengantar p{
-    /* margin-top: 5%; */
-	line-height: 40px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 100%;
 	font-weight: 500;
-	font-size: 30px;
+	font-size: 250%;
 	color: #fff;
 	text-align: center;
 }
 
-.button-pengantar img {
-	margin : 0% 0% 0 45%;
-}
+/* .button-pengantar img {
+	
+} */
 
 .play {
-	margin : 0% 0% 0 45%;
+	margin : 0% 25% 0 48%;
 	width:50px;
 	height:50px;
 	background-image: url(../img/asets/play.png);
@@ -20,7 +23,7 @@
 	float:left;
 }
 .pause {
-	margin : 0% 0% 0 45%;
+	margin : 0% 25% 0 48%;
 	width:50px;
 	height:50px;
 	background-image: url(../img/asets/pause.png);

@@ -448,6 +448,7 @@ Intro
 }
 
 .slide-kebawah {
+	cursor: pointer;
 	margin-top : 10%;
 }
 
@@ -1351,6 +1352,110 @@ more media queries
 	}
 }
 
+
+#fh5co-work-section,
+#fh5co-services-section,
+#fh5co-content-section,
+#fh5co-work-section_2,
+#fh5co-blog-section,
+#fh5co-features {
+  padding: 7em 0;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-work-section,
+  #fh5co-services-section,
+  #fh5co-content-section,
+  #fh5co-work-section_2,
+  #fh5co-blog-section,
+  #fh5co-features {
+    padding: 4em 0;
+  }
+}
+
+.js .animate-box {
+	opacity: 0;
+}
+
+.services {
+background: #66D37E;
+padding: 40px 20px 20px 20px;
+margin-bottom: 30px;
+}
+.services span {
+margin-bottom: 30px;
+display: block;
+width: 100%;
+}
+.services span i {
+font-size: 40px;
+color: #fff !important;
+}
+.services h3 {
+font-size: 20px;
+font-weight: 400;
+color: #fff;
+color: #FBFFA3;
+}
+.services p {
+font-size: 16px;
+color: #C6E872;
+color: rgba(255, 255, 255, 0.8);
+}
+
+
+#fh5co-services, #fh5co-about, #fh5co-contact {
+	padding: 7em 0;
+  }
+  @media screen and (max-width: 768px) {
+	#fh5co-services, #fh5co-about, #fh5co-contact {
+	  padding: 4em 0;
+	}
+  }
+  
+  #fh5co-services .fh5co-number {
+	font-size: 30px;
+	color: #66D37E;
+	position: relative;
+	padding-top: 10px;
+	font-style: italic;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+  }
+  #fh5co-services .fh5co-number:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 3px;
+	top: 0;
+	left: 0;
+	background: #66D37E;
+  }
+  #fh5co-services .fh5co-icon {
+	margin-bottom: 30px;
+	margin-top: 50px;
+	position: relative;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+  }
+  @media screen and (max-width: 768px) {
+	#fh5co-services .fh5co-icon {
+	  margin-top: 0px;
+	  float: none;
+	}
+  }
+  #fh5co-services .fh5co-icon i {
+	font-size: 200px;
+	color: #66D37E;
+  }
+  @media screen and (max-width: 768px) {
+	#fh5co-services .fh5co-icon i {
+	  font-size: 100px;
+	}
+  }
 
 /* FONT FACE */
 @font-face {

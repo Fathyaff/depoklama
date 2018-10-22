@@ -137,7 +137,7 @@ if (isset($_POST['submit'])) {
         ">
         <?php include "php/arti_menjadi_kaum.php"; ?>
         <?php include "php/bangunan_bersejarah.php"; ?>
-        <?php include "php/tangggapan_warga_depok.php"; ?>
+        <?php include "php/tanggapan_warga_depok.php"; ?>
         <?php include "php/tentang_kami.php"; ?>
         </section>
         <!-- Footer -->

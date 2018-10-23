@@ -999,7 +999,8 @@ Works
 	display: inline-block;
 	margin: 10px 5px 0 5px;
 	vertical-align: top;
-	height: 250px;
+	height: 300px;
+	width: 300px;
 }
 
 .og-grid li > a,
@@ -1026,14 +1027,16 @@ Works
 
 .og-expander {
 	position: absolute;
-	background: #FFF;
+	background-color: rgb(241, 236, 236); /* Fallback color */
 	top: auto;
 	left: 0;
-	width: 100%;
+	width: 95%;
+	margin-left: 2.5%;
 	margin-top: 10px;
 	text-align: left;
 	height: 0;
 	overflow: hidden;
+
 }
 
 .og-expander-inner {

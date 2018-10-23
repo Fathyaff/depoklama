@@ -127,9 +127,6 @@ if (isset($_POST['submit'])) {
         <?php include "php/saksi_gedoran_depok.php"; ?>
         <?php include "php/penyelamatan_nica.php"; ?>
         <?php include "php/nica_dan_tkr.php"; ?>
-
-        <!-- PENYELAMATAN NICA YANG TIDAK DISENGAJA -->
-        <?php include "php/penyelamatan_nica.php"; ?>
         </section>
 
         <section class="container-content"  style="

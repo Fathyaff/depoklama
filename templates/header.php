@@ -35,6 +35,7 @@
         <link href="css/arti_kaum.css" rel="stylesheet" media="screen">
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <!-- ======================================================= Theme Name: Alstar
         Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
         Author: BootstrapMade.com Author URL: https://bootstrapmade.com

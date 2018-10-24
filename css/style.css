@@ -1268,6 +1268,11 @@ footer {
 	
 }
 
+
+footer .tim-penyusun {
+margin-left: 10%;
+margin-right: 10%;
+}
 footer .tim-penyusun  p, h2{
 	color: #FFFFFF;
 }
@@ -1277,7 +1282,7 @@ footer .tim2 p {
 }
 footer .tim1 p {
 	font-size: 150%;
-	margin-left: 30%;
+	/* margin-left: 30%; */
 	text-align: left;
 }
 footer a{
@@ -1292,7 +1297,7 @@ footer .footer-logo {
 }
 
 footer .footer-logo img {
-	margin-right: 5%;
+	margin-right: 5%;	
 }
 
 

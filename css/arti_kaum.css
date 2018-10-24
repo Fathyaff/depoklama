@@ -34,7 +34,7 @@ Works
 }
 
 .og1-grid li > a,
-.og1-grid li > a img {
+.og1-grid li > a iframe {
 	border: none;
 	outline: none;
 	display: block;
@@ -124,10 +124,12 @@ Works
 	text-align: center;
 }
 
-.og1-fullimg img {
+.og1-fullimg iframe{
 	display: inline-block;
 	max-height: 100%;
 	max-width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .og1-details h4 {

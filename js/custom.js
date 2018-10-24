@@ -207,6 +207,10 @@
     Grid.init();
   });
 
+  $(function() {
+    Grid1.init();
+  });
+
   //animation
   new WOW().init();
 

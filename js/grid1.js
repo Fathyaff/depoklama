@@ -7,34 +7,34 @@
 * Copyright 2011 @louis_remi
 * Licensed under the MIT license.
 */
-var $event = $.event,
-$special,
-resizeTimeout;
+var $event1 = $.event,
+$special1,
+resizeTimeout1;
 
-$special = $event.special.debouncedresize = {
+$special1 = $event1.special.debouncedresize = {
 	setup: function() {
-		$( this ).on( "resize", $special.handler );
+		$( this ).on( "resize", $special1.handler );
 	},
 	teardown: function() {
-		$( this ).off( "resize", $special.handler );
+		$( this ).off( "resize", $special1.handler );
 	},
 	handler: function( event, execAsap ) {
 		// Save the context
-		var context = this,
-			args = arguments,
+		var context1 = this,
+			args1 = arguments,
 			dispatch = function() {
 				// set correct event type
 				event.type = "debouncedresize";
-				$event.dispatch.apply( context, args );
+				$event.dispatch.apply( context1, args1 );
 			};
 
-		if ( resizeTimeout ) {
-			clearTimeout( resizeTimeout );
+		if ( resizeTimeout1 ) {
+			clearTimeout( resizeTimeout1 );
 		}
 
 		execAsap ?
 			dispatch() :
-			resizeTimeout = setTimeout( dispatch, $special.threshold );
+			resizeTimeout1 = setTimeout( dispatch, $special1.threshold );
 	},
 	threshold: 500
 };
@@ -161,7 +161,7 @@ $.fn.imagesLoaded = function( callback ) {
 	return deferred ? deferred.promise( $this ) : $this;
 };
 
-var Grid = (function() {
+var Grid1 = (function() {
 
 		// list of items
 		console.log($( '#og1-grid' ));
@@ -177,7 +177,7 @@ var Grid = (function() {
 		scrollExtra1 = 0,
 		// extra margin when expanded (between preview overlay and the next items)
 		marginExpanded1 = 10,
-		$window1 = $( window ), winsize1,
+		$window = $( window ), winsize1,
 		$body1 = $( 'html, body' ),
 		// transitionend events
 		transEndEventNames1 = {
@@ -198,6 +198,7 @@ var Grid = (function() {
 		};
 
 	function init( config ) {
+		
 		
 		// the settings..
 		settings1 = $.extend( true, {}, settings1, config );
@@ -249,14 +250,14 @@ var Grid = (function() {
 		// on window resize get the window´s size again
 		// reset some values..
 		$window.on( 'debouncedresize', function() {
-			
+			console.log($window.width());
 			scrollExtra1 = 0;
 			previewPos1 = -1;
 			// save item´s offset
 			saveItemInfo();
 			getWinSize();
-			var preview1 = $.data( this, 'preview' );
-			if( typeof preview1 != 'undefined' ) {
+			var preview = $.data( this, 'preview' );
+			if( typeof preview != 'undefined' ) {
 				hidePreview();
 			}
 
@@ -265,7 +266,7 @@ var Grid = (function() {
 	}
 
 	function getWinSize() {
-		winsize1 = { width1 : $window.width(), height1 : $window.height() };
+		winsize1 = { width : $window.width(), height : $window.height() };
 	}
 
 	function showPreview( $item1 ) {
@@ -325,10 +326,11 @@ var Grid = (function() {
 			this.$title1 = $( '<h4></h4>' );
 			this.$description1 = $( '<p></p>' );
 			this.$href1 = $( '' );
-			// this.$videosrc = $( '<iframe width="1300" height="480" src="#" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' );
+			this.$videosrc1 = $( '<iframe width="1300" height="480" src="#" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' );
 			this.$details1 = $( '<div class="og1-details"></div>' ).append( this.$title1, this.$description1, this.$href1);
-			this.$loading1 = $( '<div class="og1-loading"></div>' );
-			this.$fullimage1 = $( '<div class="og1-fullimg"></div>' ).append( this.$loading1 );
+			// this.$loading1 = $( '<div class="og1-loading"></div>' );
+			this.$loading1 = $( '' );
+			this.$fullimage1 = $( '<div class="og1-fullimg"></div>' ).append( this.$loading1, this.$videosrc1 );
 			this.$closePreview1 = $( '<span class="og1-close"></span>' );
 			this.$previewInner1 = $( '<div class="og1-expander-inner"></div>' ).append( this.$closePreview1, this.$fullimage1, this.$details1 );
 			this.$previewEl1 = $( '<div class="og1-expander"></div>' ).append( this.$previewInner1 );
@@ -339,14 +341,15 @@ var Grid = (function() {
 				this.setTransition();
 			}
 		},
-		update : function( $item ) {
+		update : function( $item1 ) {
 
 			if( $item1 ) {
-				this.$item1 = $item;
+				this.$item1 = $item1;
 			}
 			
 			// if already expanded remove class "og-expanded" from current item and add it to new item
 			if( current1 !== -1 ) {
+				console.log("hai " + current1);
 				var $currentItem1 = $items1.eq( current1 );
 				$currentItem1.removeClass( 'og1-expanded' );
 				this.$item1.addClass( 'og1-expanded' );
@@ -357,22 +360,27 @@ var Grid = (function() {
 			// update current value
 			current1 = this.$item1.index();
 
-			// update preview´s content
+			// update preview´s contentcurrent1
 			var $itemEl1 = this.$item1.children( 'a' ),
 				eldata1 = {
 					href1 : $itemEl1.attr( 'href' ),
 					largesrc1 : $itemEl1.data( 'largesrc' ),
 					title1 : $itemEl1.data( 'title' ),
-					description1 : $itemEl1.data( 'description' )
-					// videosrc : $itemEl.data( 'videosrc' )
+					description1 : $itemEl1.data( 'description' ),
+					videosrc1 : $itemEl1.data( 'videosrc' )
 				};
+			console.log(eldata1.description1);
+			console.log(eldata1.title1);
+			console.log(eldata1.largesrc1);
+			console.log(eldata1.videosrc1);
 
-			this.$title1.html( eldata1.title );
-			this.$description1.html( eldata1.description );
-			this.$href1.attr( 'href', eldata1.href );
-			// this.$videosrc.attr('src', eldata.videosrc);
+			this.$title1.html( eldata1.title1 );
+			this.$description1.html( eldata1.description1 );
+			this.$href1.attr( 'href', eldata1.href1 );
+			this.$videosrc1.attr('src', eldata1.videosrc1);
+
 			var self = this;
-			
+			console.log(this.$videosrc1.attr("src"));
 			// remove the current image in the preview
 			if( typeof self.$largeImg1 != 'undefined' ) {
 				self.$largeImg1.remove();
@@ -384,6 +392,7 @@ var Grid = (function() {
 				this.$loading1.show();
 				$( '<img/>' ).load( function() {
 					var $img1 = $( this );
+					console.log($img1.attr("src"));
 					if( $img1.attr( 'src' ) === self.$item1.children('a').data( 'largesrc' ) ) {
 						self.$loading1.hide();
 						self.$fullimage1.find( 'img' ).remove();
@@ -391,16 +400,6 @@ var Grid = (function() {
 						self.$fullimage1.append( self.$largeImg1 );
 					}
 				} ).attr( 'src', eldata1.largesrc );	
-
-				// $( '<iframe/>' ).load( function() {
-				// 	var $img = $( this );
-				// 	if( $img.attr( 'src' ) === self.$item.children('a').data( 'videosrc' ) ) {
-				// 		self.$loading.hide();
-				// 		self.$fullimage.find( 'img' ).remove();
-				// 		self.$largeImg = $img.fadeIn( 350 );
-				// 		self.$fullimage.append( self.$largeImg );
-				// 	}
-				// } ).attr( 'src', eldata.videosrc );	
 
 			}
 
@@ -419,8 +418,8 @@ var Grid = (function() {
 
 			var self = this,
 				onEndFn = function() {
-					if( support ) {
-						$( this ).off( transEndEventName );
+					if( support1 ) {
+						$( this ).off( transEndEventName1 );
 					}
 					self.$item1.removeClass( 'og1-expanded' );
 					self.$previewEl1.remove();
@@ -436,7 +435,7 @@ var Grid = (function() {
 				var $expandedItem1 = $items1.eq( this.expandedIdx1 );
 				$expandedItem1.css( 'height', $expandedItem1.data( 'height' ) ).on( transEndEventName1, onEndFn );
 
-				if( !support ) {
+				if( !support1 ) {
 					onEndFn.call();
 				}
 
@@ -447,8 +446,8 @@ var Grid = (function() {
 		},
 		calcHeight : function() {
 
-			var heightPreview1 = winsize1.height1 - this.$item1.data( 'height' ) - marginExpanded1,
-				itemHeight1 = winsize1.height1;
+			var heightPreview1 = winsize1.height - this.$item1.data( 'height' ) - marginExpanded1,
+				itemHeight1 = winsize1.height;
 
 			if( heightPreview1 < settings1.minHeight ) {
 				heightPreview1 = settings1.minHeight;
@@ -463,7 +462,7 @@ var Grid = (function() {
 
 			var self = this,
 				onEndFn = function() {
-					if( support ) {
+					if( support1 ) {
 						self.$item1.off( transEndEventName1 );
 					}
 					self.$item1.addClass( 'og1-expanded' );
@@ -473,7 +472,7 @@ var Grid = (function() {
 			this.$previewEl1.css( 'height', this.height1 );
 			this.$item1.css( 'height', this.itemHeight1 ).on( transEndEventName1, onEndFn );
 
-			if( !support ) {
+			if( !support1 ) {
 				onEndFn.call();
 			}
 
@@ -486,7 +485,7 @@ var Grid = (function() {
 			// case 3 : preview height + item height does not fit in window´s height and preview height is bigger than window´s height
 			var position1 = this.$item1.data( 'offsetTop' ),
 				previewOffsetT1 = this.$previewEl1.offset().top - scrollExtra1,
-				scrollVal11 = this.height1 + this.$item1.data( 'height' ) + marginExpanded1 <= winsize1.height1 ? position1 : this.height1 < winsize1.height1 ? previewOffsetT1 - ( winsize1.height1 - this.height1 ) : previewOffsetT1;
+				scrollVal1 = this.height1 + this.$item1.data( 'height' ) + marginExpanded1 <= winsize1.height ? position1 : this.height1 < winsize1.height ? previewOffsetT1 - ( winsize1.height - this.height1 ) : previewOffsetT1;
 			
 			$body1.animate( { scrollTop : scrollVal1 }, settings1.speed );
 

@@ -1176,12 +1176,12 @@ Works
 /* ================================
 Contact
 ================================= */
-#contact .form-control , .contact-btn{
+#tanggapan-warga-depok .form-control , .contact-btn{
 	border-radius: 10pt;
 
 
 }
-#contact h2{
+#tanggapan-warga-depok h2{
 	font-family: GeosansLight;
 	font-weight: 100;
 	text-transform: capitalize;

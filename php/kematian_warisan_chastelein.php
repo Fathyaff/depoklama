@@ -167,14 +167,9 @@
                             <h2>Tahukah kamu?</h2>  
                             <p style="margin-top:-2%;text-align:center; font-size:8pt; line-height:10pt;">
                             Pada masa daerah otonom depok hanya terdapat 4 (empat) jalan utama di pusat kota Depok Lama, yaitu Kerkweg, 
-                            Pasarstraat, Middenweg, dan  Kartinistraat. Kerkweg merupakan jalan utama dan pusat pemerintahan Depok Lama. 
-                            Pada jalan ini terdapat gereja, bangunan pemerintahan, aula pertemuan, dan sekolah pada masa itu. 
-                            Sesuai dengan namanya, Pasarstraat merupakan pusat jual beli masyarakat Depok Lama. 
-                            Disisi lain pusat kota terdapat jalan Middenweg yang merupakan jalan penghubung dari Batavia menuju Buitenzorg. 
-                            Jalan yang terakhir yaitu Kartinistraat, merupakan jalanan yang menghubungkan pusat kota dengan stasiun. 
+                            Passerstraat, Middenweg, dan  Passerweg. 
                             Pasca pengakuan kedaulatan Republik Indonesia, beberapa nama jalan ini dinasionalisasi, 
-                            seperti Kerkweg menjadi Jalan Pemuda, Pasarstraat menjadi Jalan Dewi Sartika, dan Middenweg menjadi Jalan Siliwangi. 
-                            Hanya Kartinistraat atau Jalan Kartini yang namanya tetap dipertahankan hingga saat ini.</p>
+                            seperti Kerkweg menjadi Jalan Pemuda, Passerweg menjadi Jalan Dewi Sartika, Middenweg menjadi Jalan Siliwangi, dan Passerstraat menjadi Jalan Kartini.</p>
                             <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
                             Gambar: Peta Depok tahun 1901<br>
                             Sumber: http://maps.library.leiden.edu/apps/s7#focus</p>

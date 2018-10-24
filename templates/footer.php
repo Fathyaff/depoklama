@@ -1,40 +1,30 @@
 <footer>
-            <div class="container">
-                <div class="row mar-top30">
-                    <div class="col-md-12">
-                        <ul class="social-network">
-                            <li>
-                                <a href="#">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="fa-stack fa-2x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>&copy; Museum and Heritage Interactive Indonesia. All rights reserved</p>
-
-                    </div>
-                </div>
+    <div class="container">
+        
+        <div class="row mar-top30 tim-penyusun">
+            <h2>Tim Penyusun</h2>
+            <div class="col-md-6 tim1">
+                <p>Alqiz Lukman</p>
+                <p>Ghilman Assilmi</p>
+                <p>Danang Aryo Nugroho</p>
+                <p>Ide Nada Imandiharja</p>
+                <p>Khaesyar Nisfhan Akbar Rosadi</p>
             </div>
-        </footer>
+            <div class="col-md-6 tim2">
+                <p>Muhammad Jazmi Dwi Hartono</p>
+                <p>Fathya Afifah</p>
+                <p>Muhammad Sabiq Danurrohman</p>
+                <p>Amalia Putri Astari</p>
+                <p>Teuku Reza Fadeli</p>
+            </div>
+            <div class="col-md-12 footer-logo">
+                <img style="display:inline;" src="img/asets/logoUI.png" alt="" width="20%" class=" img-responsive"/>
+                <img style="display:inline;" src="img/asets/maindonesia.png" alt="" width="5%" class=" img-responsive"/>
+            </div>
+            
+        </div>
+        <div class="row">
+            
+        </div>
+    </div>
+</footer>

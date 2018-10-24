@@ -9,7 +9,7 @@
             href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800"
             rel="stylesheet"
             media="screen">
-
+            <link rel="shortcut icon" type="image/png" href="img/asets/logo.png"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/style.css" rel="stylesheet" media="screen">
         <link href="css/penutur_kisah.css" rel="stylesheet" media="screen">

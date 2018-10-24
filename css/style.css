@@ -1263,14 +1263,38 @@ ul.social-network li a i{
 Footer
 ================================= */
 footer {
-	background: #E6E6E6;
-	color: #B2B2B2;
-	padding: 50px 0 30px;
+	background-color: rgba(36, 34, 34, 0.712);
+	padding: 50px 0 10px;
+	
 }
 
-footer a {
+footer .tim-penyusun  p, h2{
+	color: #FFFFFF;
+}
+footer .tim2 p {
+	font-size: 150%;
+	text-align: left;
+}
+footer .tim1 p {
+	font-size: 150%;
+	margin-left: 30%;
+	text-align: left;
+}
+footer a{
 	color: #fff;
 }
+
+footer .footer-logo {
+	margin-top: 2%;
+	margin-right: 20%;
+	display: inline-block;
+	margin-bottom: 2%;
+}
+
+footer .footer-logo img {
+	margin-right: 5%;
+}
+
 
 footer a:hover {
 	color: #fff;

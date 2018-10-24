@@ -136,9 +136,10 @@ if (isset($_POST['submit'])) {
         <?php include "php/bangunan_bersejarah.php"; ?>
         <?php include "php/tanggapan_warga_depok.php"; ?>
         <?php include "php/tentang_kami.php"; ?>
+        <?php include "templates/footer.php"; ?>
         </section>
         <!-- Footer -->
-        <?php include "templates/footer.php"; ?>
+        
 
 
         <a href="#" class="back-to-top">

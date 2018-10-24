@@ -193,7 +193,7 @@
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
-                        <img id="deEersteimg" src="img/asets/asal_kata_depok/DeEerste.png" alt="" width="100%" class=" img-responsive"/>
+                        <img id="deEersteimg" src="img/asets/asal_kata_depok/DeEerste.png" alt="" width="100%" class="img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                             <p style="margin-top:-3%;text-align:center;font-size:12pt; line-height:15pt;">Akronim ini merupakan bentuk kerinduan warga Depok di Belanda

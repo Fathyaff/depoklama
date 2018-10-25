@@ -1,13 +1,14 @@
 #pengantar .container-pengantar p{
-	margin-top: 10%;
-	margin-bottom: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
 	line-height: 100%;
-	font-weight: 500;
-	font-size: 250%;
+	font-weight: 300;
+	font-size: 200%;
 	color: #fff;
 	text-align: center;
+	font-family: 'TrajanProRegular';
 }
 
 /* .button-pengantar img {

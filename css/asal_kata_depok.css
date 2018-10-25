@@ -18,6 +18,8 @@
    
 }
 
+
+
 .asal-kata-depok-row {
   padding-top: 5%;
 }
@@ -77,6 +79,7 @@
 
 .modal-asal-kata-depok .modal-content p {
   color: white;
+  text-align: justify;
 }
 
 .close-modal-asal-kata-depok:hover,

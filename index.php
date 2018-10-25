@@ -65,14 +65,30 @@ if (isset($_POST['submit'])) {
                       <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" href="#">Ke Halaman Utama</a>
                       </li>
-                      <li class="sidebar-nav-item">
-                        <a class="js-scroll-trigger" href="#pengantar">Pengantar</a>
-                      </li>
+                      
                       <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" href="#penutur-kisah-1">Penutur Kisah</a>
                       </li>
                       <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" href="#asal_kata_depok">Asal Kota Depok</a>
+                      </li>
+                      <li class="sidebar-nav-item">
+                        <a class="js-scroll-trigger" href="#depok-masa-chastelein">Depok Masa Chastelein</a>
+                      </li>
+                      <li class="sidebar-nav-item">
+                        <a class="js-scroll-trigger" href="#peristiwa-berdarah-depok">Peristiwa Berdarah di Depok</a>
+                      </li>
+                      <li class="sidebar-nav-item">
+                        <a class="js-scroll-trigger" href="#arti-depok-lama">Menjadi Kaum Depok Lama</a>
+                      </li>
+                      <li class="sidebar-nav-item">
+                        <a class="js-scroll-trigger" href="#bangunan-bersejarah">Bangunan Bersejarah di Kota Depok</a>
+                      </li>
+                      <li class="sidebar-nav-item">
+                        <a class="js-scroll-trigger" href="#tanggapan-warga-depok">Tanggapan Warga Depok</a>
+                      </li>
+                      <li class="sidebar-nav-item">
+                        <a class="js-scroll-trigger" href="#tentang-kami">Tentang Kami</a>
                       </li>
                       <!-- <li class="sidebar-nav-item">
                         <a class="js-scroll-trigger" href="#contact">Hubungi Kami</a>
@@ -89,11 +105,11 @@ if (isset($_POST['submit'])) {
                     <div class="col-md-12 logo">
                         <img id="logo-img" src="img/asets/logo.png" width="10%" style="margin-top:10%;margin-bottom: 5%" alt="">
                         <h3>DEPOK LAMA PROJECT</h3>
-                        <p>SEJARAH, PERISTIWA, DAN TINGGALAN MATERINYA</p>
+                        <p style="font-family: 'TrajanProRegular';">SEJARAH, PERISTIWA, DAN TINGGALAN MATERINYA</p>
                     </div>
                     <div class="col-md-12 slide-kebawah">
                         <img id="slide-bawah" src="img/asets/panah.png" width="100px" alt="">
-                        <p>mulai bertualang</p>
+                        <p style="font-family: 'TrajanProRegular';">mulai bertualang</p>
                     </div>
                 </div>
             </div>

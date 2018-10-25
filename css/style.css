@@ -47,9 +47,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	color: #3a3a3a;
 	font-weight: 700;
 	margin-bottom: 20px;
-	font-family: 'MyriadPro-Regular', MyriadPro-Regular;
+	font-family: 'TrajanProBold';
 }
 
+p {
+	
+	font-family: 'Helvetica-Normal-Regular';
+}
 
 .lead{
 	font-weight: 400;
@@ -75,7 +79,7 @@ button {
 	user-select: none;
 }
 button.navbar-toggle {
-	background: #2b2b2b;
+	background: #515050;
 	border: none;
 	color: #fff;
 }
@@ -156,7 +160,7 @@ nav.navbar{
 
 nav.navbar.fixed-to-top{
 	top: 0px;
-	background-color: rgba(243, 241, 241, 0.48);
+	background-color: rgba(73, 72, 72, 0.48);
 	height: 9%;
 }
 
@@ -170,7 +174,7 @@ nav.navbar.fixed-to-top{
 
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
-	font-weight: 700;
+	font-weight: 100;
 	text-transform: uppercase;
 }
 
@@ -189,13 +193,13 @@ nav.navbar.fixed-to-top{
 .navbar-default .navbar-brand{
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 200;
 	font-size: 2em;
 }
 
 .navbar-default .navbar-header a{
-	font-size: 130%;
-	font-weight: 1000;
+	font-size: 10%;
+	font-weight: 100;
 	opacity: 1;
 }
 
@@ -236,7 +240,7 @@ nav.navbar.fixed-to-top{
 	text-decoration: none;
 	color: #191919;
 	padding: 15px;
-	font-size: 15pt;
+	font-size: 10pt;
 	margin-top: -5px;
 	padding: 20px;
   }
@@ -524,7 +528,7 @@ Portfolio2
 }
 
 #portfolio2 .section-heading h2 {
-	font-family: GeosansLight-Oblique;
+	font-family: 'TrajanProRegular', TrajanProRegular;
 	font-weight: 100;
 	text-transform: capitalize;
 }
@@ -710,7 +714,7 @@ Portfolio2
 	font-size: 16px;
 	font-style: italic;
 	margin: 0;
-	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'TrajanPro3Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   #portfolio2 * {
@@ -771,7 +775,7 @@ Portfolio Modal
 	font-size: 16px;
 	font-style: italic;
 	margin: 20px 0 30px;
-	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'TrajanPro3Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   .portfolio-modal .modal-content ul.list-inline {
@@ -1490,6 +1494,51 @@ color: rgba(255, 255, 255, 0.8);
   }
 
 /* FONT FACE */
+@font-face {
+    font-family: TrajanPro3Bold;
+    src: url("../fonts/TRAJANPRO3-BOLD.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TrajanPro3Regular;
+    src: url("../fonts/TRAJANPRO3-REGULAR.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TrajanProRegular;
+    src: url("../fonts/TRAJANPRO-REGULAR.OTF") format("opentype");
+}
+
+@font-face {
+    font-family: TrajanProBold;
+    src: url("../fonts/TRAJANPRO-BOLD.OTF") format("opentype");
+}
+
+@font-face {
+    font-family: HelveticaNormal;
+    src: url("../fonts/Helvetica-Normal-Regular.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: HelveticaLT;
+    src: url("../fonts/HELVETICA-LT-23-ULTRA-LIGHT-EXTENDED-OBLIQUE.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: HELR65W;
+    src: url("../fonts/HELR65W.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: HelveticaRegular;
+    src: url("../fonts/HELR45W_0.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: HELVETICANEUE;
+    src: url("../fonts/HELVETICANEUE-BLACKCOND.ttf") format("truetype");
+}
+
 @font-face {
     font-family: GeosansLight;
     src: url("../fonts/GeosansLight_0.ttf") format("truetype");

@@ -76,7 +76,7 @@
   padding-top: 5%;
 }
 .modal-gedoran .modal-content .modal-desc-content {
-  text-align: left;
+  text-align: justify;
   font-size: 18px;
 }
 
@@ -90,6 +90,7 @@
 
 .modal-gedoran .modal-content p {
   color: white;
+  
 }
 
 .close-modal-gedoran:hover,

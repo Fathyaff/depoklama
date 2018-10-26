@@ -20,13 +20,13 @@
         </div>
         <div class="row kwc-row">
             <!-- <div class="col-6 col-md-3"></div> -->
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="kematian" src="img/asets/kwc/kematian-dan-wasiat.png" alt="" width="30%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="cikal" src="img/asets/kwc/cikal-bakal-depok.png" alt="" width="30%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="otonom" src="img/asets/kwc/otonom.png" alt="" width="30%" class=" img-responsive"/>
             </div>
             <!-- <div class="col-6 col-md-2"></div> -->

@@ -21,10 +21,10 @@
         </div>
         <div class="row saksi-gedoran-row">
             <!-- <div class="col-6 col-md-3"></div> -->
-            <div class="col-6 col-md-6">
+            <div class="col-6 col-md-6 col-xs-6">
                 <img id="saksiSuzana" src="img/asets/penutur_kisah/suzana.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-6">
+            <div class="col-6 col-md-6 col-xs-6">
                 <img id="saksiGovert" src="img/asets/penutur_kisah/govert.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <!-- <div class="col-6 col-md-2"></div> -->

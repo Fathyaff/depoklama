@@ -24,16 +24,16 @@
         </div>
         <div class="row kdmc-row">
             <!-- <div class="col-6 col-md-3"></div> -->
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="visi" src="img/asets/kehidupan-dmc/visi.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="budak" src="img/asets/kehidupan-dmc/budak.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="perkebunan" src="img/asets/kehidupan-dmc/perkebunan.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="aturan" src="img/asets/kehidupan-dmc/aturan.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <!-- <div class="col-6 col-md-2"></div> -->

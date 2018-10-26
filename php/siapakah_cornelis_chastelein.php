@@ -23,16 +23,16 @@
         </div>
         <div class="row scc-row">
             <!-- <div class="col-6 col-md-3"></div> -->
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="keluarga" src="img/asets/depok-masa-chastelein/skc.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="pribadi" src="img/asets/depok-masa-chastelein/kpc.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="karir" src="img/asets/depok-masa-chastelein/kcv.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="tanah" src="img/asets/depok-masa-chastelein/tmc.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <!-- <div class="col-6 col-md-2"></div> -->

@@ -21,16 +21,16 @@
         </div>
         <div class="row gedoran-row">
             <!-- <div class="col-6 col-md-3"></div> -->
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="proklamasi" src="img/asets/gedoran/proklamasi.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="alur" src="img/asets/gedoran/alur_kejadian.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="pelaku" src="img/asets/gedoran/pelaku.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 col-xs-3">
                 <img id="bangunan" src="img/asets/gedoran/bangunan.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <!-- <div class="col-6 col-md-2"></div> -->

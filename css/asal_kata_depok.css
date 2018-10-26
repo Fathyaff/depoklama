@@ -1,14 +1,40 @@
 .asal-kata-depok-row #peta {
   cursor: pointer;
+  display:inline;
+  float: right;
+  /* margin-right: -6%; */
+  right: 0;
+}
+
+.asal-kata-depok-row #petaimg {
+  cursor: pointer;
   float: right;
   margin-right: -10%;
+  right: 0;
 }
+
+.asal-kata-depok-row .portfolio-hover-content{
+  /* margin-right: %; */
+  /* float: right; */
+  width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	/* position: relative; */
+	cursor: default;
+	box-shadow: 
+		0 1px 1px rgba(51, 50, 50, 0.822);
+  transition: all 0.4s ease-in-out;
+  
+}
+
 .asal-kata-depok-row #padepokan {
   display:inline;
   cursor: pointer;
   /* margin:auto; */
 }
 .asal-kata-depok-row #akronim {
+  display:inline;
   cursor: pointer;
   float: left;
   margin-left: -10%;

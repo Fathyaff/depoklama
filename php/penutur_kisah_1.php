@@ -17,35 +17,35 @@
             </div>
         </div>
         <div class="row penutur-kisah-row-first">
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="bondan" src="img/asets/penutur_kisah/bondan.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-3">
                 <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="50%" class=" img-responsive"/>
             </div>
         </div>
         <div class="row penutur-kisah-row">
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="ferdy" src="img/asets/penutur_kisah/ferdy.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="lili" src="img/asets/penutur_kisah/lili.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="titi" src="img/asets/penutur_kisah/titi.png" alt="" width="50%" class=" img-responsive"/>
             </div>
         </div>
         <div class="row penutur-kisah-row">
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="govert" src="img/asets/penutur_kisah/govert.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="suzana" src="img/asets/penutur_kisah/suzana.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="boy" src="img/asets/penutur_kisah/boy.png" alt="" width="50%" class=" img-responsive"/>
             </div>
         </div>
@@ -56,7 +56,7 @@
             <div class="modal-content-penutur-kisah">
                 <span class="close">&times;</span>
                 <div class="row row-top">
-                    <div class="col-4 col-md-4">
+                    <div class="col-4 col-md-4 col-xs-4">
                         <img src="img/asets/penutur_kisah/bondan.png" id="bondan-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
                         <img src="img/asets/penutur_kisah/faradiba.png" id="faradiba-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
                         <img src="img/asets/penutur_kisah/yano.png" id="yano-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
@@ -76,7 +76,7 @@
                         <p style="display: none;" id="yano-name">Yano Jonathans</p>
                         <p style="display: none;" id="faradiba-name">Ratu Farah Diba</p>
                     </div>
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <p style="display:none"class="modal-desc-content" id="bondan-desc">Bondan Kanumoyoso merupakan salah satu pengajar dalam Program Studi Ilmu Sejarah Fakultas Ilmu Pengetahuan Budaya Universitas Indonesia. Pria yang akrab disapa Mas Bondan juga menjabat sebagai pengurus Masyarakat Sejarawan Indonesia bidang Pendidikan dan Pertemuan Ilmiah. Disertasinya di Universitas Leiden yang berjudul “Beyond the City Wall: Society and Economic Development in the Ommelanden of Batavia, 1684-1740” juga cukup banyak membahas wilayah Depok pada masa pemerintahan VOC.
 
                         </p>
@@ -103,7 +103,7 @@
                         <p style="display:none"class="modal-desc-content" id="boy-desc">Boy Loen atau Om Boy lahir pada 5 Maret 1950. Salah satu keturunan fam Loen ini pernah menjabat sebagai Sekretaris di Yayasan Lembaga Cornelis Chastelein (YLCC) pada tahun 2010. Kini, beliau mengabdikan hidupnya sebagai pengajar di SMA Kasih Depok.
                         </p>
                     </div>
-                    <div class="col-md-4 col-md-offset-6 carousel-box">
+                    <div class="col-md-4 col-md-offset-6 carousel-box col-xs-4">
                         <div class="carousel slide multi-item-carousel" id="theCarousel">
                             <div class="carousel-inner">
                             <div class="item active">

@@ -16,19 +16,24 @@
                     <p>Asal usul sebuah nama kerap kali menjadi penting. Meskipun Shakespeare pernah menyatakan
                     bahwa "apalah arti sebuah nama", namun tetap saja masalah nama dapat menjadi hal yang kontroversial. 
                     Banyak versi yang kami temukan mengenai asal usul istilah Depok. <strong style="color:#515050;">Bagaimana penjelasannya? </strong></p>
-                    <p id="ayosimak">Ayo dengarkan kisah Para Penutur!</p>
+                    <p id="ayosimak" >Ayo dengarkan kisah Para Penutur!</p>
                 </div>
             </div>
         </div>
         <div class="row asal-kata-depok-row">
             <!-- <div class="col-6 col-md-3"></div> -->
-            <div class="col-6 col-md-4">
+            <div class="col-md-4 col-xs-4">
                 <img id="peta" src="img/asets/asal_kata_depok/peta.png" alt="" width="30%" class=" img-responsive"/>
+                <!-- <div id="petaimg"
+                    class="portfolio-hover-content"
+                    style="position:absolute;borde-radius:50%; right:0;bottom:0;  width:29%; height:100%;text-align:center;">
+                    <h2 style="margin-top:40%;color:#FFD600;font-size:150%;">Peta</h2>
+                </div> -->
             </div>
-            <div class="col-6 col-md-4">
+            <div class=" col-md-4 col-xs-4">
                 <img id="padepokan" src="img/asets/asal_kata_depok/padepokan.png" alt="" width="30%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-md-4 col-xs-4">
                 <img id="akronim" src="img/asets/asal_kata_depok/akronim.png" alt="" width="30%" class=" img-responsive"/>
             </div>
             <!-- <div class="col-6 col-md-2"></div> -->
@@ -40,7 +45,7 @@
             <div class="modal-content">
                 <span class="close-modal-asal-kata-depok close-modal-peta">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-12">
                         <div class="row">
                             <h2 class='modal-desc-title'>Depok Berdasarkan Peta Lama</h2>
                             <p class="modal-desc-content">“Depok itu memang sudah suatu wilayah sebelum datangnya Chastelein” begitu pernyataan Ibu Titi. 

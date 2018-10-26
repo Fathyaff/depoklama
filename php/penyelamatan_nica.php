@@ -26,13 +26,13 @@
         </div>
         <div class="row nica-row">
             <!-- <div class="col-6 col-md-3"></div> -->
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="kronologi" src="img/asets/nica/kronologi.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="wdpg" src="img/asets/nica/warga_depok_pasca_gedoran.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="pesan" src="img/asets/nica/pesan_warga_depok.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <!-- <div class="col-6 col-md-2"></div> -->

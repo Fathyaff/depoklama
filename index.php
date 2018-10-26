@@ -109,6 +109,7 @@ if (isset($_POST['submit'])) {
                     </div>
                     <div class="col-md-12 slide-kebawah">
                         <img id="slide-bawah" src="img/asets/panah.png" width="100px" alt="">
+                        <br><br/>
                         <p style="font-family: 'TrajanProRegular';">mulai bertualang</p>
                     </div>
                 </div>

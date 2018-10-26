@@ -84,50 +84,6 @@
             </div>
         </section>
 
-        <div
-            class="portfolio-modal modal fade"
-            id="portfolioModal1"
-            tabindex="-1"
-            role="dialog"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <div class="modal-body">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <img src="img/tim/alqiz.png" alt="" class=" img-responsive"/>
-                                        </div>
-                                        <div class="col-md-9 modal-description">
-                                            <h2>Alqiz</h2>
-                                            <p class="item-intro">Pendiri</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis
-                                                dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt
-                                                officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis
-                                                facere nemo!</p>
-                                            <h5>"Hidup untuk Tidur"</h5>
-                                        </div>
-                                    </div>
-                                    <button
-                                        class="btn btn-primary modal-button"
-                                        data-dismiss="modal"
-                                        type="button"
-                                        style="margin: 0 0 0 300px;">
-                                        <i class="fa fa-times"></i>
-                                        Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <script src="js/arti-kaum.js"></script>
         <script src="js/grid1.js"></script>

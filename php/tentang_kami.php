@@ -1,5 +1,5 @@
 <!-- What We Do -->
-<section id="tentang-kami" class="default-section">
+<section id="tentang-kami" class="default-section" style="background-color: rgba(36, 34, 34, 0.712);">
     <div class="container-tentang-kami">
         <div class="row">
             <div class="col align-self-center">

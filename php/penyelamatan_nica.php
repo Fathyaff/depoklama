@@ -61,8 +61,8 @@
                                 <audio id="audioKronologiSuzana">
                                     <source src="audio/nica/Audio-Kronologi-Bu-Suzana-24.55-25.52.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-kronologi-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:155%;" id="toggle-kronologi-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:115%;margin-bottom:-3%;width:100%;">
                                     <p>Bu Suzana</p>
                                 </div>
                             </div>
@@ -73,14 +73,12 @@
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                             <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
-                            NICA dibentuk pada 3 April 1944 di Australia.
-                            Pembentukan NICA atas dasar kesepakatan yang berjudul <i>“Van Mook - MacArthur Civil Affairs Agreement”</i>.
-                            Sesuai namanya, kesepakatan ini melibatkan Letnan Gubernur Jenderal Hindia Belanda, H.J. Van Mook dan Panglima
-                            Tertinggi Wilayah Pasifik Barat Daya atau South West Pacific Area (SWPA), Jenderal Douglas MacArthur dari
-                            Amerika Serikat. Kesepakatan ini berisi tentang penyerahan wilayah Hindia-Belanda ke tangan NICA dari pasukan sekutu.
-                            Namun, penandatanganan kesepakatan baru dilakukan pada 10 Desember 1944 karena adanya penundaan politis
-                            di Departemen Luar Negeri Amerika Serikat.</p>
-
+                            The Netherlands Indies Civil Administration (NICA) merupakan organisasi militer yang dibangun pada 3 April 1944.
+                        Tujuan dari pembentukan NICA adalah untuk mengembalikan kekuasaan pemerintah Hindia Belanda di wilayah Indonesia pada 
+                    akhir Perang Dunia 2.</p>
+                            <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
+                            Gambar: Tentara NICA<br>
+                            Sumber: Arsip Nasional</p>
                         </div>
 
                     </div>
@@ -111,8 +109,8 @@
                                 <audio id="audioWdpgBoy">
                                     <source src="audio/nica/Audio-Warga-Depok-Pasca-Gedoran-Om-Boy-14.13-15.05.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-wdpg-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:135%;" id="toggle-wdpg-boy" class="play-boy"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 98%;margin-bottom: -3%;width:100%;">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -120,7 +118,7 @@
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
-                        <img src="img/asets/nica/De_Eerste.png" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/nica/dansa.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                                 <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
@@ -130,7 +128,9 @@
                                 Istilah <i>De Eerste Protestantse Organisatie van Kristenen</i> atau disingkat DEPOK pun
                                 lahir dari komunitas ini. Akronim ini dibuat untuk mengingatkan mereka terhadap
                                 tanah yang merupakan tempat kelahiran mereka.</p>
-
+                                <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
+                                Gambar: Perayaan Depok Dag<br>
+                                Sumber: Koleksi Om Yano</p>
                             </div>
                     </div>
                 </div>
@@ -161,8 +161,8 @@
                                 <audio id="audioPesanSuzana">
                                     <source src="audio/nica/Audio-Pesan-Bu-Suzana-18.00-18.22.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-pesan-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:155%;" id="toggle-pesan-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 115%;margin-bottom: -3%;width:100%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -172,11 +172,14 @@
                     <div class="col-4 col-md-4 portfolio-hover">
                         <img src="img/asets/nica/pesan_warga_depok_FOTO.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
-                            <h2>Tahukah kamu?</h2>
-                                <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
-                                “Saya berpatokan, bangsa yang besar adalah bangsa yang menghormati sejarah.
-                                Mau diapain lagi? Udah terjadi, kok. Tetapi kita tidak bisa mengelak dari kejadian itu.
-                                Kita sebagai bangsa, tidak boleh dipecah-pecah karena agama.” - Suzana Leander, kaum Depok.</p>
+                            <!-- <h2>Tahukah kamu?</h2> -->
+                                <br><br><br><br>
+                                <p style="margin-top:-3%;text-align:center;font-size:10pt; line-height:10pt;">
+                                “Saya berpatokan, bangsa yang besar adalah bangsa yang menghormati sejarahnya. 
+                                Mau diapain lagi? Sudah terjadi kok. Tetapi kita tidak bisa mengelak bahwa banyak 
+                                hal yang disayangkan dari kejadian itu. 
+                                Kita sebagai bangsa Indonesia tidak boleh dipecah-pecah karena perbedaan.”<br><br>
+                                <strong style="color:#FFD600;">- Suzana Leander, kaum Depok.</strong></p>
                             </div>
                     </div>
                 </div>

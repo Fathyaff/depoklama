@@ -60,8 +60,8 @@
                                 <audio id="audioProklamasiBoy">
                                     <source src="audio/gedoran/Audio-proklamasi-Om-Boy-38.46.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-proklamasi-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:55%;" id="toggle-proklamasi-boy" class="play-boy"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:36%;margin-bottom:-3%;width:100%;">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -69,8 +69,8 @@
                                 <audio id="audioProklamasiLili">
                                     <source src="audio/gedoran/Audio-proklamasi-Meneer-Lilie-36.48.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-proklamasi-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:55%;" id="toggle-proklamasi-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:38%;margin-bottom:-3%;width:100%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -78,8 +78,8 @@
                                 <audio id="audioProklamasiFara">
                                     <source src="audio/gedoran/Audio-proklamasi-Bu-faradibah-22.45.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-proklamasi-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:55%;" id="toggle-proklamasi-fara" class="play-fara"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:36%;margin-bottom:-3%;width:100%;">
                                     <p>Ibu Faradiba</p>
                                 </div>
                             </div>
@@ -124,8 +124,8 @@
                                 <audio id="audioAlurSuzana">
                                     <source src="audio/gedoran/Audio-Kronologi-Bu-Suzana-14.42.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-alur-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:145%;" id="toggle-alur-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 110%;margin-bottom: -3%;width:100%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -133,8 +133,8 @@
                                 <audio id="audioAlurFara">
                                     <source src="audio/gedoran/Audio-Kronologi-Bu-faradibah-24.30.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-alur-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:145%;" id="toggle-alur-fara" class="play-fara"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 110%;margin-bottom: -3%;width:100%;">
                                     <p>Ibu Faradiba</p>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                                         <source src="audio/gedoran/Audio-Siapakah-Pelakunya-Om-Boy-38.46.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-pelaku-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%">
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
                                         <source src="audio/gedoran/Audio-Siapakah-Pelakunya-Bu-Suzana-20.03.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-pelaku-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 22%;margin-bottom: -3%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@
                                         <source src="audio/gedoran/Audio-Siapakah-Pelakunya-Bu-Faradiba-26.00.wav" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-pelaku-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;">
                                     <p>Ibu Faradiba</p>
                                 </div>
                             </div>

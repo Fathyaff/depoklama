@@ -27,10 +27,10 @@
                 <img id="keluarga" src="img/asets/depok-masa-chastelein/skc.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <div class="col-6 col-md-3 col-xs-3">
-                <img id="pribadi" src="img/asets/depok-masa-chastelein/kpc.png" alt="" width="50%" class=" img-responsive"/>
+                <img id="pribadi" src="img/asets/depok-masa-chastelein/kcv.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <div class="col-6 col-md-3 col-xs-3">
-                <img id="karir" src="img/asets/depok-masa-chastelein/kcv.png" alt="" width="50%" class=" img-responsive"/>
+                <img id="karir" src="img/asets/depok-masa-chastelein/kpc.png" alt="" width="50%" class=" img-responsive"/>
             </div>
             <div class="col-6 col-md-3 col-xs-3">
                 <img id="tanah" src="img/asets/depok-masa-chastelein/tmc.png" alt="" width="50%" class=" img-responsive"/>
@@ -63,8 +63,8 @@
                                 <audio id="audioKeluargaLili">
                                     <source src="audio/cornelis-chastelein/Audio-Keluarga-Meneer-Lilie-11.53-13.53.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-keluarga-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:140%;" id="toggle-keluarga-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:102%;margin-bottom:-3%;width:100%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -109,8 +109,8 @@
                                 <audio id="audioPribadiBondan">
                                     <source src="audio/cornelis-chastelein/Audio-Pribadi-Pak-Bondan.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-pribadi-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:relative; margin-left:140%;" id="toggle-pribadi-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 102%;margin-bottom: -3%;width:100%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
@@ -159,33 +159,24 @@
                                 <audio id="audioKarirLili">
                                     <source src="audio/cornelis-chastelein/Audio-Karir-Meneer-Lilie-14.09.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-karir-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-karir-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
                                     <p>Meneer Lilie</p>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <audio id="audioKarirBoy">
-                                        <source src="audio/cornelis-chastelein/Audio-Karir-Om-Boy-11.01.mp3" type="audio/mpeg">
-                                </audio>
-                                <div style="position:relative" id="toggle-karir-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%">
-                                    <p>Om Boy</p>
                                 </div>
                             </div>
                             <div class="col-6 col-md-3">
                                 <audio id="audioKarirBondan">
                                         <source src="audio/cornelis-chastelein/Audio-Karir-Pak-Bondan-03.10.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-karir-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:125%;" id="toggle-karir-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 95%;margin-bottom: -3%;width:100%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
-                        <img id="deEersteimg" src="img/asets/depok-masa-chastelein/bartolomeo.png" alt="" width="100%" class=" img-responsive"/>
+                        <img id="deEersteimg" src="img/asets/depok-masa-chastelein/wetefreden.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                             <p style="margin-top:-5%;text-align:center;font-size:8pt; line-height:10pt;">Ommenlanden adalah wilayah di luar tembok Batavia. 
@@ -208,6 +199,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                            <h2 class="modal-desc-title">Tanah Chastelein di Batavia</h2>
                             <p class="modal-desc-content">
                             Sosok Chastelein dikenal sebagai Tuan Tanah dikalangan VOC karena kepemilikan tanahnya yang sangat banyak. 
                             Menurut Ibu Titi, Chastelein memilik tanah di wilayah jakarta yang sekarang menjadi daerah Tugu, RSPAD, 
@@ -222,8 +214,8 @@
                                 <audio id="audioTanahTiti">
                                     <source src="audio/cornelis-chastelein/Audio-Tanah-Bu-Titi-12.00.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-tanah-titi" class="play-titi"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 28%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:75%;" id="toggle-tanah-titi" class="play-titi"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 55%;margin-bottom: -3%; width:100%;">
                                     <p>Bu Titi</p>
                                 </div>
                             </div>
@@ -231,8 +223,8 @@
                                 <audio id="audioTanahFara">
                                         <source src="audio/cornelis-chastelein/Audio-Tanah-Bu-faradibah-08.06.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-tanah-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 28%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:75%;" id="toggle-tanah-fara" class="play-fara"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 55%;margin-bottom: -3%;width:100%;">
                                     <p>Bu Fara</p>
                                 </div>
                             </div>
@@ -240,23 +232,25 @@
                                 <audio id="audioTanahFerdy">
                                         <source src="audio/cornelis-chastelein/Audio-Tanah-Pak-Ferdy-10.02.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-tanah-ferdy" class="play-ferdy"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 23%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:75%;" id="toggle-tanah-ferdy" class="play-ferdy"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 53%;margin-bottom: -3%;width:100%;">
                                     <p>Om Ferdy</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-4 col-md-4 portfolio-hover">
-                        <img id="deEersteimg" src="img/asets/depok-masa-chastelein/wetefreden.png" alt="" width="100%" class=" img-responsive"/>
+                        <img id="deEersteimg" src="img/asets/depok-masa-chastelein/rumah-van-der-parra.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
                             <p style="margin-top:-2%;text-align:center; font-size:8pt; line-height:10pt;">Cornelis Chastelein memiliki rumah di daerah Weltevreden dan Srengseng Sawah. 
-                            Namun belum diketahui secara pasti posisi rumah tersebut berada. Menurut arsip VOC, ternyata rumah Chastelein 
+                            Menurut arsip VOC, ternyata rumah Chastelein 
                             di Weltevreden dibeli oleh Gubernur Jenderal VOC yang bernama Van Der Parra. Van Der Parra diketahui merupakan 
                             pemilik rumah peristirahatan di Depok, yang dikenal dengan nama Landhuis Tjimanggis (Rumah Cimanggis). 
                             Jangan lupa menilik Rumah Cimanggis bila kamu sedang berada di Depok ya!</p>
-                            <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">Landhuis Van Der Parra di Weltervreden (sumber: Historische Plattegronden van Nederlandse Steden: Deel 4 Batavia)</p>
+                            <p class="desc-gambar"  style="text-align:center;margin-top:5%; font-size:8pt; line-height:10pt;">
+                            Gambar: Landhuis Van Der Parra di Weltervreden <br>
+                            Sumber: Historische Plattegronden van Nederlandse Steden: Deel 4 Batavia</p>
                         </div>
                     </div>
                 </div>

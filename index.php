@@ -124,6 +124,9 @@ if (isset($_POST['submit'])) {
         background-image: url(img/asets/bg-dmc.png); background-size: cover;background-attachment:fixed;background-position: center; padding-top:-50%; padding-botton:-30%; background-size: cover;
         ">
         <?php include "php/depok_masa_chastelein.php"; ?>
+        <div class="col-md-8" style="margin-left:17%;">
+          <img id="pembatas" src="img/asets/batas_website_depok.png" alt="" width="100%" class=" img-responsive"/>
+        </div>
         <?php include "php/siapakah_cornelis_chastelein.php"; ?>
         </section>
         <?php include "php/kehidupan_masa_chastelein.php"; ?>
@@ -131,7 +134,13 @@ if (isset($_POST['submit'])) {
         background-image: url(img/asets/bg-kwc.png); background-size: cover;background-attachment:fixed;background-position: center; padding-top:-50%; padding-botton:-30%; background-size: cover;
         ">
         <?php include "php/kematian_warisan_chastelein.php"; ?>
+        <div class="col-md-8" style="margin-left:17%;">
+          <br>
+          <img id="pembatas" src="img/asets/batas_website_depok.png" alt="" width="100%" class=" img-responsive"/>
+          <br>
+        </div>
         <?php include "php/voting_cc.php"; ?>
+        
         <?php include "php/video_proklamasi.php"; ?>
         </section>
 
@@ -140,10 +149,20 @@ if (isset($_POST['submit'])) {
         ">
         <!-- GEDORAN -->
         <?php include "php/peristiwa_berdarah_depok.php"; ?>
+        <div class="col-md-8" style="margin-left:17%;">
+          <br>
+          <img id="pembatas" src="img/asets/batas_website_depok.png" alt="" width="100%" class=" img-responsive"/>
+          <br>
+        </div>
         <?php include "php/gedoran.php"; ?>
         <?php include "php/gedoran_depok_sosok.php"; ?>
         <?php include "php/saksi_gedoran.php"; ?>
         <?php include "php/penyelamatan_nica.php"; ?>
+        <div class="col-md-8" style="margin-left:17%;">
+          
+          <img id="pembatas" src="img/asets/batas_website_depok.png" alt="" width="100%" class=" img-responsive"/>
+          
+        </div>
         <?php include "php/nica_dan_tkr.php"; ?>
         </section>
 
@@ -152,6 +171,11 @@ if (isset($_POST['submit'])) {
         ">
         <?php include "php/arti_menjadi_kaum.php"; ?>
         <?php include "php/bangunan_bersejarah.php"; ?>
+        <div class="col-md-8" style="margin-left:17%;">
+          
+          <img id="pembatas" src="img/asets/batas_website_depok.png" alt="" width="100%" class=" img-responsive"/>
+          
+        </div>
         <?php include "php/tanggapan_warga_depok.php"; ?>
         <?php include "php/tentang_kami.php"; ?>
         <?php include "templates/footer.php"; ?>

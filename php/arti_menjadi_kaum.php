@@ -49,7 +49,7 @@
                         <a
                             href="#"
                             data-largesrc="img/asets/arti_kaum/jovel.jpg"
-                            data-title="Menjadi Kaum Depok Lama Bagi Jovel" 
+                            data-title="Menjadi Kaum Depok Lama Bagi Jofel" 
                             data-videosrc='https://www.youtube.com/embed/PTJ-U1qREng' 
                             data-description="Gedung YLCC dahulu merupakan rumah bagi para pendeta yang melayani di Gereja Protestan Depok (sekarang GPIB Immanuel). Letaknya di Jalan Pemuda, Depok, persis di sebelah GPIB Immanuel saat ini. Belum diketahui secara pasti kapan gedung ini dibangun, namun diperkirakan dibangun bersamaan dengan pembangunan Gereja Protestan Depok. Tepat di belakang bangunan utama, terdapat bangunan lain yang dahulu difungsikan sebagai bangunan sekolah. Gedung ini sempat diambil alih oleh pemerintah Republik Indonesia pada era kemerdekaan RI, hingga akhirnya dikembalikan pada komunitas Depok tahun 1952 dan dijadikan kantor Yayasan Lembaga Cornelis Chastelein (YLCC).">
                             <div class="portfolio-hover">
@@ -57,7 +57,7 @@
                                 <div
                                     class="portfolio-hover-content"
                                     style="position:absolute; bottom:0; background-image: url(img/asets/bangunan_bersejarah/kuning.png); width:100%; height:10%;text-align:center;">
-                                    <h2 style="margin-top:3%;color:black; font-size:150%;">Jovel Malonda</h2>
+                                    <h2 style="margin-top:3%;color:black; font-size:150%;">Jofel Malonda</h2>
                                 </div>
                             </div>
                         </a>
@@ -66,7 +66,7 @@
                         <a
                             href="#"
                             data-largesrc="img/asets/arti_kaum/pak-yano.png"
-                            data-title="Menjadi Kaum Depok Lama Bagi Bapak Yano" 
+                            data-title="Menjadi Kaum Depok Lama Bagi Om Yano" 
                             data-videosrc='https://www.youtube.com/embed/bceKVdu67-k' 
                             data-description="Ebenhaezer adalah gedung pertemuan komunitas Depok yang mulai difungsikan sejak tahun 1929. Gedung yang terletak persis di seberang GPIB Immanuel ini sebelumnya merupakan gedung sekolah dasar pertama di Depok yang diberi julukan “special school” sejak tahun 1873. Belum diketahui secara pasti kapan gedung ini dibangun. Berdasarkan catatan pendeta Wentink tertanggal 19 Agustus 1834, sebuah sekolah dasar pertama telah didirikan di Depok oleh pendeta Medhurst antara tahun 1830 dan 1834. Kini, Ebenhaezer telah kembali pada fungsi semulanya sebagai gedung sekolah dengan nama SMA Kasih.">
                             <div class="portfolio-hover">
@@ -74,7 +74,7 @@
                                 <div
                                     class="portfolio-hover-content"
                                     style="position:absolute; bottom:0; background-image: url(img/asets/bangunan_bersejarah/kuning.png); width:100%; height:10%; text-align:center;">
-                                    <h2 style="margin-top:3%;color:black; width:100%; margin-left:-1%; font-size:150%;">Bapak Yano Jonathans</h2>
+                                    <h2 style="margin-top:3%;color:black; width:100%; margin-left:-1%; font-size:150%;">Yano Jonathans</h2>
                                 </div>
 
                             </div>

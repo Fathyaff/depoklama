@@ -60,8 +60,8 @@
                                 <audio id="audioVisiLili">
                                     <source src="audio/kdmc/Audio-Visi-Meneer-Lilie-19.15.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-visi-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-visi-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -69,18 +69,9 @@
                                 <audio id="audioVisiBondan">
                                         <source src="audio/kdmc/Audio-Visi-Pak-Bondan-04.42.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-visi-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-visi-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
                                     <p>Mas Bondan</p>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <audio id="audioVisiSuzana">
-                                        <source src="audio/kdmc/Audio-Visi-Bu-Suzana-29.39.mp3" type="audio/mpeg">
-                                </audio>
-                                <div style="position:relative" id="toggle-visi-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 21%;margin-bottom: -3%;">
-                                    <p>Ibu Suzana</p>
                                 </div>
                             </div>
                         </div>
@@ -93,8 +84,9 @@
                             warga Eropa menindas masyarakat pribumi. Selain Chastelein, ada juga sosok seperti Eduard Douwes Dekker dan 
                             Ernest Douwes Dekker yang menentang kekejaman Belanda terhadap masyarakat pribumi. 
                             Kedua sosok ini membantu rakyat Indonesia untuk berjuang melawan Belanda melalui karya-karyanya.</p>
-                            <p class="desc-gambar" style="text-align:center;font-size:8pt; line-height:10pt;">Gambar:
-                            Eduard Douwes Dekker dan <br>Ernest Douwes Dekker.<br> Sumber: http://core3.oomph.co.id</p>
+                            <br><br>
+                            <p class="desc-gambar" style="text-align:center;font-size:8pt;line-height:10pt;">Gambar:
+                            Eduard Douwes Dekker. <br>Sumber: http://core3.oomph.co.id</p>
                         </div>
 
                     </div>
@@ -124,8 +116,8 @@
                                 <audio id="audioBudakBondan">
                                     <source src="audio/kdmc/Audio-Budak-Pak-Bondan-10.22.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-budak-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 18%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:125%;" id="toggle-budak-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 95%;margin-bottom: -3%; width:100%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
@@ -133,8 +125,8 @@
                                 <audio id="audioBudakSuzana">
                                     <source src="audio/kdmc/Audio-Budak-Bu-Suzana-30.35.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-budak-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 19%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:125%;" id="toggle-budak-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 95%;margin-bottom: -3%;width:100%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -181,8 +173,8 @@
                                 <audio id="audioPerkebunanYano">
                                         <source src="audio/kdmc/Audio-Perkebunan-Om-Yano-09.50.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-perkebunan-yano" class="play-yano"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-perkebunan-yano" class="play-yano"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
                                     <p>Om Yano</p>
                                 </div>
                             </div>
@@ -190,8 +182,8 @@
                                 <audio id="audioPerkebunanLili">
                                     <source src="audio/kdmc/Audio-Perkebunan-Meneer-Lilie-23.44.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-perkebunan-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-perkebunan-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -204,14 +196,11 @@
                             <h2>Tahukah kamu?</h2>
                             <p style="margin-top:-5%;text-align:center;font-size:8pt; line-height:10pt;">
                             Chastelein membuat hutan lindung untuk menjaga keasrian dan kebutuhan air di Depok. 
-                            Ia dengan tegas melarang masyarakat Depok untuk menebangan pohon secara berlebihan, 
-                            masyarakat hanya boleh menebang dan memanfaatkan kayu tersebut untuk peralatan dan kebutuhan sehari-hari mereka. 
-                            Peraturan tersebut dibuat oleh Chastelein demi menjaga keseimbangan alam di Depok. 
                             Kini, kawasan hutan lindung itu dikenal dengan nama Taman Hutan Raya Pancoran Mas atau Cagar Alam Pancoran Mas. 
                             Akan tetapi sangat disayangkan saat ini hanya tersisa tinggal 6 hektar dari 60 hektar hutan lindung 
                             pada masa Chastelein.</p>
-                            <p class="desc-gambar" style="margin-top:-2%;font-size:8pt; line-height:10pt;">
-                            Cagar Alam Depok. Sumber gambar: http://jakarta.panduanwisata.id</p>
+                            <p class="desc-gambar" style="margin-top:20%;font-size:8pt; line-height:10pt;">
+                            Gambar: Cagar Alam Depok. Sumber: http://jakarta.panduanwisata.id</p>
                         </div>
                     </div>
                 </div>
@@ -240,8 +229,8 @@
                                 <audio id="audioAturanBoy">
                                         <source src="audio/kdmc/Audio-Peraturan-Om-Boy-27.37.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-aturan-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-aturan-boy" class="play-boy"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -249,8 +238,8 @@
                                 <audio id="audioAturanLili">
                                     <source src="audio/kdmc/Audio-Peraturan-Meneer-Lilie-21.03.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-aturan-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-aturan-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>

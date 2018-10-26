@@ -1116,6 +1116,7 @@ Works
 	font-size: 16px;
 	line-height: 1.6em;
 	color: #555;
+	text-align: justify;
 }
 
 .og-details a {
@@ -1123,6 +1124,7 @@ Works
 	display: inline-block;
 	margin: 30px 0 0;
 	outline: none;
+	
 }
 
 
@@ -1296,22 +1298,33 @@ footer a{
 }
 
 footer .footer-logo {
-	margin-top: 2%;
-	margin-right: 20%;
+	margin-top: 10%;
+	/* margin-left: 20%; */
 	display: inline-block;
 	margin-bottom: 2%;
 }
 
 footer .footer-logo img {
-	margin-right: 5%;	
-}
+	margin-left: 34%;	
 
+}
+footer .footer-logo-powered{
+	margin-bottom: 10%;
+}
+footer .footer-logo-powered img {
+	margin-left: 46%;	
+	
+	
+}
 
 footer a:hover {
 	color: #fff;
 	text-decoration: underline;
 }
 
+/* .pembatas {
+	background-image: url(../img/asets/batas_website_depok.png);
+} */
 /* ================================
 more media queries
 ================================= */

@@ -24,6 +24,11 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-8" style="margin-left:17%;">
+          <br><br><br><br>
+          <img id="pembatas" src="img/asets/batas_website_depok.png" alt="" width="100%" class=" img-responsive"/>
+          <br><br><br><br>
+        </div>
         <div class="row voting-cc-row">
         <div class="row">
             <div class="col align-self-center">

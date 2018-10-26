@@ -4,10 +4,10 @@
     ">
     <div class="container-pengantar">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <p>Sejarah tidak selamanya hitam dan putih, serta bisa dilihat dari 
-                    berbagai sisi. Kisah ni diceritakan dari berbagai sudut pandang dalam menceritakan sejarah Depok yang penuh 
-                    dengan kontroversi. Pengunjung website diharapkan kebijaksanaannya dalam menelaah informasi yang disajikan dalam website ini.
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <p>Sejarah tidak selamanya hitam dan putih, serta bisa dilihat dari berbagai sisi.
+                    Kisah ini diceritakan dari berbagai sudut pandang dalam mengupas sejarah Kaum Depok Lama. 
+                    Pengunjung website diharapkan kebijaksanaannya dalam menelaah informasi yang disajikan dalam website ini.
                 </p>
             </div>
         </div>

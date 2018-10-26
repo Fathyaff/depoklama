@@ -11,11 +11,12 @@
         <div class="row">
             <div class="col align-self-center">
                 <div class="subtitle-saksi-gedoran">
-                    <p>Begitu banyak kisah suka dan duka yang telah dilalui kaum Depok. 
-                    Kini yang tersisa darinya hanyalah tinggalan, baik yang berupa bangunan maupun memori atau kenangan. 
-                    Meski berangkat dari nasib yang sama sebagai budak, namun kaum Depok tetap memiliki kisahnya masing-masing. 
-                    Beginilah kisah kaum Depok yang dituturkan langsung oleh para keturunan mantan budak Chastelein!</p>
-                    <p id="ayosimak">Beginilah kisah kaum Depok yang dituturkan langsung oleh para keturunan mantan budak Chastelein!</p>
+                    <p>Peristiwa Gedoran menyisakan luka yang mendalam di hati warga Depok Lama. Semua harta benda yang mereka miliki sudah
+                        lenyap ketika mereka kembali ke rumah mereka masing-masing. 
+                    Kini, yang tersisa hanyalah kenangan, baik yang bersifat monumental ataupun memori. 
+                    </p>
+                    <p id="ayosimak">Bagaimana emosi yang mereka rasakan ketika mengingat kejadian itu? 
+                        <br>Simak kisah saksi hidup peristiwa Gedoran di bawah ini!</p>
                 </div>
             </div>
         </div>
@@ -50,8 +51,8 @@
                                 <audio id="audioSaksiSuzana">
                                     <source src="audio/saksi-gedoran/Audio-Saksi-Peristiwa-Gedoran-Depok-Bu-Suzana-14.54-18.25.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-saksi-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:155%;" id="toggle-saksi-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:115%;margin-bottom:-3%;width:100%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -68,9 +69,8 @@
                              Adik Ibu Suzana diberikan nama Marianti Yulia dan Heriati Susiati. 
                             Hal ini dilakukan agar anak-anaknya tidak diketahui identitasnya sebagai kaum Depok Lama oleh masyarakat umum.</p>
                             <p class="desc-gambar" style="text-align:center;font-size:8pt; line-height:10pt;">
-                            Ayah dan Ibu Suzana</p>
+                            Gambar: Charles R. Leander, <br> Ayahanda dari Ibu Suzana</p>
                         </div>
-
                     </div>
                 </div>
                 
@@ -96,8 +96,8 @@
                                 <audio id="audioSaksiGovert">
                                     <source src="audio/saksi-gedoran/Audio-Saksi-Peristiwa-Gedoran-Depok-(Gabungan)-Opa-Govert.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-saksi-govert" class="play-govert"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:155%;" id="toggle-saksi-govert" class="play-govert"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 115%;margin-bottom: -3%;width:100%;">
                                     <p>Opa Govert</p>
                                 </div>
                             </div>
@@ -110,10 +110,10 @@
                             <h2>Tahukah kamu?</h2>
                                 <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
                                 Setelah peristiwa Gedoran, Opa Govert bersama keluarganya pindah ke Kota Bandung.
-                                 Disana ia tinggal bersama keluarga ibunya dan tidak pernah kembali ke Depok dalam waktu yang lama. 
+                                 Di sana ia tinggal bersama keluarga ibunya dan tidak pernah kembali ke Depok dalam waktu yang lama. 
                                 Opa kembali ke Depok pada tahun 60-an ketika mendapatkan pekerjaan di salah satu hotel di Jakarta. </p>
                                 <p class="desc-gambar" style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
-                                Opa Govert & Keluarga</p>
+                                Gambar: Opa Govert (kanan atas) bersama keluarganya ketika tinggal di Bandung</p>
                             </div>
                     </div>
                 </div>

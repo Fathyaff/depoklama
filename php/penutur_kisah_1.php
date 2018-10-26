@@ -23,7 +23,7 @@
             <div class="col-6 col-md-4 col-xs-4">
                 <img id="faradiba" src="img/asets/penutur_kisah/faradiba.png" alt="" width="50%" class=" img-responsive"/>
             </div>
-            <div class="col-6 col-md-4 col-xs-3">
+            <div class="col-6 col-md-4 col-xs-4">
                 <img id="yano" src="img/asets/penutur_kisah/yano.png" alt="" width="50%" class=" img-responsive"/>
             </div>
         </div>

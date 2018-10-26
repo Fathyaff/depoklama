@@ -53,8 +53,8 @@
                                 <audio id="audioKematianSuzana">
                                     <source src="audio/kematian-cc/Audio-Kematian-Bu-Suzana-00.58.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-kematian-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:18%;margin-bottom: -3%;">
+                                <div style="position:relative; margin-left:195%;" id="toggle-kematian-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:150%;margin-bottom: -3%;width:100%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                             Chastelein yang memerdekakan budak-budaknya dan memberikan tanah Depok kepada mereka. 
                             Budak Chastelein tetap menaati peraturan yang diberikan Chastelein dalam mengembangkan wilayah Depok Lama.</p>
                             <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
-                            Gambar: Surat wasiat Chastelein. <br>Sumber gambar: http://infodepokontime.blogspot.com</p>
+                            Gambar: Surat wasiat Chastelein. <br>Sumber: http://infodepokontime.blogspot.com</p>
                         </div>
 
                     </div>
@@ -100,8 +100,8 @@
                                 <audio id="audioCikalYano">
                                     <source src="audio/kematian-cc/Audio-Cikal-Om-Yano-39.55.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-cikal-yano" class="play-yano"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;">
+                                <div style="position:relative; margin-left:125%;" id="toggle-cikal-yano" class="play-yano"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:95%;margin-bottom: -3%; width:100%;">
                                     <p>Om Yano</p>
                                 </div>
                             </div>
@@ -109,8 +109,8 @@
                                 <audio id="audioCikalLili">
                                     <source src="audio/kematian-cc/Audio-Cikal-Meneer-Lilie-26.54.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-cikal-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:17%;margin-bottom:-3%">
+                                <div style="position:relative;margin-left:125%;" id="toggle-cikal-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%; width:100%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -126,9 +126,10 @@
                             lihat nama-nama presiden yang pernah memimpin Depok. 
                             Rumah presiden terakhir Depok, JM Jonathans (Meneer Lilie), 
                             masih dapat dikunjungi di seberang Rumah Sakit Harapan.</p>
+                            <br><br>
                             <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
-                            Gambar: Daftar nama  Presiden Depok yang pernah menjabat.<br>
-                            Sumber gambar:<br> http://poestahadepok.blogspot.com</p>
+                            Gambar: Daftar nama Presiden Depok.<br>
+                            Sumber:<br> http://poestahadepok.blogspot.com</p>
                         </div>
                     </div>
                 </div>
@@ -157,8 +158,8 @@
                                 <audio id="audioOtonomTiti">
                                     <source src="audio/kematian-cc/Audio-Otonom-Bu-Titi-24.57.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-otonom-titi" class="play-titi"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 30%;margin-bottom: -3%;">
+                                <div style="position:relative;margin-left:195%;" id="toggle-otonom-titi" class="play-titi"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 150%;margin-bottom: -3%;width:100%;">
                                     <p>Ibu Titi</p>
                                 </div>
                             </div>
@@ -173,6 +174,7 @@
                             Passerstraat, Middenweg, dan  Passerweg. 
                             Pasca pengakuan kedaulatan Republik Indonesia, beberapa nama jalan ini dinasionalisasi, 
                             seperti Kerkweg menjadi Jalan Pemuda, Passerweg menjadi Jalan Dewi Sartika, Middenweg menjadi Jalan Siliwangi, dan Passerstraat menjadi Jalan Kartini.</p>
+                            
                             <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
                             Gambar: Peta Depok tahun 1901<br>
                             Sumber: http://maps.library.leiden.edu/apps/s7#focus</p>

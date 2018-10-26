@@ -34,7 +34,7 @@ if (isset($_POST['submit-tanggapan'])) {
         <div class="row">
             <div class="col align-self-center">
                 <div class="title-tanggapan-warga-depok">
-                    <h1>Tanggapan Warga Depok</h1>
+                    <h1>Tanggapan Kalian</h1>
                 </div>
             </div>
         </div>
@@ -87,6 +87,33 @@ if (isset($_POST['submit-tanggapan'])) {
                                     placeholder="Email"
                                     data-rule="email"
                                     data-msg="Please enter a valid email"/>
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name="umur"
+                                    id="umur"
+                                    placeholder="Umur"
+                                    data-rule=""
+                                    data-msg="Umur"/>
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-offset-1 col-md-6">
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name="pekerjaan"
+                                    id="pekerjaan"
+                                    placeholder="Pekerjaan"
+                                    data-rule=""
+                                    data-msg="Pekerjaan"/>
                                 <div class="validation"></div>
                             </div>
                         </div>

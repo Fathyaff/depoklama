@@ -9,8 +9,16 @@
 	color: #fff;
 	text-align: center;
 	font-family: 'HelveticaRegular';
+	
 }
 
+@media only screen and (max-width: 320px) {
+	#pengantar .container-pengantar p{
+	  font-size: 1em;
+	}
+  }
+
+  
 /* .button-pengantar img {
 	
 } */

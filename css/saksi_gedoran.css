@@ -19,10 +19,15 @@
 }
 
 .subtitle-saksi-gedoran {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size : 20px;
   color: white;
+}
+
+.subtitle-saksi-gedoran #ayosimak{
+  font-weight: bold;
+  color:#FFD600;
 }
 
 .title-saksi-gedoran h1{
@@ -78,6 +83,12 @@
 
 .modal-saksi-gedoran .modal-content p {
   color: white;
+}
+
+.modal-saksi-gedoran .modal-content  .modal-desc-title {
+  text-align: left;
+  font-size: 20pt;
+  margin-top :-3%;
 }
 
 .close-modal-saksi-gedoran:hover,

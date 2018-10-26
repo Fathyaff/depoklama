@@ -15,7 +15,7 @@
                 <div class="subtitle-asal-kata-depok">
                     <p>Asal usul sebuah nama kerap kali menjadi penting. Meskipun Shakespeare pernah menyatakan
                     bahwa "apalah arti sebuah nama", namun tetap saja masalah nama dapat menjadi hal yang kontroversial. 
-                    Banyak versi yang kami temukan mengenai asal usul istilah Depok. Bagaimana penjelasannya? </p>
+                    Banyak versi yang kami temukan mengenai asal usul istilah Depok. <strong style="color:#515050;">Bagaimana penjelasannya? </strong></p>
                     <p id="ayosimak">Ayo dengarkan kisah Para Penutur!</p>
                 </div>
             </div>
@@ -42,6 +42,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                            <h2 class='modal-desc-title'>Depok Berdasarkan Peta Lama</h2>
                             <p class="modal-desc-content">“Depok itu memang sudah suatu wilayah sebelum datangnya Chastelein” begitu pernyataan Ibu Titi. 
                             Pernyataan ini sejalan dengan adanya bukti berupa peta kadaster pada tahun 1696. 
                             Tepat pada tanggal 18 Mei di tahun itu, tanah Depok dijual oleh seorang residen Cirebon bernama 
@@ -94,6 +95,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                            <h2 class='modal-desc-title'>Padepokan Menjadi Depok</h2>
                             <p class="modal-desc-content">Nama Depok nyatanya tak hanya ditemukan sebagai nama wilayah di bagian selatan Batavia.
                                 Di wilayah lain seperti Yogyakarta dan Semarang juga ditemukan nama Depok. 
                                 Menurut Meneer Lilie, wilayah Depok berfungsi sebagai tempat untuk memperoleh ilmu pada zaman 
@@ -143,6 +145,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                            <h2 class='modal-desc-title'>Depok adalah Akronim</h2>
                             <p class="modal-desc-content">
                             Banyak pula yang berpendapat bahwa Depok merupakan akronim dari "De Eerste Protestanse Organisatie van Kristenen". 
                             Istilah ini dibuat dari bahasa Belanda yang berarti organisasi kristen protestan pertama. 

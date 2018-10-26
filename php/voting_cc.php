@@ -18,8 +18,8 @@
                         berandil dalam menguras kekayaan Indonesia. Bahkan beberapa pendapat menganggap bahwa ia hanya memakmurkan budaknya
                         demi kelancaran bisnisnya sebagai tuan tanah.
                     </p>
-                    <p>Bagaimana menurutmu?</p>
-                    <p><strong>Apakah Chastelein seorang penjajah, orang suci, atau sekadar pebisnis yang
+                    <p><strong style="color:#FFD600;">Bagaimana menurutmu?</strong></p>
+                    <p><strong style="color:#FFD600;">Apakah Chastelein seorang penjajah, orang suci, atau sekadar pebisnis yang
                         menjalankan usahanya?</strong></p>
                 </div>
             </div>

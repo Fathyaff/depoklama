@@ -16,7 +16,7 @@
                     Tentara Keamanan Rakyat (TKR) dibentuk untuk memerangi segala bentuk kolonialisme.
                     Namun demikian, saat peristiwa Gedoran, justru NICA yang datang membantu kaum Depok.
                     </p>
-                    <p><strong>Jadi, dalam kisah ini siapakah yang lebih baik?</strong></p>
+                    <p><strong style="color:#FFD600;">Jadi, dalam kisah ini siapakah yang lebih baik?</strong></p>
                 </div>
             </div>
         </div>

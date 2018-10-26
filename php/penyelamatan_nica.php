@@ -46,6 +46,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Kronologi NICA yang Mau ke bogor</h2>
                             <p class="modal-desc-content">
                                 Dialah J. P. Leander, orang Depok yang pergi mencari bantuan sesaat setelah terjadi Gedoran.
                                 Ia pergi menyusuri Sungai Ciliwung dengan geteknya, dari Lenteng Agung hingga Matraman.
@@ -95,6 +96,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Warga Depok Pasca Gedoran</h2>
                             <p class="modal-desc-content">Pilihannya hanya dua: pergi atau tinggal! Itulah yang harus dipilih kaum Depok.
                                 Memang tak mudah untuk tinggal, karena bayangan Gedoran akan terus menghantui.
                                 Namun tak mudah pula untuk pergi, karena bagaimanapun Depok sudah menjadi rumah.
@@ -144,6 +146,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Pesan Warga Depok terkait Gedoran</h2>
                             <p class="modal-desc-content">Tidak mudah bagi kaum Depok untuk berbagi kisah Gedoran.
                                 “...merupakan suatu trauma yang luar biasa (bagi) angkatan orang tua ibu,
                                 karena mereka takut.” begitu tutur Bu Suzana. Rasa trauma yang melekat erat

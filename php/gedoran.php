@@ -12,7 +12,9 @@
             <div class="col align-self-center">
                 <div class="subtitle-gedoran">
                     <p>Peristiwa Gedoran Depok telah berhasil menimbulkan trauma yang berarti bagi warga Depok Lama, 
-                    khususnya keturunan mantan budak Chastelein. Namun, apakah yang sebenarnya terjadi? Motif apa dibalik semua itu?</p>
+                    khususnya keturunan mantan budak Chastelein. 
+                    Namun, <strong style="color:##FFFFFF;">apakah yang sebenarnya terjadi?</strong> 
+                    <strong style="color:#FFD600;">Motif apa dibalik semua itu?</strong></p>
                     <p id="ayosimak">Simak kisah para penutur selengkapnya!</p>
                 </div>
             </div>
@@ -42,6 +44,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                            <h2 class='modal-desc-title'>Warga Depok Lama Kala Proklamasi</h2>
                             <p class="modal-desc-content">Gaya hidup yang dijalani kaum Depok memang berbeda dengan warga di sekitarnya. 
                             Selain menggunakan bahasa Belanda sebagai bahasa keseharian, mereka juga hidup dengan fasilitas yang lebih baik. 
                             Pada masa itu, kaum Depok telah mendapat fasilitas listrik dan telepon. 
@@ -109,6 +112,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Kronologi Kejadian</h2>
                             <p class="modal-desc-content">Tepat pada tanggal 7 Oktober 1945, terjadi penangkapan kaum Depok oleh 
                             sekelompok orang tidak dikenal. Sekitar 4000 (empat ribu) orang menyerang Depok dari segala penjuru. 
                             Terjadi pemberontakan dan pembantaian besar-besaran. Rumah-rumah warga Depok digedor dan dirusak, 
@@ -158,6 +162,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Siapakah Pelakunya</h2>
                             <p class="modal-desc-content">
                             Belum diketahui secara pasti siapa pelaku pemberontakan Gedoran Depok. 
                             Ada yang beranggapan bahwa warga sekitar Depok Lama lah pelakunya. 
@@ -234,6 +239,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Bangunan Penting</h2>
                             <p class="modal-desc-content">
                             Saat peristiwa Gedoran, Laki-laki dan perempuan dipisahkan. Para lelaki dibawa paksa ke Paledang, Bogor, 
                             sedangkan tawanan perempuan dan anak-anak dikumpulkan di gedung pemerintahan Depok kala itu. 

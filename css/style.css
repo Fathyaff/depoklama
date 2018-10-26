@@ -55,6 +55,10 @@ p {
 	font-family: 'Helvetica-Normal-Regular';
 }
 
+.modal-desc-title h2{
+	font-size: 5%;
+}
+
 .lead{
 	font-weight: 400;
 }

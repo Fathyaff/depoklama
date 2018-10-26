@@ -15,8 +15,8 @@
                         Chastelein. Beliau memiliki andil dalam perkembangan lahan pertanian dan
                         perkebunan, hingga pembentukan cagar alam di wilayah Depok. Chastelein
                         mempekerjakan ratusan pekerja yang didatangkan dari Bali, Makassar, Nusa
-                        Tenggara Timur, Maluku, Jawa, dan Pulau Rote. Bagaimana kehidupan Depok pada
-                        masa ini?
+                        Tenggara Timur, Maluku, Jawa, dan Pulau Rote. <strong style="color:#FFD600;">Bagaimana kehidupan Depok pada
+                        masa ini?</strong>
                     </p>
                     <p id="ayosimak">
                         <strong>Ayo simak kisah para penutur!</strong>
@@ -40,7 +40,7 @@
                                 <div
                                     class="portfolio-hover-content"
                                     style="position:absolute; bottom:0; background-image: url(img/asets/bangunan_bersejarah/kuning.png); width:100%; height:10%;text-align:center;">
-                                    <h2 style="margin-top:3%;color:black;">Arif Liberto Jacob</h2>
+                                    <h2 style="margin-top:3%;color:black;font-size:150%;">Arif Liberto Jacob</h2>
                                 </div>
                             </div>
                         </a>
@@ -57,7 +57,7 @@
                                 <div
                                     class="portfolio-hover-content"
                                     style="position:absolute; bottom:0; background-image: url(img/asets/bangunan_bersejarah/kuning.png); width:100%; height:10%;text-align:center;">
-                                    <h2 style="margin-top:3%;color:black;">Jovel Malonda</h2>
+                                    <h2 style="margin-top:3%;color:black; font-size:150%;">Jovel Malonda</h2>
                                 </div>
                             </div>
                         </a>
@@ -74,7 +74,7 @@
                                 <div
                                     class="portfolio-hover-content"
                                     style="position:absolute; bottom:0; background-image: url(img/asets/bangunan_bersejarah/kuning.png); width:100%; height:10%; text-align:center;">
-                                    <h2 style="margin-top:3%;color:black; width:100%; margin-left:-1%;">Bapak Yano Jonathans</h2>
+                                    <h2 style="margin-top:3%;color:black; width:100%; margin-left:-1%; font-size:150%;">Bapak Yano Jonathans</h2>
                                 </div>
 
                             </div>

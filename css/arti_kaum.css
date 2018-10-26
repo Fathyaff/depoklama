@@ -4,10 +4,14 @@
   }
   
   .subtitle-arti-depok-lama {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-size : 20px;
     color: white;
+  }
+  .subtitle-arti-depok-lama #ayosimak{
+	  color:#FFD600;
+	  font-weight: bold;
   }
   
   .title-arti-depok-lama h1{
@@ -142,6 +146,7 @@ Works
 	font-size: 16px;
 	line-height: 1.6em;
 	color: #555;
+	text-align: justify;
 }
 
 .og1-details a {

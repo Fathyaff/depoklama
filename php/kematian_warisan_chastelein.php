@@ -40,6 +40,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Kematian dan Surat Wasiat Chastelein</h2>
                             <p class="modal-desc-content">Cornelis Chastelein meninggal pada tahun 1714. Setahun sebelum ia meninggal, 
                                 Chastelein menuliskan surat wasiat yang berisi mengenai pemberian tanah Depok kepada 12 (dua belas) marga budaknya. 
                                 Para bekas budak Chastelein yang menerima warisan tersebut kemudian menganggap bahwa chastelein adalah majikan yang 
@@ -84,6 +85,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Cikal Bakal Kota Depok</h2>
                             <p class="modal-desc-content">Wilayah Depok Lama terus berkembang selepas kematian Chastelein. 
                                 Pada tahun 1871, Depok dianugerahi menjadi daerah otonom oleh pemerintah kolonial Belanda.
                                 Ketika itu Depok dipimpin oleh seorang presiden! Menurut Om Yano, pemilihan presiden tersebut 
@@ -141,6 +143,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Akhir Daerah Otonom Depok</h2>
                             <p class="modal-desc-content">
                             Depok menjadi daerah otonom sejak abad ke 19 sebelum UU mengenai daerah otonom diterapkan. 
                             Pada tahun 1949 hingga 1950 tanah partikelir Depok dibeli oleh Pemerintah Indonesia seharga Rp 221.000,- 

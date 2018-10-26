@@ -15,8 +15,8 @@
                         Ia membuat percontohan kota koloni di Depok dengan mempekerjakan ratusan budak yang 
                         didatangkan dari Bali, Makassar, Nusa Tenggara Timur, Maluku, Jawa, dan Pulau Rote. 
                         Ada anggapan bahwa ia memperlakukan para budaknya dengan penuh kasih sayang. 
-                        Hingga bagi sebagian warga Depok Lama, ia merupakan sosok seseorang yang orang suci. 
-                        Siapakah Cornelis Chastelein ini?</p>
+                        Hingga bagi sebagian warga Depok Lama, ia merupakan sosok seseorang yang orang suci.
+                        <strong style="color:#FFD600;"> Siapakah Cornelis Chastelein ini?</strong></p>
                     <p id="ayosimak">Ayo simak para penutur di bawah ini!</p>
                 </div>
             </div>
@@ -46,6 +46,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Silsilah Keluarga Chastelein</h2>
                             <p class="modal-desc-content">Cornelis Chastelein adalah anak terakhir dari 8 (delapan) orang bersaudara. 
                                 Ayahnya bernama Anthony Chastelein dan Ibunya bernama Maria Cruydenier. 
                                 Ia lahir pada 10 Agustus 1657 di Rokin, Amsterdam, Belanda.
@@ -92,6 +93,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>kehidupan Pribadi Chastelein</h2>
                             <p class="modal-desc-content">Cornelis Chastelein memiliki seorang istri yang bernama 
                                 Catharina van Qualberg pada tahun 1680 dan dikaruniai putra yang diberi nama 
                                 Anthony Chastelein, seperti nama kakeknya. Selain itu, ia juga memiliki anak 
@@ -141,6 +143,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Karir Chastelein di VOC</h2>
                             <p class="modal-desc-content">
                             Saat berusia 17 tahun, Cornelis muda pergi berlayar dari Belanda ke Batavia mengikuti jejak bibinya, 
                             Hanriette Chastelein. Sesampainya di Batavia, Menurut Meneer Lilie, pada awalnya ia bekerja menjadi 

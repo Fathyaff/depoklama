@@ -31,12 +31,16 @@
 }
 
 .subtitle-kdmc {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size : 20px;
   color: white;
 }
 
+.subtitle-kdmc #ayosimak{
+  color:#FFD600;
+  font-weight: bold;
+}
 .title-kdmc h1{
   color: white;
 }
@@ -80,6 +84,11 @@
 .modal-kdmc .modal-content .modal-desc-content {
   text-align: justify;
   font-size: 18px;
+}
+.modal-kdmc .modal-content  .modal-desc-title {
+  text-align: left;
+  font-size: 20pt;
+  margin-top :-3%;
 }
 
 /* The Close Button */

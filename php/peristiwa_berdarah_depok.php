@@ -15,6 +15,9 @@
                     Masyarakat Depok Lama ketika itu tidak turut merayakan kemerdekaannya, bahkan terjadi peristiwa berdarah 
                     yang mengarah kepada genosida. Peristiwa ini dikenal sebagai "Gedoran Depok".
                         </p>
+                    <br>
+                    <br>
+                    
                     <p id="ayosimak"><strong>Bagaimana peristiwa itu terjadi? <br> 
                     Ayo simak kisah para penutur!
                     </strong></p>

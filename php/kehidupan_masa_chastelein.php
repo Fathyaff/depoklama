@@ -16,8 +16,8 @@
                     <p>Pada tahun 1691 Chastelein mengundurkan diri dari pekerjaannya. Setelah pensiun, ia memutuskan untuk menjadi
                      wiraswastawan yang berfokus pada pertanian. Langkah awal yang diambil Chastelein dalam menjadi wiraswastawan 
                      di bidang pertanian ialah dengan membeli tanah kawasan Depok dan mendatangkan budak-budak yang berasal dari 
-                     berbagai penjuru di Indonesia terutama Indonesia bagian Timur.  
-                    Bagaimana kisah selengkapnya? </p>
+                     berbagai penjuru di Indonesia terutama Indonesia bagian Timur. <br> 
+                    <strong style="color:#FFD600;">Bagaimana kisah selengkapnya?</strong></p>
                     <p id="ayosimak">Simak kisah para penutur di bawah ini!</p>
                 </div>
             </div>
@@ -47,6 +47,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Visi Chastelein Membangun Depok</h2>
                             <p class="modal-desc-content">Chastelein memiliki visi membangun Depok menjadi sebuah komunitasi masyarakat 
                             nusantara yang menganut agama kristen, pandai berbahasa Belanda dan mandiri dalam pengelolaan wilayahnya.
                              Hal tersebut dibuat Chastelein sebagai bentuk ketidaksetujuan dengan koleganya di VOC yang hanya mementingkan 
@@ -109,6 +110,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Budak-Budak Chastelein</h2>
                             <p class="modal-desc-content">“Praktek perbudakan di nusantara berbeda dengan perbudakan di Eropa!” Tandas Mas Bondan.
                              Di nusantara, para budak masih diberikan upah dan keamanan. Meneer Lilie berpendapat bahwa Chastelein membawa 
                              budak-budaknya ke Depok dari berbagai penjuru nusantara untuk menggarap lahannya menjadi bernilai ekonomis. 
@@ -164,6 +166,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Pertanian dan Perkebunan</h2>
                             <p class="modal-desc-content">
                             Chastelein mempekerjakan para budaknya di bidang pertanian seperti padi dan tebu yang merupakan bahan pokok 
                             pada masa itu. Menurut Om Yano, ia juga membangun pabrik gula di Noordweg atau daerah pintu air. 
@@ -222,6 +225,7 @@
                 <div class="row row-top">
                     <div class="col-8 col-md-8">
                         <div class="row">
+                        <h2 class='modal-desc-title'>Peraturan Chastelein</h2>
                             <p class="modal-desc-content">
                             Chastelein menerapkan beberapa peraturan kepada para budaknya untuk menjaga mereka. 
                             Peraturan tersebut antara lain adalah para budak harus memeluk agama kristen dan menguasai 

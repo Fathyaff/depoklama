@@ -140,7 +140,8 @@ if (isset($_POST['submit'])) {
         <!-- GEDORAN -->
         <?php include "php/peristiwa_berdarah_depok.php"; ?>
         <?php include "php/gedoran.php"; ?>
-        <?php include "php/saksi_gedoran_depok.php"; ?>
+        <?php include "php/gedoran_depok_sosok.php"; ?>
+        <?php include "php/saksi_gedoran.php"; ?>
         <?php include "php/penyelamatan_nica.php"; ?>
         <?php include "php/nica_dan_tkr.php"; ?>
         </section>

@@ -25,9 +25,14 @@
 }
 
 .subtitle-asal-kata-depok {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size : 20px;
+}
+
+.subtitle-asal-kata-depok #ayosimak {
+  font-weight: bold;
+  color:#515050;
 }
 
  /* The Modal (background) */
@@ -67,6 +72,13 @@
 .modal-asal-kata-depok .modal-content .modal-desc-content {
   text-align: left;
   font-size: 18px;
+  
+}
+
+.modal-asal-kata-depok .modal-content .modal-desc-title{
+  font-size: 150%;
+  text-align: left;
+  margin-top :-2%;
 }
 
 /* The Close Button */

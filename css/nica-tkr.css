@@ -11,3 +11,42 @@
 .title-voting-nica-tkr h1{
   color: white;
 }
+
+.hasil-voting-nica-tkr {
+  width: 50px;
+  height: 200px;
+  background-color: white;
+  margin: auto;
+  display: none;
+  border-radius: 15px 15px 0px 0px;
+  background-size: 200% 200%;
+}
+
+.angka-voting-nica-tkr {
+  display: none;
+  color: white;
+}
+
+/* .hasil-voting-nica-tkr:hover {
+
+  background-image:
+  linear-gradient(to top, yellow 50%, transparent 50%);
+  background-position: 0 50%;
+  transition: background-position 300ms, color 300ms ease;
+  -webkit-transition: background-position 300ms, color 300ms ease;
+  -moz-transition: background-position 300ms, color 300ms ease;
+  -ms-transition: background-position 300ms, color 300ms ease;
+
+} */
+
+@-webkit-keyframes Animation {
+  0%{background-position:0%}
+  50%{background-position:50%}
+  100%{background-position:100%}
+}
+
+@keyframes anim {
+  from {background: -webkit-linear-gradient(bottom, yellow, yellow 0%, white 100%, white);}
+  to {background: -webkit-linear-gradient(bottom, yellow, yellow 50%, white 50%, white);}
+  /* 100% {background: -webkit-linear-gradient(bottom, yellow, yellow 100%, white 0%, white);} */
+}

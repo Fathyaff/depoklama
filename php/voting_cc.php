@@ -1,10 +1,119 @@
+<?php
+
+try {
+    $connection = new PDO($dsn, $username, $password, $options);
+    $sql = "SELECT * FROM voting_cc";
+    $statement = $connection->prepare($sql);
+    $statement->execute();
+    $result = $statement->fetchAll(PDO::FETCH_ASSOC);
+    foreach($result as $row) {
+        echo "asdasdsa";
+        echo $row['penjajah'];
+     }
+} catch(PDOException $error) {
+    echo $sql . "<br>" . $error->getMessage();
+}
+
+if (isset($_POST['penjajah_x']) || isset($_POST['penjajah_y']) ) {
+
+    try  {
+      $connection = new PDO($dsn, $username, $password, $options);
+    //   $sql = "SELECT * FROM voting_cc";
+    //   $statement = $connection->prepare($sql);
+    //   $statement->execute();
+    //   $result = $statement->fetch(PDO::FETCH_ASSOC);
+
+      $new_voting_cc = array(
+        "id" => 1,
+        "penjajah"  => $row['penjajah']+1,
+        "orang_suci"     => $row['orang_suci']+0,
+        "pebisnis"     => $row['pebisnis']+0,
+        );
+      $sql = "UPDATE voting_cc
+              SET
+                penjajah = :penjajah,
+                orang_suci = :orang_suci,
+                pebisnis = :pebisnis
+              WHERE id = :id";
+
+      $statement = $connection->prepare($sql);
+      $statement->execute($new_voting_cc);
+    } catch(PDOException $error) {
+        echo $sql . "ERORTAYO<br>" . $error->getMessage();
+    }
+  }
+
+
+  if (isset($_POST['orangsuci_x']) || isset($_POST['orangsuci_y']) ) {
+
+    try  {
+      $connection = new PDO($dsn, $username, $password, $options);
+
+    //   $sql = "SELECT * FROM voting_cc";
+    //   $statement = $connection->prepare($sql);
+    //   $statement->execute();
+    //   $result = $statement->fetch(PDO::FETCH_ASSOC);
+
+      $new_voting_cc = array(
+        "id" => 1,
+        "penjajah"  => $row['penjajah']+0,
+        "orang_suci"     => $row['orang_suci']+1,
+        "pebisnis"     => $row['pebisnis']+0,
+        );
+      $sql = "UPDATE voting_cc
+              SET
+                penjajah = :penjajah,
+                orang_suci = :orang_suci,
+                pebisnis = :pebisnis
+              WHERE id = :id";
+
+      $statement = $connection->prepare($sql);
+      $statement->execute($new_voting_cc);
+    } catch(PDOException $error) {
+        echo $sql . "ERORTAYO<br>" . $error->getMessage();
+    }
+  }
+
+  if (isset($_POST['pebisnis_x']) || isset($_POST['pebisnis_y']) ) {
+
+    try  {
+      $connection = new PDO($dsn, $username, $password, $options);
+
+    //   $sql = "SELECT * FROM voting_cc";
+    //   $statement = $connection->prepare($sql);
+    //   $statement->execute();
+    //   $result = $statement->fetch(PDO::FETCH_ASSOC);
+
+      $new_voting_cc = array(
+        "id" => 1,
+        "penjajah"  => $row['penjajah']+0,
+        "orang_suci"     => $row['orang_suci']+0,
+        "pebisnis"     => $row['pebisnis']+1,
+        );
+      $sql = "UPDATE voting_cc
+              SET
+                penjajah = :penjajah,
+                orang_suci = :orang_suci,
+                pebisnis = :pebisnis
+              WHERE id = :id";
+
+      $statement = $connection->prepare($sql);
+      $statement->execute($new_voting_cc);
+    } catch(PDOException $error) {
+        echo $sql . "ERORTAYO<br>" . $error->getMessage();
+    }
+  }
+
+
+?>
+
 <!-- What We Do -->
 <section id="voting-cc" class="default-section">
     <div class="container-voting-cc">
         <div class="row">
             <div class="col align-self-center">
                 <div class="title-voting-cc">
-                    <h1>Cornelis Chastelein<br> Penjajah, Orang Suci, atau Pebisnis?</h1>
+                    <h1 class="title-voting-cc">Cornelis Chastelein<br> Penjajah, Orang Suci, atau Pebisnis?</h1>
                 </div>
             </div>
         </div>
@@ -33,34 +142,41 @@
         <div class="row">
             <div class="col align-self-center">
                 <div class="title-button-voting-cc">
-                    <h1>Cornelis Chastelein<br> Penjajah, Orang Suci, atau Pebisnis?</h1>
+                    <h1 class="title-button-voting-cc-text">Cornelis Chastelein<br> Penjajah, Orang Suci, atau Pebisnis?</h1>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col align-self-center">
                 <div class="button-voting-cc">
-                    <div class="col-6 col-md-4">
-                        <img id="voting-button-penjajah" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverPenjajah();" onmouseout="offHoverPenjajah();"/>
-                        <h4 class="text-voting-button"> PENJAJAH </h4>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <img id="voting-button-orang-suci" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverOrangSuci();" onmouseout="offHoverOrangSuci();"/>
-                        <h4 class="text-voting-button"> ORANG SUCI </h4>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <img id="voting-button-pebisnis" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverPebisnis();" onmouseout="offHoverPebisnis();"/>
-                        <h4 class="text-voting-button"> PEBISNIS </h4>
-                    </div>
+                    <iframe name="votar" style="display:none;"></iframe>
+                        <form method="post" class="form-horizontal" target="votar">
+
+                        <div class="col-6 col-md-4">
+                            <p></p>
+                            <h4 id="angka-penjajah" class="angka-voting-penjajah-orangsuci-pebisnis"><?php echo $row['penjajah'];?></h4>
+                            <div id="hasil-voting-penjajah" class="hasil-voting-penjajah-orangsuci-pebisnis"></div>
+                            <input type="image" name="penjajah" id="voting-button-penjajah" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverPenjajah();" onmouseout="offHoverPenjajah();" onclick="animateAfterClickCC();">
+                            <h4 class="text-voting-button"> PENJAJAH </h4>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <p></p>
+                            <h4 id="angka-orangsuci" class="angka-voting-penjajah-orangsuci-pebisnis"><?php echo $row['orang_suci'];?></h4>
+                            <div id="hasil-voting-orangsuci" class="hasil-voting-penjajah-orangsuci-pebisnis"></div>
+                            <input type="image" name="orangsuci" id="voting-button-orang-suci" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverOrangSuci();" onmouseout="offHoverOrangSuci();" onclick="animateAfterClickCC();">
+                            <h4 class="text-voting-button"> ORANG SUCI </h4>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <p></p>
+                            <h4 id="angka-pebisnis" class="angka-voting-penjajah-orangsuci-pebisnis"><?php echo $row['pebisnis'];?></h4>
+                            <div id="hasil-voting-pebisnis" class="hasil-voting-penjajah-orangsuci-pebisnis"></div>
+                            <input type="image" name="pebisnis" id="voting-button-pebisnis" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverPebisnis();" onmouseout="offHoverPebisnis();" onclick="animateAfterClickCC();">
+                            <h4 class="text-voting-button"> PEBISNIS </h4>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="col align-self-center">
-                <div class="text-button-voting-cc">
-                </div>
-            </div>
-        </div> -->
     </div>
 </section>
         <script src="js/voting-cc.js"></script>

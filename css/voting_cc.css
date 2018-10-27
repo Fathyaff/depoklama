@@ -17,15 +17,31 @@
   .voting-button{
     cursor: pointer;
     width: 10%;
+    /* background-size: 30px 30px */
   }
 
   .text-voting-button{
     color: white;
   }
 
-  .title-button-voting-cc h1{
+  .title-button-voting-cc-text{
     margin-bottom: 300px;
     color: white;
+  }
+
+  .angka-voting-penjajah-orangsuci-pebisnis {
+    color: white;
+    display: none;
+  }
+
+  .hasil-voting-penjajah-orangsuci-pebisnis {
+    width: 50px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    display: none;
+    border-radius: 15px 15px 0px 0px;
+    background-size: 200% 200%;
   }
   /* #depok-masa-chastelein {
     background: url(images/bg-pop-up.jpg) no-repeat center center fixed;

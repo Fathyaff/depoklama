@@ -105,7 +105,7 @@ if (isset($_POST['nica_x']) || isset($_POST['nica_y']) ) {
                         src="img/asets/voting/circle.png"
                         onmouseover="onHoverNica();"
                         onmouseout="offHoverNica();"
-                        onclick="animateAfterClick();">
+                        onclick="animateAfterClick('nica');">
                         <!-- <img name="nica"src="img/asets/voting/circle.png" onmouseover="onHoverNica();" onmouseout="offHoverNica();"/> -->
 
                         <h4 class="text-voting-button"> NICA </h4>
@@ -121,7 +121,7 @@ if (isset($_POST['nica_x']) || isset($_POST['nica_y']) ) {
                         src="img/asets/voting/circle.png"
                         onmouseover="onHoverTkr();"
                         onmouseout="offHoverTkr();"
-                        onclick="animateAfterClick();">
+                        onclick="animateAfterClick('tkr');">
                         <h4 class="text-voting-button"> TKR </h4>
                     </div>
                 </form>

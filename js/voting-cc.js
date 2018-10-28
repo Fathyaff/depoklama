@@ -26,12 +26,20 @@ function offHoverPebisnis()
     $("#voting-button-pebisnis").attr('src', 'img/asets/voting/circle.png');
 }
 
-function animateAfterClickCC() {
-    var penjajah = document.getElementById("angka-penjajah").textContent;
-    var orangsuci = document.getElementById("angka-orangsuci").textContent;
-    var pebisnis = document.getElementById("angka-pebisnis").textContent;
+function animateAfterClickCC(param) {
+    var penjajah = parseInt(document.getElementById("angka-penjajah").textContent);
+    var orangsuci = parseInt(document.getElementById("angka-orangsuci").textContent);
+    var pebisnis = parseInt(document.getElementById("angka-pebisnis").textContent);
 
-    var total = parseInt(penjajah)+parseInt(orangsuci)+parseInt(pebisnis);
+    if (param == "penjajah") {
+        penjajah = penjajah +1;
+    } else if (param == "orangsuci") {
+        orangsuci = orangsuci +1;
+    } else if (param == "pebisnis") {
+        pebisnis = pebisnis +1;
+    }
+
+    var total = (penjajah)+(orangsuci)+(pebisnis);
     var tinggi_penjajah = (penjajah/total)*100;
     var tinggi_orangsuci = (orangsuci/total)*100;
     var tinggi_pebisnis = (pebisnis/total)*100;
@@ -68,5 +76,7 @@ function animateAfterClickCC() {
     "background-position 30000000ms, color 30000000ms ease;";
 
     document.getElementsByClassName("title-button-voting-cc-text")[0].style.marginBottom = "0%";
-
+    document.getElementById("angka-penjajah").textContent = penjajah;
+    document.getElementById("angka-orangsuci").textContent = orangsuci;
+    document.getElementById("angka-pebisnis").textContent = pebisnis;
 }

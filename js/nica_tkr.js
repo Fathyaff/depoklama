@@ -17,10 +17,18 @@ function offHoverTkr()
     $("#voting-button-tkr").attr('src', 'img/asets/voting/circle.png');
 }
 
-function animateAfterClick() {
-    var nica = document.getElementById("angka-nica").textContent;
-    var tkr = document.getElementById("angka-tkr").textContent;
-    var totalNicaTkr = parseInt(nica)+parseInt(tkr);
+function animateAfterClick(nicatkr) {
+
+    var nica = parseInt(document.getElementById("angka-nica").textContent);
+    var tkr = parseInt(document.getElementById("angka-tkr").textContent);
+
+    if (nicatkr == "nica"){
+        nica = nica + 1;
+    } else if (nicatkr == "tkr") {
+        tkr = tkr + 1;
+    }
+
+    var totalNicaTkr = (nica)+(tkr)+1;
     var tinggi_nica = (nica/totalNicaTkr)*100;
     var tinggi_tkr = (tkr/totalNicaTkr)*100;
 
@@ -47,6 +55,9 @@ function animateAfterClick() {
 
 
     document.getElementsByClassName("nica-tkr-row")[0].style.paddingTop = "0%";
+    document.getElementById("angka-nica").textContent = nica;
+    document.getElementById("angka-tkr").textContent = tkr;
+
 }
 
 

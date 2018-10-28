@@ -131,3 +131,26 @@
   height: 100%;
   width: 100%;
 }
+
+@media only screen and (max-height: 360px) {
+
+.preloader .paragraph-first{
+  margin-top: 3%;
+  font-size: 2rem;
+  line-height: 1%;
+  color: white;
+}
+.preloader .paragraph-second{
+  margin-top:5%;
+  margin-bottom: 5%;
+  font-size: 2rem;
+  line-height: 1%;
+  color: white;
+}
+
+
+.preloader img {
+  top:13%;
+  margin-top: 11%;
+}
+}

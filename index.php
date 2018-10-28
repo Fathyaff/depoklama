@@ -41,19 +41,8 @@ if (isset($_POST['submit'])) {
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
             <div class="navbar-header">
-                    <button
-                        type="button"
-                        class="navbar-toggle"
-                        data-toggle="collapse"
-                        data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle nav</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="img/asets/logo.png" width="5%" style="margin-top:-1%;" alt=""></a>
-
-                </div>
+              <a class="navbar-brand" href="#"><img src="img/asets/logo.png" width="5%" style="margin-top:-1%;" alt=""></a>        
+            </div>
                 <a class="menu-toggle rounded" href="#">
                     <i class="fa fa-bars"></i>
                   </a>
@@ -110,7 +99,7 @@ if (isset($_POST['submit'])) {
                     <div class="col-md-12 slide-kebawah">
                         <img id="slide-bawah" src="img/asets/panah.png" width="100px" alt="">
                         <br>
-                        <p style="font-family: 'TrajanProRegular';">mulai bertualang</p>
+                        <p style="font-family:'TrajanProRegular';">mulai bertualang</p>
                     </div>
                 </div>
             </div>

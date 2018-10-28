@@ -1,6 +1,6 @@
 <!-- What We Do -->
 <section id="pengantar" class="default-section bg-white" style="
-        background-image: url(img/asets/bg-quotes.png); background-position: center; background-size: cover;
+        background-image: url(img/asets/bg-quotes.png); background-position: center; background-size: cover;height:100vh; width:100wh;
     ">
     <div class="container-pengantar">
         <div class="row">

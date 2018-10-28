@@ -49,23 +49,23 @@ $(document).ready(function() {
 
 
     $('#toggle-peta-titi').bind("click", function() {
-      if ($(this).attr("class") == "play-titi"){
+      if ($(this).attr("class") == "play-titi toggle-audio"){
         playAudioPetaTiti();
-        $(this).attr("class", "pause-titi");
+        $(this).attr("class", "pause-titi toggle-audio");
       } else{
         pauseAudioPetaTiti();
-        $(this).attr("class", "play-titi");
+        $(this).attr("class", "play-titi toggle-audio");
       }
          
     });
 
     $('#toggle-peta-bondan').bind("click", function() {
-        if ($(this).attr("class") == "play-bondan"){
+        if ($(this).attr("class") == "play-bondan toggle-audio"){
           playAudioPetaBondan();
-          $(this).attr("class", "pause-bondan");
+          $(this).attr("class", "pause-bondan toggle-audio");
         } else{
           pauseAudioPetaBondan();
-          $(this).attr("class", "play-bondan");
+          $(this).attr("class", "play-bondan toggle-audio");
         }
       });
 
@@ -73,11 +73,11 @@ $(document).ready(function() {
         modalPeta.style.display = "none";
         audioPetaTiti.pause();
         audioPetaTiti.currentTime = 0;
-        $('#toggle-peta-titi').attr("class", "play-titi");
+        $('#toggle-peta-titi').attr("class", "play-titi toggle-audio");
         
         audioPetaBondan.pause();
         audioPetaBondan.currentTime = 0;
-        $('#toggle-peta-bondan').attr("class", "play-bondan");
+        $('#toggle-peta-bondan').attr("class", "play-bondan toggle-audio");
     }
     // When the user clicks on <span> (x), close the modal
     span_close_peta.onclick = function() {
@@ -107,23 +107,23 @@ $(document).ready(function() {
 
 
     $('#toggle-padepokan-titi').bind("click", function() {
-      if ($(this).attr("class") == "play-titi"){
+      if ($(this).attr("class") == "play-titi toggle-audio"){
         playAudioPadepokanTiti();
-        $(this).attr("class", "pause-titi");
+        $(this).attr("class", "pause-titi toggle-audio");
       } else{
         pauseAudioPadepokanTiti();
-        $(this).attr("class", "play-titi");
+        $(this).attr("class", "play-titi toggle-audio");
       }
          
     });
 
     $('#toggle-padepokan-lili').bind("click", function() {
-        if ($(this).attr("class") == "play-lili"){
+        if ($(this).attr("class") == "play-lili toggle-audio"){
             playAudioPadepokanLili();
-          $(this).attr("class", "pause-lili");
+          $(this).attr("class", "pause-lili toggle-audio");
         } else{
             pauseAudioPadepokanLili();
-          $(this).attr("class", "play-lili");
+          $(this).attr("class", "play-lili toggle-audio");
         }
       });
     
@@ -131,12 +131,11 @@ $(document).ready(function() {
         modalPadepokan.style.display = "none";
         pauseAudioPadepokanTiti();
         audioPadepokanTiti.currentTime = 0;
-        $('#toggle-padepokan-titi').attr("class", "play-titi");
-        
+        $('#toggle-padepokan-titi').attr("class","play-titi toggle-audio");
+                
         pauseAudioPadepokanLili();
         audioPadepokanLili.currentTime = 0;
-        $('#toggle-padepokan-lili').attr("class", "play-lili");
-        
+        $('#toggle-padepokan-lili').attr("class", "play-lili toggle-audio");
     }
     /* ===============================================================
     ==================== PLAY PAUSE AKRONIM ========================
@@ -179,52 +178,53 @@ $(document).ready(function() {
     } 
 
     $('#toggle-akronim-yano').bind("click", function() {
-      if ($(this).attr("class") == "play-yano"){
+      if ($(this).attr("class") == "play-yano toggle-audio"){
         playAudioAkronimYano();
-        $(this).attr("class", "pause-yano");
+        $(this).attr("class", "pause-yano toggle-audio");
       } else{
         pauseAudioAkronimYano();
-        $(this).attr("class", "play-yano");
+        $(this).attr("class", "play-yano toggle-audio");
       }
          
     });
 
     $('#toggle-akronim-ferdy').bind("click", function() {
-        if ($(this).attr("class") == "play-ferdy"){
+        if ($(this).attr("class") == "play-ferdy toggle-audio"){
             playAudioAkronimFerdy();
-          $(this).attr("class", "pause-ferdy");
+          $(this).attr("class", "pause-ferdy toggle-audio");
         } else{
             pauseAudioAkronimFerdy();
-          $(this).attr("class", "play-ferdy");
+          $(this).attr("class", "play-ferdy toggle-audio");
         }
       });
 
       $('#toggle-akronim-lili').bind("click", function() {
-        if ($(this).attr("class") == "play-lili"){
+        if ($(this).attr("class") == "play-lili toggle-audio"){
             playAudioAkronimLili();
-          $(this).attr("class", "pause-lili");
+          $(this).attr("class", "pause-lili toggle-audio");
         } else{
             pauseAudioAkronimLili();
+            $(this).attr("class", "play-lili toggle-audio");
         }      
       });
 
       $('#toggle-akronim-boy').bind("click", function() {
-        if ($(this).attr("class") == "play-boy"){
+        if ($(this).attr("class") == "play-boy toggle-audio"){
             playAudioAkronimBoy();
-          $(this).attr("class", "pause-boy");
+          $(this).attr("class", "pause-boy toggle-audio");
         } else{
             pauseAudioAkronimBoy();
-          $(this).attr("class", "play-boy");
+          $(this).attr("class", "play-boy toggle-audio");
         }
       });
 
     span_close_akronim.onclick = function() {
         modalAkronim.style.display = "none";
         
-        $('#toggle-akronim-yano').attr("class", "play-yano");
-        $('#toggle-akronim-boy').attr("class", "play-boy");
-        $('#toggle-akronim-ferdy').attr("class", "play-ferdy");
-        $('#toggle-akronim-lili').attr("class", "play-lili");
+        $('#toggle-akronim-yano').attr("class", "play-yano toggle-audio");
+        $('#toggle-akronim-boy').attr("class", "play-boy toggle-audio");
+        $('#toggle-akronim-ferdy').attr("class", "play-ferdy toggle-audio");
+        $('#toggle-akronim-lili').attr("class", "play-lili toggle-audio");
         
         pauseAudioAkronimYano();
         pauseAudioAkronimFerdy();

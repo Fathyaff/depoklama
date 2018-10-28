@@ -71,8 +71,8 @@ $(document).ready(function() {
                 document.getElementById("audioPetaBondan").currentTime = 0; 
                 document.getElementById("audioPetaTiti").currentTime = 0; 
 
-                $('#toggle-peta-titi').attr("class", "play-titi");
-                $('#toggle-peta-bondan').attr("class", "play-bondan");
+                $('#toggle-peta-titi').attr("class", "play-titi toggle-audio");
+                $('#toggle-peta-bondan').attr("class", "play-bondan toggle-audio");
             }
             if (event.target == modalPadepokan1) {
                 modalPadepokan1.style.display = "none";
@@ -82,8 +82,8 @@ $(document).ready(function() {
                 document.getElementById("audioPadepokanLili").currentTime = 0; 
                 document.getElementById("audioPadepokanTiti").currentTime = 0; 
 
-                $('#toggle-padepokan-titi').attr("class", "play-titi");
-                $('#toggle-padepokan-lili').attr("class", "play-lili");
+                $('#toggle-padepokan-titi').attr("class", "play-titi toggle-audio");
+                $('#toggle-padepokan-lili').attr("class", "play-lili toggle-audio");
 
             }
             if (event.target == modalAkronim1) {
@@ -98,10 +98,10 @@ $(document).ready(function() {
                 document.getElementById("audioAkronimFerdy").currentTime = 0; 
                 document.getElementById("audioAkronimBoy").currentTime = 0; 
 
-                $('#toggle-akronim-yano').attr("class", "play-yano");
-                $('#toggle-akronim-ferdy').attr("class", "play-ferdy");
-                $('#toggle-akronim-boy').attr("class", "play-boy");
-                $('#toggle-akronim-lili').attr("class", "play-lili");
+                $('#toggle-akronim-yano').attr("class", "play-yano toggle-audio");
+                $('#toggle-akronim-ferdy').attr("class", "play-ferdy toggle-audio");
+                $('#toggle-akronim-boy').attr("class", "play-boy toggle-audio");
+                $('#toggle-akronim-lili').attr("class", "play-lili toggle-audio");
 
             }
 
@@ -113,8 +113,8 @@ $(document).ready(function() {
                 document.getElementById("audioAlurSuzana").currentTime = 0; 
                 document.getElementById("audioAlurFara").currentTime = 0;
 
-                $('#toggle-alur-suzana').attr("class", "play-suzana");
-                $('#toggle-alur-fara').attr("class", "play-fara");
+                $('#toggle-alur-suzana').attr("class", "play-suzana toggle-audio");
+                $('#toggle-alur-fara').attr("class", "play-fara toggle-audio");
             }
             if (event.target == modalBangunan1) {
                 modalBangunan1.style.display = "none";
@@ -133,10 +133,10 @@ $(document).ready(function() {
                 document.getElementById("audioPelakuSuzana").currentTime = 0; 
                 document.getElementById("audioPelakuFara").currentTime = 0;
                 
-                $('#toggle-pelaku-suzana').attr("class", "play-suzana");
-                $('#toggle-pelaku-fara').attr("class", "play-fara");
-                $('#toggle-pelaku-boy').attr("class", "play-boy");
-                $('#toggle-pelaku-lili').attr("class", "play-lili");
+                $('#toggle-pelaku-suzana').attr("class", "play-suzana toggle-audio");
+                $('#toggle-pelaku-fara').attr("class", "play-fara toggle-audio");
+                $('#toggle-pelaku-boy').attr("class", "play-boy toggle-audio");
+                $('#toggle-pelaku-lili').attr("class", "play-lili toggle-audio");
             }
             if (event.target == modalProklamasi1) {
                 modalProklamasi1.style.display = "none";
@@ -148,9 +148,9 @@ $(document).ready(function() {
                 document.getElementById("audioProklamasiLili").currentTime = 0; 
                 document.getElementById("audioProklamasiFara").currentTime = 0;
                 
-                $('#toggle-proklamasi-boy').attr("class", "play-boy");
-                $('#toggle-proklamasi-fara').attr("class", "play-fara");
-                $('#toggle-proklamasi-lili').attr("class", "play-lili");
+                $('#toggle-proklamasi-boy').attr("class", "play-boy toggle-audio");
+                $('#toggle-proklamasi-fara').attr("class", "play-fara toggle-audio");
+                $('#toggle-proklamasi-lili').attr("class", "play-lili toggle-audio");
                 
             }
 
@@ -187,8 +187,8 @@ $(document).ready(function() {
                 document.getElementById("audioPerkebunanYano").currentTime = 0;
                 document.getElementById("audioPerkebunanLili").currentTime = 0;
 
-                $('#toggle-perkebunan-lili').attr("class", "play-lili");
-                $('#toggle-perkebunan-yano').attr("class", "play-yano");
+                $('#toggle-perkebunan-lili').attr("class", "play-lili toggle-audio");
+                $('#toggle-perkebunan-yano').attr("class", "play-yano toggle-audio");
             }
             if (event.target == modalAturan1) {
                 modalAturan1.style.display = "none";
@@ -197,15 +197,15 @@ $(document).ready(function() {
                 document.getElementById("audioAturanLili").pause(); 
                 document.getElementById("audioAturanLili").currentTime = 0;
 
-                $('#toggle-aturan-lili').attr("class", "play-lili");
-                $('#toggle-aturan-boy').attr("class", "play-boy");
+                $('#toggle-aturan-lili').attr("class", "play-lili toggle-audio");
+                $('#toggle-aturan-boy').attr("class", "play-boy toggle-audio");
             }
 
             if (event.target == modalKematian1) {
                 modalKematian.style.display = "none";
                 document.getElementById("audioKematianSuzana").pause();
                 document.getElementById("audioKematianSuzana").currentTime = 0;
-                $('#toggle-kematian-suzana').attr("class", "play-suzana");
+                $('#toggle-kematian-suzana').attr("class", "play-suzana toggle-audio");
             }
             if (event.target == modalCikal1) {
                 modalCikal.style.display = "none";
@@ -214,58 +214,58 @@ $(document).ready(function() {
                 document.getElementById("audioCikalLili").pause();
                 document.getElementById("audioCikalLili").currentTime = 0;
 
-                $('#toggle-cikal-yano').attr("class", "play-yano");
-                $('#toggle-cikal-lili').attr("class", "play-lili");
+                $('#toggle-cikal-yano').attr("class", "play-yano toggle-audio");
+                $('#toggle-cikal-lili').attr("class", "play-lili toggle-audio");
             }
             if (event.target == modalOtonom1) {
                 modalOtonom.style.display = "none";
                 document.getElementById("audioOtonomTiti").pause();
                 document.getElementById("audioOtonomTiti").currentTime = 0;
-                $('#toggle-otonom-titi').attr("class", "play-titi");
+                $('#toggle-otonom-titi').attr("class", "play-titi toggle-audio");
             }
 
             if (event.target == modalKronologi1) {
                 modalKronologi.style.display = "none";
                 document.getElementById("audioKronologiSuzana").pause();
                 document.getElementById("audioKronologiSuzana").currentTime = 0;
-                $('#toggle-kronologi-suzana').attr("class", "play-suzana");
+                $('#toggle-kronologi-suzana').attr("class", "play-suzana toggle-audio");
             }
             if (event.target == modalWdpg1) {
                 modalWdpg.style.display = "none";
                 document.getElementById("audioWdpgBoy").pause();
                 document.getElementById("audioWdpgBoy").currentTime = 0;
-                $('#toggle-wdpg-boy').attr("class", "play-boy");
+                $('#toggle-wdpg-boy').attr("class", "play-boy toggle-audio");
             }
             if (event.target == modalPesan1) {
                 modalPesan.style.display = "none";
                 document.getElementById("audioPesanSuzana").pause();
                 document.getElementById("audioPesanSuzana").currentTime = 0;
-                $('#toggle-pesan-suzana').attr("class", "play-suzana");
+                $('#toggle-pesan-suzana').attr("class", "play-suzana toggle-audio");
             }
 
             if (event.target == modalSaksiGovert1) {
                 modalSaksiGovert.style.display = "none";
                 document.getElementById("audioSaksiGovert").pause();
                 document.getElementById("audioSaksiGovert").currentTime = 0;
-                $('#toggle-saksi-govert').attr("class", "play-govert");
+                $('#toggle-saksi-govert').attr("class", "play-govert toggle-audio");
             }
             if (event.target == modalSaksiSuzana1) {
                 modalSaksiSuzana.style.display = "none";
                 document.getElementById("audioSaksiSuzana").pause();
                 document.getElementById("audioSaksiSuzana").currentTime = 0;
-                $('#toggle-saksi-suzana').attr("class", "play-suzana");
+                $('#toggle-saksi-suzana').attr("class", "play-suzana toggle-audio");
             }
             if (event.target == modalKeluarga1) {
                 modalKeluarga.style.display = "none";
                 document.getElementById("audioKeluargaLili").pause();
                 document.getElementById("audioKeluargaLili").currentTime = 0;
-                $('#toggle-keluarga-lili').attr("class", "play-lili");
+                $('#toggle-keluarga-lili').attr("class", "play-lili toggle-audio");
             }
             if (event.target == modalPribadi1) {
                 modalPribadi.style.display = "none";
                 document.getElementById("audioPribadiBondan").pause();
                 document.getElementById("audioPribadiBondan").currentTime = 0;
-                $('#toggle-pribadi-bondan').attr("class", "play-bondan");
+                $('#toggle-pribadi-bondan').attr("class", "play-bondan toggle-audio");
             }
             if (event.target == modalKarir1) {
                 modalKarir.style.display = "none";
@@ -276,8 +276,8 @@ $(document).ready(function() {
                 document.getElementById("audioKarirBondan").pause();
                 document.getElementById("audioKarirBondan").currentTime = 0;
 
-                $('#toggle-karir-lili').attr("class", "play-lili");
-                $('#toggle-karir-bondan').attr("class", "play-bondan");
+                $('#toggle-karir-lili').attr("class", "play-lili toggle-audio");
+                $('#toggle-karir-bondan').attr("class", "play-bondan toggle-audio");
             }
             if (event.target == modalTanah1) {
                 modalTanah.style.display = "none";
@@ -288,9 +288,9 @@ $(document).ready(function() {
                 document.getElementById("audioTanahFerdy").pause();
                 document.getElementById("audioTanahFerdy").currentTime = 0;
 
-                $('#toggle-tanah-titi').attr("class", "play-titi");
-                $('#toggle-tanah-fara').attr("class", "play-fara");
-                $('#toggle-tanah-ferdy').attr("class", "play-ferdy");
+                $('#toggle-tanah-titi').attr("class", "play-titi toggle-audio");
+                $('#toggle-tanah-fara').attr("class", "play-fara toggle-audio");
+                $('#toggle-tanah-ferdy').attr("class", "play-ferdy toggle-audio");
 
             }
         }

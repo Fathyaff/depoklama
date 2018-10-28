@@ -11,18 +11,6 @@
 	font-family: 'HelveticaRegular';
 	
 }
-
-@media only screen and (max-width: 320px) {
-	#pengantar .container-pengantar p{
-	  font-size: 1em;
-	}
-  }
-
-  
-/* .button-pengantar img {
-	
-} */
-
 .play {
 	margin : 0% 25% 0 48%;
 	width:50px;
@@ -39,3 +27,33 @@
 	background-size: 50px 50px;
 	float:left;
 }
+
+@media only screen and (max-height: 360px) {
+	#pengantar .container-pengantar p{
+		display: block;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: 1.5em;
+		line-height: 120%;
+		margin-top: -3%;
+	}
+
+
+	.play {
+		margin : 0% 25% 0 48%;
+		width:20px;
+		height:20px;
+		background-image: url(../img/asets/play.png);
+		background-size:20px 20px;
+		float:left;
+	}
+	.pause {
+		margin : 0% 25% 0 48%;
+		width:20px;
+		height:20px;
+		background-image: url(../img/asets/pause.png);
+		background-size: 20px 20px;
+		float:left;
+	}
+  }
+

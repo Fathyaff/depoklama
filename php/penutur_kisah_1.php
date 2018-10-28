@@ -56,16 +56,16 @@
             <div class="modal-content-penutur-kisah">
                 <span class="close">&times;</span>
                 <div class="row row-top">
-                    <div class="col-4 col-md-4 col-xs-4">
-                        <img src="img/asets/penutur_kisah/bondan.png" id="bondan-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/faradiba.png" id="faradiba-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/yano.png" id="yano-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/ferdy.png" id="ferdy-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/govert.png" id="govert-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/lili.png" id="lili-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/suzana.png" id="suzana-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/titi.png" id="titi-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <img src="img/asets/penutur_kisah/boy.png" id="boy-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
+                    <div class="col-4 col-md-4 col-xs-4 imgmodal">
+                        <img src="img/asets/penutur_kisah/bondan.png" id="bondan-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/faradiba.png" id="faradiba-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/yano.png" id="yano-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/ferdy.png" id="ferdy-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/govert.png" id="govert-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/lili.png" id="lili-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/suzana.png" id="suzana-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/titi.png" id="titi-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
+                        <img src="img/asets/penutur_kisah/boy.png" id="boy-modal" style="display: none;" alt="" width="100%" class=" img-responsive"/>
                        
                     </div>
                     <div class="col-8 col-md-8 col-xs-8">

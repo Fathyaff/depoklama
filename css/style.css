@@ -200,8 +200,8 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-header a{
-	font-size: 10%;
-	font-weight: 100;
+
+	top:0;
 	opacity: 1;
 }
 
@@ -392,14 +392,13 @@ Intro
 ================================= */
 
 #intro {
-	position: relative;
+		position: relative;
 	margin: 0 auto;
-	width: 100%;
+	width: 100vw;
 	overflow-x: hidden;
 	height:100vh;
 	z-index:2;
 	background-size:cover;
-
 }
 
 /* .intro-text {
@@ -420,7 +419,7 @@ Intro
 	color:#ffffff;
 	text-align:center;
 	font-weight: 300;
-	font-size: 50px;
+	font-size:35pt;
 	line-height:1.1em;
 	padding-top:30px;
 	text-transform: uppercase;
@@ -428,15 +427,48 @@ Intro
 }
 
 .intro-text p {
+	margin-top: -2%;
 	color:#ffffff;
 	text-align:center;
 	font-weight: 200;
-	font-size: 20px;
+	font-size:1.3em;
 	line-height:1.1em;
-	/* padding-top:30px; */
 	text-transform: uppercase;
 
 }
+
+@media (max-height: 360px) {
+	.intro-text h3 {
+		color:#ffffff;
+		text-align:center;
+		font-weight: 300;
+		font-size: 3rem;
+		line-height:1.1em;
+		padding-top:30px;
+		text-transform: uppercase;
+	}
+
+	.slide-kebawah {
+		position: block;
+		cursor: pointer;
+		margin-top : 5%;
+		width:50%;
+		height: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		bottom:0;
+	}
+
+	.slide-kebawah p {
+		position: relative;
+		margin-top: 1%;
+		text-transform: lowercase;
+		font-size: 0.5em;
+		bottom:0;
+	}
+}
+
+
 
 .line-spacer {
 	width: 20%;
@@ -448,20 +480,26 @@ Intro
 
 .intro-text p span {
 	color:#000;
-	font-size: 24px;
+	font-size: 150%;
 	text-align:center;
 	font-weight: 300;
 }
 
 .slide-kebawah {
+	position: block;
 	cursor: pointer;
-	margin-top : 9%;
+	margin-top : 7%;
+	margin-left: auto;
+	margin-right: auto;
+	bottom:0;
 }
 
 .slide-kebawah p {
-	margin-top: 2%;
+	position: relative;
+	margin-top: 1%;
 	text-transform: lowercase;
-	font-size: 15px;
+	font-size: 1.2em;
+	bottom:0;
 }
 /* ================================
 Portfolio2
@@ -583,6 +621,26 @@ Portfolio2
 		/* filter: blur(5px);
   	-webkit-filter: blur(5px); */
 	}
+
+@media only screen and (max-height: 360px) {
+	.portfolio-hover:hover .portfolio-hover-content p {
+		color: white;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: center;
+		font-size: 0.5rem;
+		
+	}
+	.portfolio-hover:hover .portfolio-hover-content h2 {
+		margin-top: 15%;
+		color: white;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+
+}
 
 @media (min-width: 768px) {
   .portfolio-hover .portfolio2-img {

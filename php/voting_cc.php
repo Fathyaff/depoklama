@@ -133,9 +133,9 @@ if (isset($_POST['penjajah_x']) || isset($_POST['penjajah_y']) ) {
                 </div>
             </div>
         </div>
-        <div class="col-md-8" style="margin-left:17%;">
+        <div class="col-md-12">
           <br><br><br><br>
-          <img id="pembatas" src="img/asets/batas_website_depok.png" alt="" width="100%" class=" img-responsive"/>
+          <img src="img/asets/batas_website_depok.png" alt="" width="100%" class="pembatas img-responsive"/>
           <br><br><br><br>
         </div>
         <div class="row voting-cc-row">

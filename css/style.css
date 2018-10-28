@@ -1323,9 +1323,12 @@ footer a:hover {
 	text-decoration: underline;
 }
 
-/* .pembatas {
-	background-image: url(../img/asets/batas_website_depok.png);
-} */
+.pembatas {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 /* ================================
 more media queries
 ================================= */

@@ -198,8 +198,8 @@ var Grid1 = (function() {
 		};
 
 	function init( config ) {
-		
-		
+
+
 		// the settings..
 		settings1 = $.extend( true, {}, settings1, config );
 
@@ -225,13 +225,13 @@ var Grid1 = (function() {
 			if( saveheight ) {
 				$item1.data( 'height', $item1.height() );
 				$item1.data( 'width', $item1.width() );
-				// $item.height() 
+				// $item.height()
 			}
 		} );
 	}
 
 	function initEvents() {
-		
+
 		// when clicking an item, show the preview with the item´s info and large image.
 		// close the item if already expanded.
 		// also close if clicking on the item´s cross
@@ -239,7 +239,7 @@ var Grid1 = (function() {
 			hidePreview();
 			return false;
 		} ).children( 'a' ).on( 'click', function(e) {
-			
+
 			var $item1 = $( this ).parent();
 			// check if item already opened
 			current1 === $item1.index() ? hidePreview() : showPreview( $item1 );
@@ -293,7 +293,7 @@ var Grid1 = (function() {
 				preview1.update( $item1 );
 				return false;
 			}
-			
+
 		}
 
 		// update previewPos
@@ -346,10 +346,9 @@ var Grid1 = (function() {
 			if( $item1 ) {
 				this.$item1 = $item1;
 			}
-			
+
 			// if already expanded remove class "og-expanded" from current item and add it to new item
 			if( current1 !== -1 ) {
-				console.log("hai " + current1);
 				var $currentItem1 = $items1.eq( current1 );
 				$currentItem1.removeClass( 'og1-expanded' );
 				this.$item1.addClass( 'og1-expanded' );
@@ -399,14 +398,14 @@ var Grid1 = (function() {
 						self.$largeImg1 = $img1.fadeIn( 350 );
 						self.$fullimage1.append( self.$largeImg1 );
 					}
-				} ).attr( 'src', eldata1.largesrc );	
+				} ).attr( 'src', eldata1.largesrc );
 
 			}
 
 		},
 		open : function() {
 
-			setTimeout( $.proxy( function() {	
+			setTimeout( $.proxy( function() {
 				// set the height for the preview and the item
 				this.setHeights();
 				// scroll to position the preview in the right place
@@ -440,7 +439,7 @@ var Grid1 = (function() {
 				}
 
 			}, this ), 25 );
-			
+
 			return false;
 
 		},
@@ -486,7 +485,7 @@ var Grid1 = (function() {
 			var position1 = this.$item1.data( 'offsetTop' ),
 				previewOffsetT1 = this.$previewEl1.offset().top - scrollExtra1,
 				scrollVal1 = this.height1 + this.$item1.data( 'height' ) + marginExpanded1 <= winsize1.height ? position1 : this.height1 < winsize1.height ? previewOffsetT1 - ( winsize1.height - this.height1 ) : previewOffsetT1;
-			
+
 			$body1.animate( { scrollTop : scrollVal1 }, settings1.speed );
 
 		},

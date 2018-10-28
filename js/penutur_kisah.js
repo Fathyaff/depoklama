@@ -170,48 +170,7 @@ span.onclick = function() {
     nameboy.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onload = function(event){
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            document.getElementById("bondan-modal").style.display = "none";
-            document.getElementById("lili-modal").style.display = "none";
-            document.getElementById("titi-modal").style.display = "none";
-            document.getElementById("ferdy-modal").style.display = "none";
-            document.getElementById("govert-modal").style.display = "none";
-            document.getElementById("yano-modal").style.display = "none";
-            document.getElementById("suzana-modal").style.display = "none";
-            document.getElementById("faradiba-modal").style.display = "none";
-            document.getElementById("boy-modal").style.display = "none";
-            modal.style.display = "none";
-            namesuzana.style.display = "none";
-            nameboy.style.display = "none";
-            nameferdy.style.display = "none";
-            namegovert.style.display = "none";
-            descbondan.style.display = "none";
-            desclili.style.display = "none";
-            desctiti.style.display = "none";
-            descyano.style.display = "none";
-            descgovert.style.display = "none";
-            descboy.style.display = "none";
-            descsuzana.style.display = "none";
-            descferdy.style.display = "none";
-            descfaradiba.style.display = "none";
-            namebondan.style.display = "none";
-            namefaradiba.style.display = "none";
-            nameyano.style.display = "none";
-            namelili.style.display = "none";
-            nametiti.style.display = "none";
-        }
-    }
-}
-// window.onload = function(){
-//     document.onclick = function(e){
-//        if(e.target.id !== 'modalBondan'){
-//           modal.style.display = 'none';
-//        }
-//     };
-//  };
+
 // Instantiate the Bootstrap carousel
 $('.multi-item-carousel').carousel({
     interval: 2000

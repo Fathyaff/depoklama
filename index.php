@@ -109,7 +109,7 @@ if (isset($_POST['submit'])) {
                     </div>
                     <div class="col-md-12 slide-kebawah">
                         <img id="slide-bawah" src="img/asets/panah.png" width="100px" alt="">
-                        <br><br/>
+                        <br>
                         <p style="font-family: 'TrajanProRegular';">mulai bertualang</p>
                     </div>
                 </div>
@@ -198,6 +198,7 @@ if (isset($_POST['submit'])) {
         <script src="js/modernizr.custom.js"></script>
         <script src="js/grid.js"></script>
         <script src="js/stellar.js"></script>
+        <script src="js/close_pop_up.js"></script>
         <!-- Contact Form JavaScript File -->
         <!-- <script src="contactform/contactform.js"></script> -->
 

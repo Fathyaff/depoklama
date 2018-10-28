@@ -182,7 +182,7 @@
                             </div>
                             <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioAkronimYano">
-                                    <source src="audio/asal-kota-depok/Audio-Akronim-Om-Yano-03.49.wav" type="audio/mpeg">
+                                    <source src="audio/asal-kota-depok/Audio-Akronim-Om-Yano-03.49.mp3" type="audio/mpeg">
                                 </audio>
                                 <div style="position:relative" id="toggle-akronim-yano" class="play-yano"></div>
                                 <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;">

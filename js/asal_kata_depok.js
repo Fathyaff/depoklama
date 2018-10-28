@@ -24,16 +24,7 @@ $(document).ready(function() {
     imgakronim.onclick = function() {
     modalAkronim.style.display = "block";
     }
-
     
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-
     /* ===============================================================
     ==================== PLAY PAUSE PETA =============================
     ==================================================================*/
@@ -78,18 +69,20 @@ $(document).ready(function() {
         }
       });
 
-        // When the user clicks on <span> (x), close the modal
-        span_close_peta.onclick = function() {
-            modalPeta.style.display = "none";
-            audioPetaTiti.pause();
-            audioPetaTiti.currentTime = 0;
-            $('#toggle-peta-titi').attr("class", "play-titi");
-            
-            audioPetaBondan.pause();
-            audioPetaBondan.currentTime = 0;
-            $('#toggle-peta-bondan').attr("class", "play-bondan");
-            
-        }
+    function closeModalPeta(){
+        modalPeta.style.display = "none";
+        audioPetaTiti.pause();
+        audioPetaTiti.currentTime = 0;
+        $('#toggle-peta-titi').attr("class", "play-titi");
+        
+        audioPetaBondan.pause();
+        audioPetaBondan.currentTime = 0;
+        $('#toggle-peta-bondan').attr("class", "play-bondan");
+    }
+    // When the user clicks on <span> (x), close the modal
+    span_close_peta.onclick = function() {
+        closeModalPeta();        
+    }
     /* ===============================================================
     ==================== PLAY PAUSE PADEPOKAN ========================
     ==================================================================*/

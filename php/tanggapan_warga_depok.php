@@ -2,7 +2,7 @@
 if (isset($_POST['submit-tanggapan'])) {
     echo "Haiii";
     if (!hash_equals($_SESSION['csrf'], $_POST['csrf'])) die();
-    
+
     try  {
       $connection = new PDO($dsn, $username, $password, $options);
 
@@ -57,8 +57,8 @@ if (isset($_POST['submit-tanggapan'])) {
                 <div class="col-md-offset-2 col-md-8">
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
-
-                    <form method="post" class="form-horizontal">
+                    <iframe name="votar" style="display:none;"></iframe>
+                    <form method="post" class="form-horizontal" target="votar">
                         <input
                             name="csrf"
                             type="hidden"
@@ -121,6 +121,7 @@ if (isset($_POST['submit-tanggapan'])) {
                         <div class="col-md-12">
                             <div class="form-group">
                                 <textarea
+                                    id="message"
                                     class="form-control"
                                     name="message"
                                     rows="5"
@@ -136,17 +137,18 @@ if (isset($_POST['submit-tanggapan'])) {
                                     type="submit"
                                     name="submit-tanggapan"
                                     value="Submit"
-                                    class="btn btn-theme btn-lg btn-block contact-btn">Kirim Tanggapan</button>
+                                    class="btn btn-theme btn-lg btn-block contact-btn"
+                                    onclick="afterSubmitTanggapan()">Kirim Tanggapan</button>
                             </div>
                         </div>
                     </form>
                     <?php if (isset($_POST['submit-tanggapan']) && $statement) : ?>
-                    
-                    <?php 
+
+                    <?php
                         echo " <p style='color:white;'> Terima kasih atas tanggapan yang diberikan!</p>";
-                    
+
                     ?>
-                    
+
                     <?php endif; ?>
                 </div>
             </div>

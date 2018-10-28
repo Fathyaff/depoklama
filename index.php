@@ -155,7 +155,6 @@ if (isset($_POST['submit'])) {
           <br>
         </div>
         <?php include "php/gedoran.php"; ?>
-        <?php include "php/gedoran_depok_sosok.php"; ?>
         <?php include "php/saksi_gedoran.php"; ?>
         <?php include "php/penyelamatan_nica.php"; ?>
         <div class="col-md-8" style="margin-left:17%;">

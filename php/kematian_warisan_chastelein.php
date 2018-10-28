@@ -49,12 +49,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:40%;">
                                 <audio id="audioKematianSuzana">
                                     <source src="audio/kematian-cc/Audio-Kematian-Bu-Suzana-00.58.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative; margin-left:195%;" id="toggle-kematian-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:150%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-kematian-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -96,21 +96,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioCikalYano">
                                     <source src="audio/kematian-cc/Audio-Cikal-Om-Yano-39.55.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative; margin-left:125%;" id="toggle-cikal-yano" class="play-yano"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:95%;margin-bottom: -3%; width:100%;">
+                                <div style="position:relative;" id="toggle-cikal-yano" class="play-yano"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;">
                                     <p>Om Yano</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioCikalLili">
                                     <source src="audio/kematian-cc/Audio-Cikal-Meneer-Lilie-26.54.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-cikal-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%; width:100%;">
+                                <div style="position:relative;" id="toggle-cikal-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -154,12 +154,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:40%;">
                                 <audio id="audioOtonomTiti">
                                     <source src="audio/kematian-cc/Audio-Otonom-Bu-Titi-24.57.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:195%;" id="toggle-otonom-titi" class="play-titi"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 150%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-otonom-titi" class="play-titi"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 28%;margin-bottom: -3%;">
                                     <p>Ibu Titi</p>
                                 </div>
                             </div>

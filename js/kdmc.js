@@ -34,22 +34,7 @@ $(document).ready(function() {
         modalAturan.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span_close_visi.onclick = function() {
-        modalVisi.style.display = "none";
-    }
-
-    span_close_budak.onclick = function() {
-        modalBudak.style.display = "none";
-    }
-
-    span_close_perkebunan.onclick = function() {
-        modalPerkebunan.style.display = "none";
-    }
-    
-    span_close_aturan.onclick = function() {
-        modalAturan.style.display = "none";
-    }
+   
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
@@ -71,6 +56,11 @@ $(document).ready(function() {
         audioVisiLili.pause(); 
     } 
 
+    function stopAudioVisiLili(){
+        pauseAudioVisiLili();
+        audioVisiLili.currentTime= 0;
+        $('#toggle-visi-lili').attr("class", "play-lili");
+    }
 
     $('#toggle-visi-lili').bind("click", function() {
       if ($(this).attr("class") == "play-lili"){
@@ -93,6 +83,12 @@ $(document).ready(function() {
         audioVisiBondan.pause(); 
     } 
 
+    function stopAudioVisiBondan(){
+        pauseAudioVisiBondan();
+        audioVisiBondan.currentTime = 0;
+        $('#toggle-visi-bondan').attr("class", "play-bondan");
+    }
+
     $('#toggle-visi-bondan').bind("click", function() {
       if ($(this).attr("class") == "play-bondan"){
         playAudioVisiBondan();
@@ -112,7 +108,8 @@ $(document).ready(function() {
 
     function pauseAudioVisiSuzana() { 
         audioVisiSuzana.pause(); 
-    } 
+    }
+    
 
     $('#toggle-visi-suzana').bind("click", function() {
       if ($(this).attr("class") == "play-suzana"){
@@ -124,6 +121,12 @@ $(document).ready(function() {
       }
          
     });
+ // When the user clicks on <span> (x), close the modal
+    span_close_visi.onclick = function() {
+        modalVisi.style.display = "none";
+        stopAudioVisiLili();
+        stopAudioVisiBondan();
+    }
 
     /* ===============================================================
     ==================== PLAY PAUSE BUDAK ========================
@@ -137,6 +140,12 @@ $(document).ready(function() {
     function pauseAudioBudakBondan() { 
         audioBudakBondan.pause(); 
     } 
+
+    function stopAudioBudakBondan(){
+        pauseAudioBudakBondan();
+        audioBudakBondan.currentTime = 0;
+        $('#toggle-budak-bondan').attr("class", "play-bondan");
+    }
 
     $('#toggle-budak-bondan').bind("click", function() {
       if ($(this).attr("class") == "play-bondan"){
@@ -159,6 +168,12 @@ $(document).ready(function() {
         audioBudakSuzana.pause(); 
     } 
 
+    function stopAudioBudakSuzana(){
+        pauseAudioBudakSuzana();
+        audioBudakSuzana.currentTime = 0;
+        $('#toggle-budak-suzana').attr("class", "play-suzana");
+    }
+
     $('#toggle-budak-suzana').bind("click", function() {
       if ($(this).attr("class") == "play-suzana"){
         playAudioBudakSuzana();
@@ -170,6 +185,15 @@ $(document).ready(function() {
          
     });
     
+    span_close_budak.onclick = function() {
+        modalBudak.style.display = "none";
+
+        stopAudioBudakSuzana();
+        stopAudioBudakBondan();
+        
+        
+    }
+
     /* ===============================================================
     ==================== PLAY PAUSE PERKEBUNAN ========================
     ==================================================================*/
@@ -184,6 +208,12 @@ $(document).ready(function() {
         audioPerkebunanLili.pause(); 
     } 
 
+    function stopAudioPerkebunanLili(){
+        pauseAudioPerkebunanLili();
+        audioPerkebunanLili.currentTime = 0;
+        $('#toggle-perkebunan-lili').attr("class", "play-lili");
+    }
+
     function playAudioPerkebunanYano() { 
         audioPerkebunanYano.play(); 
     } 
@@ -191,6 +221,12 @@ $(document).ready(function() {
     function pauseAudioPerkebunanYano() { 
         audioPerkebunanYano.pause(); 
     } 
+
+    function stopAudioPerkebunanYano(){
+        pauseAudioPerkebunanYano();
+        audioPerkebunanYano.currentTime = 0;
+        $('#toggle-perkebunan-yano').attr("class", "play-yano");
+    }
 
     $('#toggle-perkebunan-lili').bind("click", function() {
       if ($(this).attr("class") == "play-lili"){
@@ -214,6 +250,12 @@ $(document).ready(function() {
       });
 
 
+      span_close_perkebunan.onclick = function() {
+        modalPerkebunan.style.display = "none";
+        stopAudioPerkebunanYano();
+        stopAudioPerkebunanLili();
+    }
+    
     /* ===============================================================
     ==================== PLAY PAUSE ATURAN ========================
     ==================================================================*/
@@ -228,6 +270,12 @@ $(document).ready(function() {
         audioAturanLili.pause(); 
     } 
 
+    function stopAudioAturanLili() { 
+        pauseAudioAturanLili();
+        audioAturanLili.currentTime = 0;
+        $('#toggle-aturan-lili').attr("class", "play-lili");
+    } 
+
     function playAudioAturanBoy() { 
         audioAturanBoy.play(); 
     } 
@@ -235,6 +283,13 @@ $(document).ready(function() {
     function pauseAudioAturanBoy() { 
         audioAturanBoy.pause(); 
     } 
+
+    function stopAudioAturanBoy(){
+        pauseAudioAturanBoy();
+        audioAturanBoy.currentTime = 0;
+        $('#toggle-aturan-boy').attr("class", "play-boy");
+    }
+
 
     $('#toggle-aturan-lili').bind("click", function() {
       if ($(this).attr("class") == "play-lili"){
@@ -257,6 +312,11 @@ $(document).ready(function() {
         }
       });
 
+    span_close_aturan.onclick = function() {
+        modalAturan.style.display = "none";
+        stopAudioAturanBoy();
+        stopAudioAturanLili();
+    }
   });
 
 

@@ -47,12 +47,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioSaksiSuzana">
                                     <source src="audio/saksi-gedoran/Audio-Saksi-Peristiwa-Gedoran-Depok-Bu-Suzana-14.54-18.25.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:155%;" id="toggle-saksi-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:115%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-saksi-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -92,12 +92,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-4 col-xs-8" style="margin-left:40%;">
                                 <audio id="audioSaksiGovert">
                                     <source src="audio/saksi-gedoran/Audio-Saksi-Peristiwa-Gedoran-Depok-(Gabungan)-Opa-Govert.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:155%;" id="toggle-saksi-govert" class="play-govert"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 115%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-saksi-govert" class="play-govert"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 16%;margin-bottom: -3%;">
                                     <p>Opa Govert</p>
                                 </div>
                             </div>

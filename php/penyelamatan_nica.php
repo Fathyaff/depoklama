@@ -57,12 +57,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioKronologiSuzana">
                                     <source src="audio/nica/Audio-Kronologi-Bu-Suzana-24.55-25.52.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:155%;" id="toggle-kronologi-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:115%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-kronologi-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:17%;margin-bottom:-3%;">
                                     <p>Bu Suzana</p>
                                 </div>
                             </div>
@@ -105,12 +105,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioWdpgBoy">
                                     <source src="audio/nica/Audio-Warga-Depok-Pasca-Gedoran-Om-Boy-14.13-15.05.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:135%;" id="toggle-wdpg-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 98%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-wdpg-boy" class="play-boy"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 22%;margin-bottom: -3%;">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -157,12 +157,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioPesanSuzana">
                                     <source src="audio/nica/Audio-Pesan-Bu-Suzana-18.00-18.22.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:155%;" id="toggle-pesan-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 115%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-pesan-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 17%;margin-bottom: -3%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>

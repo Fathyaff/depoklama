@@ -27,19 +27,6 @@ $(document).ready(function() {
         modalPesan.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span_close_kronologi.onclick = function() {
-        modalKronologi.style.display = "none";
-    }
-
-    span_close_wdpg.onclick = function() {
-        modalWdpg.style.display = "none";
-    }
-
-    span_close_pesan.onclick = function() {
-        modalPesan.style.display = "none";
-    }
-    
     
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
@@ -61,6 +48,12 @@ $(document).ready(function() {
         audioKronologiSuzana.pause(); 
     } 
 
+    function stopAudioKronologiSuzana(){
+        pauseAudioKronologiSuzana();
+        audioKronologiSuzana.currentTime = 0;
+        $('#toggle-kronologi-suzana').attr("class", "play-suzana");
+    }
+
     $('#toggle-kronologi-suzana').bind("click", function() {
       if ($(this).attr("class") == "play-suzana"){
         playAudioKronologiSuzana();
@@ -71,6 +64,12 @@ $(document).ready(function() {
       }
          
     });
+
+    // When the user clicks on <span> (x), close the modal
+    span_close_kronologi.onclick = function() {
+        modalKronologi.style.display = "none";
+        stopAudioKronologiSuzana();
+    }
 
     /* ===============================================================
     ==================== PLAY PAUSE WDPG ========================
@@ -85,6 +84,12 @@ $(document).ready(function() {
         audioWdpgBoy.pause(); 
     } 
 
+    function stopAudioWdpgBoy(){
+        pauseAudioWdpgBoy();
+        audioWdpgBoy.currentTime = 0;
+        $('#toggle-wdpg-boy').attr("class", "play-boy");
+    }
+
     $('#toggle-wdpg-boy').bind("click", function() {
       if ($(this).attr("class") == "play-boy"){
         playAudioWdpgBoy();
@@ -96,6 +101,11 @@ $(document).ready(function() {
          
     });
     
+    span_close_wdpg.onclick = function() {
+        modalWdpg.style.display = "none";
+        stopAudioWdpgBoy();
+    }
+
     /* ===============================================================
     ==================== PLAY PAUSE PESAN ========================
     ==================================================================*/
@@ -109,6 +119,12 @@ $(document).ready(function() {
         audioPesanSuzana.pause(); 
     } 
 
+    function stopAudioPesanSuzana(){
+        pauseAudioPesanSuzana();
+        audioPesanSuzana.currentTime = 0;
+        $('#toggle-pesan-suzana').attr("class", "play-suzana");
+    }
+
     $('#toggle-pesan-suzana').bind("click", function() {
       if ($(this).attr("class") == "play-suzana"){
         playAudioPesanSuzana();
@@ -119,6 +135,13 @@ $(document).ready(function() {
       }
          
     });
+
+
+    span_close_pesan.onclick = function() {
+        modalPesan.style.display = "none";
+        stopAudioPesanSuzana();
+    }
+    
   });
 
 

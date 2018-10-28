@@ -34,22 +34,7 @@ $(document).ready(function() {
         modalTanah.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span_close_keluarga.onclick = function() {
-        modalKeluarga.style.display = "none";
-    }
-
-    span_close_pribadi.onclick = function() {
-        modalPribadi.style.display = "none";
-    }
-
-    span_close_karir.onclick = function() {
-        modalKarir.style.display = "none";
-    }
     
-    span_close_tanah.onclick = function() {
-        modalTanah.style.display = "none";
-    }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
@@ -69,8 +54,14 @@ $(document).ready(function() {
 
     function pauseAudioKeluargaLili() { 
         audioKeluargaLili.pause(); 
+        
     } 
 
+    function stopAudioKeluargaLili() { 
+        audioKeluargaLili.pause(); 
+        audioKeluargaLili.currentTime =0;
+        $('#toggle-keluarga-lili').attr("class", "play-lili");
+    }
 
     $('#toggle-keluarga-lili').bind("click", function() {
       if ($(this).attr("class") == "play-lili"){
@@ -82,6 +73,13 @@ $(document).ready(function() {
       }
          
     });
+    
+    // When the user clicks on <span> (x), close the modal
+    span_close_keluarga.onclick = function() {
+        modalKeluarga.style.display = "none";
+        stopAudioKeluargaLili();
+    }
+
 
     /* ===============================================================
     ==================== PLAY PAUSE PRIBADI ========================
@@ -95,6 +93,12 @@ $(document).ready(function() {
     function pauseAudioPribadiBondan() { 
         audioPribadiBondan.pause(); 
     } 
+    
+    function stopAudioPribadiBondan() { 
+        audioPribadiBondan.pause();
+        audioPribadiBondan.currentTime = 0;
+        $('#toggle-pribadi-bondan').attr("class", "play-bondan");
+    } 
 
     $('#toggle-pribadi-bondan').bind("click", function() {
       if ($(this).attr("class") == "play-bondan"){
@@ -106,6 +110,13 @@ $(document).ready(function() {
       }
          
     });
+
+    span_close_pribadi.onclick = function() {
+        modalPribadi.style.display = "none";
+        stopAudioPribadiBondan();
+    }
+    
+    
     
     /* ===============================================================
     ==================== PLAY PAUSE KARIR ========================
@@ -122,6 +133,12 @@ $(document).ready(function() {
         audioKarirLili.pause(); 
     } 
 
+    function stopAudioKarirLili() { 
+        pauseAudioKarirLili();
+        audioKarirLili.currentTime = 0;
+        $('#toggle-karir-lili').attr("class", "play-lili");
+    }
+
     function playAudioKarirBoy() { 
         audioKarirBoy.play(); 
     } 
@@ -130,12 +147,24 @@ $(document).ready(function() {
         audioKarirBoy.pause(); 
     } 
 
+    function stopAudioKarirBoy() { 
+        audioKarirBoy.pause(); 
+        audioKarirBoy.currentTime = 0;
+        $('#toggle-karir-boy').attr("class", "play-boy");
+    } 
+
     function playAudioKarirBondan() { 
         audioKarirBondan.play(); 
     } 
 
     function pauseAudioKarirBondan() { 
         audioKarirBondan.pause(); 
+    } 
+
+    function stopAudioKarirBondan() { 
+        audioKarirBondan.pause();
+        audioKarirBondan.currentTime = 0;
+        $('#toggle-karir-bondan').attr("class", "play-bondan");
     } 
 
     $('#toggle-karir-lili').bind("click", function() {
@@ -168,7 +197,13 @@ $(document).ready(function() {
           $(this).attr("class", "play-bondan");
         }
       });
-
+    
+    span_close_karir.onclick = function() {
+        modalKarir.style.display = "none";
+        stopAudioKarirBondan();
+        stopAudioKarirLili();
+    }
+    
     /* ===============================================================
     ==================== PLAY PAUSE TANAH ========================
     ==================================================================*/
@@ -182,7 +217,13 @@ $(document).ready(function() {
 
     function pauseAudioTanahTiti() { 
         audioTanahBuTiti.pause(); 
-    } 
+    }
+    
+    function stopAudioTanahTiti() { 
+        audioTanahBuTiti.pause(); 
+        audioTanahBuTiti.currentTime = 0;
+        $('#toggle-tanah-titi').attr("class", "play-titi");
+    }
 
     function playAudioTanahFara() { 
         audioTanahBuFara.play(); 
@@ -192,12 +233,24 @@ $(document).ready(function() {
         audioTanahBuFara.pause(); 
     } 
 
+    function stopAudioTanahFara() { 
+        audioTanahBuFara.pause(); 
+        audioTanahBuFara.currentTime = 0;
+        $('#toggle-tanah-fara').attr("class", "play-fara");
+    } 
+
     function playAudioTanahFerdy() { 
         audioTanahFerdy.play(); 
     } 
 
     function pauseAudioTanahFerdy() { 
         audioTanahFerdy.pause(); 
+    } 
+
+    function stopAudioTanahFerdy() { 
+        audioTanahFerdy.pause(); 
+        audioTanahFerdy.currentTime = 0;
+        $('#toggle-tanah-ferdy').attr("class", "play-ferdy");
     } 
 
     $('#toggle-tanah-titi').bind("click", function() {
@@ -231,6 +284,14 @@ $(document).ready(function() {
             $(this).attr("class", "play-ferdy");
         }
     });
+
+
+    span_close_tanah.onclick = function() {
+        modalTanah.style.display = "none";
+        stopAudioTanahFara();
+        stopAudioTanahFerdy();
+        stopAudioTanahTiti();
+    }
 
   });
 

@@ -56,21 +56,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioVisiLili">
                                     <source src="audio/kdmc/Audio-Visi-Meneer-Lilie-19.15.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-visi-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-visi-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioVisiBondan">
                                         <source src="audio/kdmc/Audio-Visi-Pak-Bondan-04.42.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-visi-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-visi-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
@@ -112,21 +112,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioBudakBondan">
                                     <source src="audio/kdmc/Audio-Budak-Pak-Bondan-10.22.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-budak-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 95%;margin-bottom: -3%; width:100%;">
+                                <div style="position:relative;" id="toggle-budak-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3 ">
                                 <audio id="audioBudakSuzana">
                                     <source src="audio/kdmc/Audio-Budak-Bu-Suzana-30.35.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-budak-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 95%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-budak-suzana" class="play-suzana"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -169,21 +169,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioPerkebunanYano">
                                         <source src="audio/kdmc/Audio-Perkebunan-Om-Yano-09.50.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-perkebunan-yano" class="play-yano"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-perkebunan-yano" class="play-yano"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%;">
                                     <p>Om Yano</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioPerkebunanLili">
                                     <source src="audio/kdmc/Audio-Perkebunan-Meneer-Lilie-23.44.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-perkebunan-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-perkebunan-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -225,21 +225,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%">
                                 <audio id="audioAturanBoy">
                                         <source src="audio/kdmc/Audio-Peraturan-Om-Boy-27.37.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-aturan-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-aturan-boy" class="play-boy"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%;">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioAturanLili">
                                     <source src="audio/kdmc/Audio-Peraturan-Meneer-Lilie-21.03.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-aturan-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-aturan-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>

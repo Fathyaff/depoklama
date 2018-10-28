@@ -34,22 +34,6 @@ $(document).ready(function() {
         modalBangunan.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span_close_proklamasi.onclick = function() {
-        modalProklamasi.style.display = "none";
-    }
-
-    span_close_alur.onclick = function() {
-        modalAlur.style.display = "none";
-    }
-
-    span_close_pelaku.onclick = function() {
-        modalPelaku.style.display = "none";
-    }
-    
-    span_close_bangunan.onclick = function() {
-        modalBangunan.style.display = "none";
-    }
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
@@ -73,6 +57,12 @@ $(document).ready(function() {
         audioProklamasiBoy.pause(); 
     } 
 
+    function stopAudioProklamasiBoy(){
+        pauseAudioProklamasiBoy();
+        audioProklamasiBoy.currentTime = 0;
+        $('#toggle-proklamasi-boy').attr("class", "play-boy");
+    }
+    
     function playAudioProklamasiLili() { 
         audioProklamasiLili.play(); 
     } 
@@ -81,12 +71,25 @@ $(document).ready(function() {
         audioProklamasiLili.pause(); 
     }
 
+    function stopAudioProklamasiLili(){
+        pauseAudioProklamasiLili();
+        audioProklamasiLili.currentTime = 0;
+        $('#toggle-proklamasi-lili').attr("class", "play-lili");
+
+    }
+
     function playAudioProklamasiFara() { 
         audioProklamasiFara.play(); 
     } 
 
     function pauseAudioProklamasiFara() { 
         audioProklamasiFara.pause(); 
+    }
+
+    function stopAudioProklamasiFara(){
+        pauseAudioProklamasiFara();
+        audioProklamasiFara.currentTime = 0;
+        $('#toggle-proklamasi-fara').attr("class", "play-fara");
     }
 
     $('#toggle-proklamasi-boy').bind("click", function() {
@@ -122,6 +125,15 @@ $(document).ready(function() {
            
     });
 
+    // When the user clicks on <span> (x), close the modal
+    span_close_proklamasi.onclick = function() {
+        modalProklamasi.style.display = "none";
+        stopAudioProklamasiBoy();
+        stopAudioProklamasiLili();
+        stopAudioProklamasiFara();
+    }
+
+
     /* ===============================================================
     ==================== PLAY PAUSE ALUR KEJADIAN ========================
     ==================================================================*/
@@ -136,6 +148,12 @@ $(document).ready(function() {
         audioAlurSuzana.pause(); 
     } 
 
+    function stopAudioAlurSuzana(){
+        pauseAudioAlurSuzana();
+        audioAlurSuzana.currentTime = 0;
+        $('#toggle-alur-suzana').attr("class", "play-suzana");
+    }
+
     function playAudioAlurFara() { 
         audioAlurFara.play(); 
     } 
@@ -143,6 +161,12 @@ $(document).ready(function() {
     function pauseAudioAlurFara() { 
         audioAlurFara.pause(); 
     } 
+
+    function stopAudioAlurFara(){
+        pauseAudioAlurFara();
+        audioAlurFara.currentTime = 0;
+        $('#toggle-alur-fara').attr("class", "play-fara");
+    }
 
     $('#toggle-alur-suzana').bind("click", function() {
         if ($(this).attr("class") == "play-suzana"){
@@ -166,6 +190,13 @@ $(document).ready(function() {
          
     });
     
+
+    span_close_alur.onclick = function() {
+        modalAlur.style.display = "none";
+        stopAudioAlurSuzana();
+        stopAudioAlurFara();
+    }
+
     /* ===============================================================
     ==================== PLAY PAUSE PELAKU ========================
     ==================================================================*/
@@ -182,6 +213,12 @@ $(document).ready(function() {
         audioPelakuBoy.pause(); 
     } 
 
+    function stopAudioPelakuBoy(){
+        pauseAudioPelakuBoy()
+        audioPelakuBoy.currentTime = 0;
+        $('#toggle-pelaku-boy').attr("class", "play-boy");
+    }
+
     function playAudioPelakuLili() { 
         audioPelakuLili.play(); 
     } 
@@ -189,6 +226,12 @@ $(document).ready(function() {
     function pauseAudioPelakuLili() { 
         audioPelakuLili.pause(); 
     } 
+
+    function stopAudioPelakuLili(){
+        pauseAudioPelakuLili();
+        audioPelakuLili.currentTime = 0;
+        $('#toggle-pelaku-lili').attr("class", "play-lili");
+    }
 
     function playAudioPelakuSuzana() { 
         audioPelakuSuzana.play(); 
@@ -198,6 +241,12 @@ $(document).ready(function() {
         audioPelakuSuzana.pause(); 
     } 
 
+    function stopAudioPelakuSuzana(){
+        pauseAudioPelakuSuzana();
+        audioPelakuSuzana.currentTime = 0;
+        $('#toggle-pelaku-suzana').attr("class", "play-suzana");
+    }
+
     function playAudioPelakuFara() { 
         audioPelakuFara.play(); 
     } 
@@ -205,6 +254,12 @@ $(document).ready(function() {
     function pauseAudioPelakuFara() { 
         audioPelakuFara.pause(); 
     } 
+
+    function stopAudioPelakuFara(){
+        pauseAudioPelakuFara();
+        audioPelakuFara.currentTime = 0;
+        $('#toggle-pelaku-fara').attr("class", "play-fara");
+    }
 
     $('#toggle-pelaku-lili').bind("click", function() {
       if ($(this).attr("class") == "play-lili"){
@@ -247,6 +302,18 @@ $(document).ready(function() {
         }
     });
 
+    span_close_pelaku.onclick = function() {
+        modalPelaku.style.display = "none";
+
+        stopAudioPelakuFara();
+        stopAudioPelakuSuzana();        
+        stopAudioPelakuBoy();
+        stopAudioPelakuLili();
+    }
+    
+    span_close_bangunan.onclick = function() {
+        modalBangunan.style.display = "none";
+    }
   });
 
 

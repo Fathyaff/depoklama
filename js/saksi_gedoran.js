@@ -20,15 +20,6 @@ $(document).ready(function() {
         modalSaksiGovert.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span_close_saksi_suzana.onclick = function() {
-        modalSaksiSuzana.style.display = "none";
-    }
-
-    span_close_saksi_govert.onclick = function() {
-        modalSaksiGovert.style.display = "none";
-    }
-
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
@@ -49,6 +40,12 @@ $(document).ready(function() {
         audioSaksiSuzana.pause(); 
     }
 
+    function stopAudioSaksiSuzana(){
+        pauseAudioSaksiSuzana();
+        audioSaksiSuzana.currentTime = 0;
+        $('#toggle-saksi-suzana').attr("class", "play-suzana");
+    }
+
     $('#toggle-saksi-suzana').bind("click", function() {
       if ($(this).attr("class") == "play-suzana"){
         playAudioSaksiSuzana();
@@ -59,6 +56,13 @@ $(document).ready(function() {
       }
          
     });
+
+
+    // When the user clicks on <span> (x), close the modal
+    span_close_saksi_suzana.onclick = function() {
+        modalSaksiSuzana.style.display = "none";
+        stopAudioSaksiSuzana();
+    }
 
     /* ===============================================================
     ==================== PLAY PAUSE OPA GOVERT========================
@@ -71,7 +75,13 @@ $(document).ready(function() {
 
     function pauseAudioSaksiGovert() { 
         audioSaksiGovert.pause(); 
-    } 
+    }
+    
+    function stopAudioSaksiGovert(){
+        pauseAudioSaksiGovert();
+        audioSaksiGovert.currentTime = 0;
+        $('#toggle-saksi-govert').attr("class", "play-govert");
+    }
 
     $('#toggle-saksi-govert').bind("click", function() {
         if ($(this).attr("class") == "play-govert"){
@@ -83,6 +93,11 @@ $(document).ready(function() {
         }
     });
     
+
+    span_close_saksi_govert.onclick = function() {
+        modalSaksiGovert.style.display = "none";
+        stopAudioSaksiGovert();
+    }
 
   });
 

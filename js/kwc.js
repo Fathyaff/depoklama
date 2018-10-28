@@ -27,20 +27,6 @@ $(document).ready(function() {
         modalOtonom.style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span_close_kematian.onclick = function() {
-        modalKematian.style.display = "none";
-    }
-
-    span_close_cikal.onclick = function() {
-        modalCikal.style.display = "none";
-    }
-
-    span_close_otonom.onclick = function() {
-        modalOtonom.style.display = "none";
-    }
-    
-    
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
@@ -59,7 +45,13 @@ $(document).ready(function() {
 
     function pauseAudioKematianSuzana() { 
         audioKematianSuzana.pause(); 
-    } 
+    }
+    
+    function stopAudioKematianSuzana(){
+        pauseAudioKematianSuzana();
+        audioKematianSuzana.currentTime = 0;
+        $('#toggle-kematian-suzana').attr("class", "play-suzana");
+    }
 
     $('#toggle-kematian-suzana').bind("click", function() {
       if ($(this).attr("class") == "play-suzana"){
@@ -71,6 +63,13 @@ $(document).ready(function() {
       }
          
     });
+
+    // When the user clicks on <span> (x), close the modal
+    span_close_kematian.onclick = function() {
+        modalKematian.style.display = "none";
+        stopAudioKematianSuzana();
+    }
+
 
     /* ===============================================================
     ==================== PLAY PAUSE CIKAL ========================
@@ -85,6 +84,12 @@ $(document).ready(function() {
     function pauseAudioCikalYano() { 
         audioCikalYano.pause(); 
     } 
+    
+    function stopAudioCikalYano(){
+        pauseAudioCikalYano();
+        audioCikalYano.currentTime = 0;
+        $('#toggle-cikal-yano').attr("class", "play-yano");
+    }
 
     function playAudioCikalLili() { 
         audioCikalLili.play(); 
@@ -93,6 +98,12 @@ $(document).ready(function() {
     function pauseAudioCikalLili() { 
         audioCikalLili.pause(); 
     } 
+
+    function stopAudioCikalLili(){
+        pauseAudioCikalLili();
+        audioCikalLili.currentTime =0;
+        $('#toggle-cikal-lili').attr("class", "play-lili");
+    }
 
     $('#toggle-cikal-yano').bind("click", function() {
       if ($(this).attr("class") == "play-yano"){
@@ -116,6 +127,13 @@ $(document).ready(function() {
            
       });
 
+
+    span_close_cikal.onclick = function() {
+        modalCikal.style.display = "none";
+        stopAudioCikalLili();
+        stopAudioCikalYano();
+    }
+
     
     /* ===============================================================
     ==================== PLAY PAUSE OTONOM ========================
@@ -130,6 +148,12 @@ $(document).ready(function() {
         audioOtonomTiti.pause(); 
     } 
 
+    function stopAudioOtonomTiti(){
+        pauseAudioOtonomTiti()
+        audioOtonomTiti.currentTime = 0;
+        $('#toggle-otonom-titi').attr("class", "play-titi");
+    }
+
     $('#toggle-otonom-titi').bind("click", function() {
       if ($(this).attr("class") == "play-titi"){
         playAudioOtonomTiti();
@@ -140,6 +164,12 @@ $(document).ready(function() {
       }
          
     });
+
+
+    span_close_otonom.onclick = function() {
+        modalOtonom.style.display = "none";
+        stopAudioOtonomTiti();
+    }
   });
 
 

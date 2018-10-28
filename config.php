@@ -7,8 +7,8 @@
 
 $host       = "localhost";
 $username   = "root";
-$password   = "root";
-$dbname     = "test";
+$password   = "Ahlibahasa";
+$dbname     = "digital_heritage";
 $dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION

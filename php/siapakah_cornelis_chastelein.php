@@ -59,13 +59,13 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioKeluargaLili">
                                     <source src="audio/cornelis-chastelein/Audio-Keluarga-Meneer-Lilie-11.53-13.53.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:140%;" id="toggle-keluarga-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:102%;margin-bottom:-3%;width:100%;">
-                                    <p>Meneer Lilie</p>
+                                <div style="position:relative;" id="toggle-keluarga-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:15%;margin-bottom:-3%;">
+                                    <p>Meneer Lili</p>
                                 </div>
                             </div>
                         </div>
@@ -105,12 +105,12 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioPribadiBondan">
                                     <source src="audio/cornelis-chastelein/Audio-Pribadi-Pak-Bondan.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative; margin-left:140%;" id="toggle-pribadi-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 102%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-pribadi-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 15%;margin-bottom: -3%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
@@ -155,21 +155,21 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioKarirLili">
                                     <source src="audio/cornelis-chastelein/Audio-Karir-Meneer-Lilie-14.09.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-karir-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:95%;margin-bottom:-3%;width:100%;">
+                                <div style="position:relative;" id="toggle-karir-lili" class="play-lili"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:21%;margin-bottom:-3%;">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioKarirBondan">
                                         <source src="audio/cornelis-chastelein/Audio-Karir-Pak-Bondan-03.10.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:125%;" id="toggle-karir-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 95%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-karir-bondan" class="play-bondan"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:18%;margin-bottom: -3%;">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
@@ -210,30 +210,30 @@
                             </p>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3" style="margin-left:15%">
                                 <audio id="audioTanahTiti">
                                     <source src="audio/cornelis-chastelein/Audio-Tanah-Bu-Titi-12.00.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:75%;" id="toggle-tanah-titi" class="play-titi"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 55%;margin-bottom: -3%; width:100%;">
+                                <div style="position:relative;" id="toggle-tanah-titi" class="play-titi"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 30%;margin-bottom: -3%;">
                                     <p>Bu Titi</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioTanahFara">
                                         <source src="audio/cornelis-chastelein/Audio-Tanah-Bu-faradibah-08.06.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:75%;" id="toggle-tanah-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 55%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-tanah-fara" class="play-fara"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 27%;margin-bottom: -3%;">
                                     <p>Bu Fara</p>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-3">
+                            <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioTanahFerdy">
                                         <source src="audio/cornelis-chastelein/Audio-Tanah-Pak-Ferdy-10.02.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;margin-left:75%;" id="toggle-tanah-ferdy" class="play-ferdy"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 53%;margin-bottom: -3%;width:100%;">
+                                <div style="position:relative;" id="toggle-tanah-ferdy" class="play-ferdy"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;">
                                     <p>Om Ferdy</p>
                                 </div>
                             </div>

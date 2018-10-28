@@ -79,10 +79,17 @@ $(document).ready(function() {
       });
 
         // When the user clicks on <span> (x), close the modal
-    span_close_peta.onclick = function() {
-        modalPeta.style.display = "none";
-        
-    }
+        span_close_peta.onclick = function() {
+            modalPeta.style.display = "none";
+            audioPetaTiti.pause();
+            audioPetaTiti.currentTime = 0;
+            $('#toggle-peta-titi').attr("class", "play-titi");
+            
+            audioPetaBondan.pause();
+            audioPetaBondan.currentTime = 0;
+            $('#toggle-peta-bondan').attr("class", "play-bondan");
+            
+        }
     /* ===============================================================
     ==================== PLAY PAUSE PADEPOKAN ========================
     ==================================================================*/
@@ -127,6 +134,17 @@ $(document).ready(function() {
         }
       });
     
+    span_close_padepokan.onclick = function() {
+        modalPadepokan.style.display = "none";
+        pauseAudioPadepokanTiti();
+        audioPadepokanTiti.currentTime = 0;
+        $('#toggle-padepokan-titi').attr("class", "play-titi");
+        
+        pauseAudioPadepokanLili();
+        audioPadepokanLili.currentTime = 0;
+        $('#toggle-padepokan-lili').attr("class", "play-lili");
+        
+    }
     /* ===============================================================
     ==================== PLAY PAUSE AKRONIM ========================
     ==================================================================*/
@@ -194,8 +212,7 @@ $(document).ready(function() {
           $(this).attr("class", "pause-lili");
         } else{
             pauseAudioAkronimLili();
-          $(this).attr("class", "play-lili");
-        }
+        }      
       });
 
       $('#toggle-akronim-boy').bind("click", function() {
@@ -208,15 +225,23 @@ $(document).ready(function() {
         }
       });
 
-    
-
-    span_close_padepokan.onclick = function() {
-        modalPadepokan.style.display = "none";
-    }
-
     span_close_akronim.onclick = function() {
         modalAkronim.style.display = "none";
         
+        $('#toggle-akronim-yano').attr("class", "play-yano");
+        $('#toggle-akronim-boy').attr("class", "play-boy");
+        $('#toggle-akronim-ferdy').attr("class", "play-ferdy");
+        $('#toggle-akronim-lili').attr("class", "play-lili");
+        
+        pauseAudioAkronimYano();
+        pauseAudioAkronimFerdy();
+        pauseAudioAkronimLili();
+        pauseAudioAkronimBoy();
+
+        audioAkronimYano.currentTime = 0;
+        audioAkronimBoy.currentTime =0;
+        audioAkronimFerdy.currentTime = 0;
+        audioAkronimLili.currentTime = 0;
     }
   });
 

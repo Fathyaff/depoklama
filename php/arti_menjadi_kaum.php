@@ -15,7 +15,8 @@
                         Chastelein. Beliau memiliki andil dalam perkembangan lahan pertanian dan
                         perkebunan, hingga pembentukan cagar alam di wilayah Depok. Chastelein
                         mempekerjakan ratusan pekerja yang didatangkan dari Bali, Makassar, Nusa
-                        Tenggara Timur, Maluku, Jawa, dan Pulau Rote. <strong style="color:#FFD600;">Bagaimana kehidupan Depok pada
+                        Tenggara Timur, Maluku, Jawa, dan Pulau Rote. 
+                        <strong style="color:#FFD600;">Bagaimana kehidupan Depok pada
                         masa ini?</strong>
                     </p>
                     <p id="ayosimak">
@@ -33,7 +34,7 @@
                             data-largesrc="img/asets/arti_kaum/arif.jpg"
                             data-videosrc='https://www.youtube.com/embed/GNMzYZS8FMI'
                             data-title="Arti Menjadi Kaum Depok Lama Bagi Arif" 
-                            data-description='Gedung YLCC dahulu merupakan rumah bagi para pendeta yang melayani di Gereja Protestan Depok (sekarang GPIB Immanuel). Letaknya di Jalan Pemuda, Depok, persis di sebelah GPIB Immanuel saat ini. Belum diketahui secara pasti kapan gedung ini dibangun, namun diperkirakan dibangun bersamaan dengan pembangunan Gereja Protestan Depok. Tepat di belakang bangunan utama, terdapat bangunan lain yang dahulu difungsikan sebagai bangunan sekolah. Gedung ini sempat diambil alih oleh pemerintah Republik Indonesia pada era kemerdekaan RI, hingga akhirnya dikembalikan pada komunitas Depok tahun 1952 dan dijadikan kantor Yayasan Lembaga Cornelis Chastelein (YLCC).'>
+                            data-description='"Sebagai orang Depok lama, otomatis gue bangga. Buat gua, Depok lama itu sebutan untuk 12 marga yang diangkat Cornelis Chastelein sebelum adanya Depok yang sekarang. Akan tetapi kalo sekarang yang tinggal di Depok, semua orang Depok" - Arif Liberto Carlos'>
                             
                             <div class="portfolio-hover">
                                 <img src="img/asets/arti_kaum/arif.jpg" alt="" width="100%" height="100%"/>
@@ -51,7 +52,7 @@
                             data-largesrc="img/asets/arti_kaum/jovel.jpg"
                             data-title="Menjadi Kaum Depok Lama Bagi Jofel" 
                             data-videosrc='https://www.youtube.com/embed/PTJ-U1qREng' 
-                            data-description="Gedung YLCC dahulu merupakan rumah bagi para pendeta yang melayani di Gereja Protestan Depok (sekarang GPIB Immanuel). Letaknya di Jalan Pemuda, Depok, persis di sebelah GPIB Immanuel saat ini. Belum diketahui secara pasti kapan gedung ini dibangun, namun diperkirakan dibangun bersamaan dengan pembangunan Gereja Protestan Depok. Tepat di belakang bangunan utama, terdapat bangunan lain yang dahulu difungsikan sebagai bangunan sekolah. Gedung ini sempat diambil alih oleh pemerintah Republik Indonesia pada era kemerdekaan RI, hingga akhirnya dikembalikan pada komunitas Depok tahun 1952 dan dijadikan kantor Yayasan Lembaga Cornelis Chastelein (YLCC).">
+                            data-description='Agak nggak tepat aja kalau gua disebut Belanda Depok. Gua merasa nggak punya keturunan dengan orang Belanda. Itu mungkin sebutan orang Depok yang bergaul dengan warga Belanda dulu. Tapi kami bukan keturunan Belanda, jadi nggak tepat aja." - Jofel Malonda'>
                             <div class="portfolio-hover">
                                 <img src="img/asets/arti_kaum/jovel.jpg" alt="" width="100%" height="100%"/>
                                 <div
@@ -68,7 +69,7 @@
                             data-largesrc="img/asets/arti_kaum/pak-yano.png"
                             data-title="Menjadi Kaum Depok Lama Bagi Om Yano" 
                             data-videosrc='https://www.youtube.com/embed/bceKVdu67-k' 
-                            data-description="Ebenhaezer adalah gedung pertemuan komunitas Depok yang mulai difungsikan sejak tahun 1929. Gedung yang terletak persis di seberang GPIB Immanuel ini sebelumnya merupakan gedung sekolah dasar pertama di Depok yang diberi julukan “special school” sejak tahun 1873. Belum diketahui secara pasti kapan gedung ini dibangun. Berdasarkan catatan pendeta Wentink tertanggal 19 Agustus 1834, sebuah sekolah dasar pertama telah didirikan di Depok oleh pendeta Medhurst antara tahun 1830 dan 1834. Kini, Ebenhaezer telah kembali pada fungsi semulanya sebagai gedung sekolah dengan nama SMA Kasih.">
+                            data-description='"Setelah saya memahami tentang Depok, betapa pentingnya Depok itu sendiri dalam kaitannya dengan sejarah yang ada. Mengapa? Karena Chastelein yang dulu hanya sebagai seorang pejabat VOC, dia mampu memerankan dirinya sebagai seorang misionari, karena dia memiliki hati yang begitu baik, memiliki hati yang sangat humanis, sehingga memperhatikan sekali persamaan hak antara pribumi dengan dia sendiri. Jadi status sosial itu dia tidak bedakan. Saya pribadi, keadaan ini mengajarkan saya untuk bersikap seperti itu untuk tidak memandang status sosial  tetapi memandang seseorang itu seutuhnya sebagai seorang manusia yang wajib dihargai sama-sama." - Yano Jonathans'>
                             <div class="portfolio-hover">
                                 <img src="img/asets/arti_kaum/pak-yano.png" alt="" width="100%" height="100%"/>
                                 <div

@@ -5,10 +5,12 @@ if (isset($_POST['submit-tanggapan'])) {
     
     try  {
       $connection = new PDO($dsn, $username, $password, $options);
-
+        echo "umur ". $_POST['umur'];
       $new_user = array(
         "nama" => $_POST['name'],
         "email"  => $_POST['email'],
+        "umur" => $_POST['umur'],
+        "pekerjaan" => $_POST['pekerjaan'],
         "tanggapan"     => $_POST['message'],
       );
 
@@ -99,7 +101,7 @@ if (isset($_POST['submit-tanggapan'])) {
                                     name="umur"
                                     id="umur"
                                     placeholder="Umur"
-                                    data-rule=""
+                                    data-rule="umur"
                                     data-msg="Umur"/>
                                 <div class="validation"></div>
                             </div>
@@ -112,7 +114,7 @@ if (isset($_POST['submit-tanggapan'])) {
                                     name="pekerjaan"
                                     id="pekerjaan"
                                     placeholder="Pekerjaan"
-                                    data-rule=""
+                                    data-rule="pekerjaan"
                                     data-msg="Pekerjaan"/>
                                 <div class="validation"></div>
                             </div>

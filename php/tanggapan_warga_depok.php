@@ -1,11 +1,9 @@
 <?php
 if (isset($_POST['submit-tanggapan'])) {
-    echo "Haiii";
     if (!hash_equals($_SESSION['csrf'], $_POST['csrf'])) die();
 
     try  {
       $connection = new PDO($dsn, $username, $password, $options);
-        echo "umur ". $_POST['umur'];
       $new_user = array(
         "nama" => $_POST['name'],
         "email"  => $_POST['email'],

@@ -6,9 +6,8 @@ try {
     $statement->execute();
     $result = $statement->fetchAll(PDO::FETCH_ASSOC);
     foreach($result as $rowz) {
-        echo "tkrnica";
-        echo $rowz['nica'];
-        echo $rowz['tkr'];
+        $rowz['nica'];
+        $rowz['tkr'];
      }
 } catch(PDOException $error) {
     echo $sql . "erur<br>" . $error->getMessage();

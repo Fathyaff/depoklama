@@ -7,8 +7,7 @@ try {
     $statement->execute();
     $result = $statement->fetchAll(PDO::FETCH_ASSOC);
     foreach($result as $row) {
-        echo "asdasdsa";
-        echo $row['penjajah'];
+        $row['penjajah'];
      }
 } catch(PDOException $error) {
     echo $sql . "<br>" . $error->getMessage();

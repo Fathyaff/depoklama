@@ -127,7 +127,7 @@
                             <!-- Example item start:  -->
 
                             <div class="item">
-                                <div class="col-xs-4"><img id="faradiba" src="img/asets/penutur_kisah/yano.png" class="img-responsive"></a></div>
+                                <div class="col-xs-4"><img id="yano-slider" src="img/asets/penutur_kisah/yano.png" class="img-responsive"></a></div>
                             </div>
 
                             <!--  Example item end -->

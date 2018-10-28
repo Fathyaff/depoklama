@@ -144,14 +144,11 @@ if (isset($_POST['submit-tanggapan'])) {
                             </div>
                         </div>
                     </form>
-                    <?php if (isset($_POST['submit-tanggapan']) && $statement) : ?>
 
-                    <?php
-                        echo " <p style='color:white;'> Terima kasih atas tanggapan yang diberikan!</p>";
+                    <h5 id="tanggapan-berhasil" style='color:white; display:none;'> Terima kasih atas tanggapan yang diberikan!</h5>
 
-                    ?>
 
-                    <?php endif; ?>
+
                 </div>
             </div>
         </div>

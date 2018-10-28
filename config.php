@@ -5,10 +5,10 @@
  *
  */
 
-$host       = "localhost";
+$host       = "localhost:3306";
 $username   = "root";
-$password   = "Ahlibahasa";
-$dbname     = "digital_heritage";
+$password   = "rootpw";
+$dbname     = "depok_lama";
 $dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION

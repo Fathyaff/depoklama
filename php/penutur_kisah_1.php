@@ -66,42 +66,35 @@
                         <img src="img/asets/penutur_kisah/suzana.png" id="suzana-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
                         <img src="img/asets/penutur_kisah/titi.png" id="titi-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
                         <img src="img/asets/penutur_kisah/boy.png" id="boy-modal" style="display: none;" alt="" width="90%" class=" img-responsive"/>
-                        <p style="display: none;" id="bondan-name">Bondan Kanumoyoso</p>
-                        <p style="display: none;" id="lili-name">Lilie Suratminto</p>
-                        <p style="display: none;" id="titi-name">Tri Wahyuning Mudaryanti</p>
-                        <p style="display: none;" id="boy-name">Boy Loen</p>
-                        <p style="display: none;" id="ferdy-name">Ferdy Jonathans</p>
-                        <p style="display: none;" id="suzana-name"> Suzana Leander</p>
-                        <p style="display: none;" id="govert-name">Govert Reinoud Soedira</p>
-                        <p style="display: none;" id="yano-name">Yano Jonathans</p>
-                        <p style="display: none;" id="faradiba-name">Ratu Farah Diba</p>
+                       
                     </div>
                     <div class="col-8 col-md-8 col-xs-8">
-                        <p style="display:none"class="modal-desc-content" id="bondan-desc">Bondan Kanumoyoso merupakan salah satu pengajar dalam Program Studi Ilmu Sejarah Fakultas Ilmu Pengetahuan Budaya Universitas Indonesia. Pria yang akrab disapa Mas Bondan juga menjabat sebagai pengurus Masyarakat Sejarawan Indonesia bidang Pendidikan dan Pertemuan Ilmiah. Disertasinya di Universitas Leiden yang berjudul “Beyond the City Wall: Society and Economic Development in the Ommelanden of Batavia, 1684-1740” juga cukup banyak membahas wilayah Depok pada masa pemerintahan VOC.
-
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="lili-desc">Lilie Suratminto lahir pada 18 Mei 1950. Pria yang akrab disapa Meneer Lilie adalah pengajar purnatugas Program Studi Sastra Belanda, Fakultas Ilmu Pengetahuan Budaya, Universitas Indonesia. Beliau merupakan salah satu pakar sejarah Kota Depok. Beliau juga berperan sebagai pembedah buku “Melacak Jejak-jejak Sang Pembebas” yang diterbitkan dalam rangka 300 tahun GPIB Immanuel Depok.
-
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="titi-desc">Tri Wahyuning Mudaryanti atau yang akrab disapa Ibu Titi merupakan salah satu peneliti yang memiliki banyak riset terkait sejarah Depok. Wanita kelahiran 26 Agustus 1952 ini adalah seorang pengajar purnatugas di Program Studi Ilmu Sejarah, Fakultas Ilmu Pengetahuan Budaya, Universitas Indonesia. Beragam karya tentang sejarah Depok telah dihasilkan oleh beliau, salah satunya adalah buku yang berjudul “Berkembang dalam Bayang-bayang Jakarta: Sejarah Depok 1950-1990an” yang diterbitkan oleh penerbit buku Obor pada tahun 2017.
-
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="ferdy-desc">Ferdy Jonathans atau Om Ferdy lahir pada 9 Agustus 1955. Beliau adalah salah satu keturunan fam Jonathans yang juga bertugas sebagai Pengurus bidang Aset dan Sejarah Yayasan Lembaga Cornelis Castelein (YLCC).
-
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="govert-desc">Govert Reinoud Soedira atau yang akrab disapa Opa Govert lahir pada tahun 23 April 1940. Opa merupakan salah satu keturunan fam Soedira yang merupakan fam tertua di Depok. Beliau merupakan saksi hidup peristiwa Gedoran Depok.
-
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="yano-desc">Yano Jonathans atau Om Yano merupakan salah satu keturunan fam Jonathans. Pria yang lahir pada 4 Maret 1951 ini merupakan salah satu penulis buku “Melacak Jejak-jejak Sang Pembebas” yang terbit pada tahun 2015. Buku lainnya berjudul “Depok Tempoe Doeloe: Potret Kehidupan Sosial dan Budaya Masyarakat” terbit tahun 2011.
-
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="suzana-desc">Suzana Leander atau Ibu Suzana merupakan generasi ke-15 fam Leander. Beliau merupakan salah satu pengajar di SMP dan SMA Kasih yang berdiri di bawah Yayasan Lembaga Cornelis Chastelein (YLCC).
-
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="faradiba-desc">Ratu Farah Diba atau yang akrab disapa Ibu Farah merupakan seorang penggiat sejarah Depok. Atas kepeduliannya terhadap Depok, beliau membentuk komunitas bernama Depok Heritage Community pada 5 Juli 2011. Hingga saat ini, wanita kelahiran 7 Maret 1968 ini menjabat sebagai ketua pada komunitas yang didirikannya itu.
-                        </p>
-                        <p style="display:none"class="modal-desc-content" id="boy-desc">Boy Loen atau Om Boy lahir pada 5 Maret 1950. Salah satu keturunan fam Loen ini pernah menjabat sebagai Sekretaris di Yayasan Lembaga Cornelis Chastelein (YLCC) pada tahun 2010. Kini, beliau mengabdikan hidupnya sebagai pengajar di SMA Kasih Depok.
-                        </p>
+                        <h2 style="display: none;" class="modal-desc-title" id="bondan-name">Bondan Kanumoyoso</h2>
+                        <p style="display:none" class="modal-desc-content" id="bondan-desc">Bondan Kanumoyoso merupakan salah satu pengajar dalam Program Studi Ilmu Sejarah Fakultas Ilmu Pengetahuan Budaya Universitas Indonesia. Pria yang akrab disapa Mas Bondan juga menjabat sebagai pengurus Masyarakat Sejarawan Indonesia bidang Pendidikan dan Pertemuan Ilmiah. Disertasinya di Universitas Leiden yang berjudul “Beyond the City Wall: Society and Economic Development in the Ommelanden of Batavia, 1684-1740” juga cukup banyak membahas wilayah Depok pada masa pemerintahan VOC.</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="lili-name">Lilie Suratminto</h2> 
+                        <p style="display:none" class="modal-desc-content" id="lili-desc">Lilie Suratminto lahir pada 18 Mei 1950. Pria yang akrab disapa Meneer Lilie adalah pengajar purnatugas Program Studi Sastra Belanda, Fakultas Ilmu Pengetahuan Budaya, Universitas Indonesia. Beliau merupakan salah satu pakar sejarah Kota Depok. Beliau juga berperan sebagai pembedah buku “Melacak Jejak-jejak Sang Pembebas” yang diterbitkan dalam rangka 300 tahun GPIB Immanuel Depok.</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="titi-name">Tri Wahyuning Mudaryanti</h2>
+                        <p style="display:none" class="modal-desc-content" id="titi-desc">Tri Wahyuning Mudaryanti atau yang akrab disapa Ibu Titi merupakan salah satu peneliti yang memiliki banyak riset terkait sejarah Depok. Wanita kelahiran 26 Agustus 1952 ini adalah seorang pengajar purnatugas di Program Studi Ilmu Sejarah, Fakultas Ilmu Pengetahuan Budaya, Universitas Indonesia. Beragam karya tentang sejarah Depok telah dihasilkan oleh beliau, salah satunya adalah buku yang berjudul “Berkembang dalam Bayang-bayang Jakarta: Sejarah Depok 1950-1990an” yang diterbitkan oleh penerbit buku Obor pada tahun 2017.</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="ferdy-name">Ferdy Jonathans</h2>
+                        <p style="display:none" class="modal-desc-content" id="ferdy-desc">Ferdy Jonathans atau Om Ferdy lahir pada 9 Agustus 1955. Beliau adalah salah satu keturunan fam Jonathans yang juga bertugas sebagai Pengurus bidang Aset dan Sejarah Yayasan Lembaga Cornelis Castelein (YLCC).</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="govert-name">Govert Reinoud Soedira</h2>
+                        <p style="display:none" class="modal-desc-content" id="govert-desc">Govert Reinoud Soedira atau yang akrab disapa Opa Govert lahir pada tahun 23 April 1940. Opa merupakan salah satu keturunan fam Soedira yang merupakan fam tertua di Depok. Beliau merupakan saksi hidup peristiwa Gedoran Depok.</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="yano-name">Yano Jonathans</h2>
+                        <p style="display:none" class="modal-desc-content" id="yano-desc">Yano Jonathans atau Om Yano merupakan salah satu keturunan fam Jonathans. Pria yang lahir pada 4 Maret 1951 ini merupakan salah satu penulis buku “Melacak Jejak-jejak Sang Pembebas” yang terbit pada tahun 2015. Buku lainnya berjudul “Depok Tempoe Doeloe: Potret Kehidupan Sosial dan Budaya Masyarakat” terbit tahun 2011.</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="suzana-name"> Suzana Leander</h2>
+                        <p style="display:none" class="modal-desc-content" id="suzana-desc">Suzana Leander atau Ibu Suzana merupakan generasi ke-15 fam Leander. Beliau merupakan salah satu pengajar di SMP dan SMA Kasih yang berdiri di bawah Yayasan Lembaga Cornelis Chastelein (YLCC).</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="faradiba-name">Ratu Farah Diba</h2>
+                        <p style="display:none" class="modal-desc-content" id="faradiba-desc">Ratu Farah Diba atau yang akrab disapa Ibu Farah merupakan seorang penggiat sejarah Depok. Atas kepeduliannya terhadap Depok, beliau membentuk komunitas bernama Depok Heritage Community pada 5 Juli 2011. Hingga saat ini, wanita kelahiran 7 Maret 1968 ini menjabat sebagai ketua pada komunitas yang didirikannya itu.</p>
+                        
+                        <h2 style="display: none;" class="modal-desc-title" id="boy-name">Boy Loen</h2>
+                        <p style="display:none" class="modal-desc-content" id="boy-desc">Boy Loen atau Om Boy lahir pada 5 Maret 1950. Salah satu keturunan fam Loen ini pernah menjabat sebagai Sekretaris di Yayasan Lembaga Cornelis Chastelein (YLCC) pada tahun 2010. Kini, beliau mengabdikan hidupnya sebagai pengajar di SMA Kasih Depok.</p>
                     </div>
                     <div class="col-md-4 col-md-offset-6 carousel-box col-xs-4">
                         <div class="carousel slide multi-item-carousel" id="theCarousel">

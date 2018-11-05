@@ -151,21 +151,21 @@ if (isset($_POST['penjajah_x']) || isset($_POST['penjajah_y']) ) {
                     <iframe name="votar" style="display:none;"></iframe>
                         <form method="post" class="form-horizontal" target="votar">
 
-                        <div class="col-6 col-md-4">
+                        <div class="col-6 col-md-4 col-xs-4">
                             <p></p>
                             <h4 id="angka-penjajah" class="angka-voting-penjajah-orangsuci-pebisnis"><?php echo $row['penjajah'];?></h4>
                             <div id="hasil-voting-penjajah" class="hasil-voting-penjajah-orangsuci-pebisnis"></div>
                             <input type="image" name="penjajah" id="voting-button-penjajah" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverPenjajah();" onmouseout="offHoverPenjajah();" onclick="animateAfterClickCC('penjajah');">
                             <h4 class="text-voting-button"> PENJAJAH </h4>
                         </div>
-                        <div class="col-6 col-md-4">
+                        <div class="col-6 col-md-4  col-xs-4">
                             <p></p>
                             <h4 id="angka-orangsuci" class="angka-voting-penjajah-orangsuci-pebisnis"><?php echo $row['orang_suci'];?></h4>
                             <div id="hasil-voting-orangsuci" class="hasil-voting-penjajah-orangsuci-pebisnis"></div>
                             <input type="image" name="orangsuci" id="voting-button-orang-suci" class="voting-button" src="img/asets/voting/circle.png" onmouseover="onHoverOrangSuci();" onmouseout="offHoverOrangSuci();" onclick="animateAfterClickCC('orangsuci');">
                             <h4 class="text-voting-button"> ORANG SUCI </h4>
                         </div>
-                        <div class="col-6 col-md-4">
+                        <div class="col-6 col-md-4 col-xs-4">
                             <p></p>
                             <h4 id="angka-pebisnis" class="angka-voting-penjajah-orangsuci-pebisnis"><?php echo $row['pebisnis'];?></h4>
                             <div id="hasil-voting-pebisnis" class="hasil-voting-penjajah-orangsuci-pebisnis"></div>

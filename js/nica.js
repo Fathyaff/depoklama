@@ -44,16 +44,16 @@ $(document).ready(function() {
     function stopAudioKronologiSuzana(){
         pauseAudioKronologiSuzana();
         audioKronologiSuzana.currentTime = 0;
-        $('#toggle-kronologi-suzana').attr("class", "play-suzana");
+        $('#toggle-kronologi-suzana').attr("class", "play-suzana toggle-audio");
     }
 
     $('#toggle-kronologi-suzana').bind("click", function() {
-      if ($(this).attr("class") == "play-suzana"){
+      if ($(this).attr("class") == "play-suzana toggle-audio"){
         playAudioKronologiSuzana();
-        $(this).attr("class", "pause-suzana");
+        $(this).attr("class", "pause-suzana toggle-audio");
       } else{
         pauseAudioKronologiSuzana();
-        $(this).attr("class", "play-suzana");
+        $(this).attr("class", "play-suzana toggle-audio");
       }
          
     });
@@ -80,16 +80,16 @@ $(document).ready(function() {
     function stopAudioWdpgBoy(){
         pauseAudioWdpgBoy();
         audioWdpgBoy.currentTime = 0;
-        $('#toggle-wdpg-boy').attr("class", "play-boy");
+        $('#toggle-wdpg-boy').attr("class", "play-boy toggle-audio");
     }
 
     $('#toggle-wdpg-boy').bind("click", function() {
-      if ($(this).attr("class") == "play-boy"){
+      if ($(this).attr("class") == "play-boy toggle-audio"){
         playAudioWdpgBoy();
-        $(this).attr("class", "pause-boy");
+        $(this).attr("class", "pause-boy toggle-audio");
       } else{
         pauseAudioWdpgBoy();
-        $(this).attr("class", "play-boy");
+        $(this).attr("class", "play-boy toggle-audio");
       }
          
     });
@@ -115,16 +115,16 @@ $(document).ready(function() {
     function stopAudioPesanSuzana(){
         pauseAudioPesanSuzana();
         audioPesanSuzana.currentTime = 0;
-        $('#toggle-pesan-suzana').attr("class", "play-suzana");
+        $('#toggle-pesan-suzana').attr("class", "play-suzana toggle-audio");
     }
 
     $('#toggle-pesan-suzana').bind("click", function() {
-      if ($(this).attr("class") == "play-suzana"){
+      if ($(this).attr("class") == "play-suzana toggle-audio"){
         playAudioPesanSuzana();
-        $(this).attr("class", "pause-suzana");
+        $(this).attr("class", "pause-suzana toggle-audio");
       } else{
         pauseAudioPesanSuzana();
-        $(this).attr("class", "play-suzana");
+        $(this).attr("class", "play-suzana toggle-audio");
       }
          
     });

@@ -52,7 +52,7 @@ $(document).ready(function() {
     function stopAudioProklamasiBoy(){
         pauseAudioProklamasiBoy();
         audioProklamasiBoy.currentTime = 0;
-        $('#toggle-proklamasi-boy').attr("class", "play-boy");
+        $('#toggle-proklamasi-boy').attr("class", "play-boy toggle-audio");
     }
     
     function playAudioProklamasiLili() { 
@@ -66,7 +66,7 @@ $(document).ready(function() {
     function stopAudioProklamasiLili(){
         pauseAudioProklamasiLili();
         audioProklamasiLili.currentTime = 0;
-        $('#toggle-proklamasi-lili').attr("class", "play-lili");
+        $('#toggle-proklamasi-lili').attr("class", "play-lili toggle-audio");
 
     }
 
@@ -81,38 +81,38 @@ $(document).ready(function() {
     function stopAudioProklamasiFara(){
         pauseAudioProklamasiFara();
         audioProklamasiFara.currentTime = 0;
-        $('#toggle-proklamasi-fara').attr("class", "play-fara");
+        $('#toggle-proklamasi-fara').attr("class", "play-fara toggle-audio");
     }
 
     $('#toggle-proklamasi-boy').bind("click", function() {
-      if ($(this).attr("class") == "play-boy"){
+      if ($(this).attr("class") == "play-boy toggle-audio"){
         playAudioProklamasiBoy();
-        $(this).attr("class", "pause-boy");
+        $(this).attr("class", "pause-boy toggle-audio");
       } else{
         pauseAudioProklamasiBoy();
-        $(this).attr("class", "play-boy");
+        $(this).attr("class", "play-boy toggle-audio");
       }
          
     });
 
     $('#toggle-proklamasi-lili').bind("click", function() {
-        if ($(this).attr("class") == "play-lili"){
+        if ($(this).attr("class") == "play-lili toggle-audio"){
             playAudioProklamasiLili();
-          $(this).attr("class", "pause-lili");
+          $(this).attr("class", "pause-lili toggle-audio");
         } else{
           pauseAudioProklamasiLili();
-          $(this).attr("class", "play-lili");
+          $(this).attr("class", "play-lili toggle-audio");
         }
            
     });
 
     $('#toggle-proklamasi-fara').bind("click", function() {
-        if ($(this).attr("class") == "play-fara"){
+        if ($(this).attr("class") == "play-fara toggle-audio"){
             playAudioProklamasiFara();
-          $(this).attr("class", "pause-fara");
+          $(this).attr("class", "pause-fara toggle-audio");
         } else{
           pauseAudioProklamasiFara();
-          $(this).attr("class", "play-fara");
+          $(this).attr("class", "play-fara toggle-audio");
         }
            
     });
@@ -143,7 +143,7 @@ $(document).ready(function() {
     function stopAudioAlurSuzana(){
         pauseAudioAlurSuzana();
         audioAlurSuzana.currentTime = 0;
-        $('#toggle-alur-suzana').attr("class", "play-suzana");
+        $('#toggle-alur-suzana').attr("class", "play-suzana toggle-audio");
     }
 
     function playAudioAlurFara() { 
@@ -157,27 +157,27 @@ $(document).ready(function() {
     function stopAudioAlurFara(){
         pauseAudioAlurFara();
         audioAlurFara.currentTime = 0;
-        $('#toggle-alur-fara').attr("class", "play-fara");
+        $('#toggle-alur-fara').attr("class", "play-fara toggle-audio");
     }
 
     $('#toggle-alur-suzana').bind("click", function() {
-        if ($(this).attr("class") == "play-suzana"){
+        if ($(this).attr("class") == "play-suzana toggle-audio"){
           playAudioAlurSuzana();
-          $(this).attr("class", "pause-suzana");
+          $(this).attr("class", "pause-suzana toggle-audio");
         } else{
           pauseAudioAlurSuzana();
-          $(this).attr("class", "play-suzana");
+          $(this).attr("class", "play-suzana toggle-audio");
         }
            
       });
     
     $('#toggle-alur-fara').bind("click", function() {
-      if ($(this).attr("class") == "play-fara"){
+      if ($(this).attr("class") == "play-fara toggle-audio"){
         playAudioAlurFara();
-        $(this).attr("class", "pause-fara");
+        $(this).attr("class", "pause-fara toggle-audio");
       } else{
         pauseAudioAlurFara();
-        $(this).attr("class", "play-fara");
+        $(this).attr("class", "play-fara toggle-audio");
       }
          
     });
@@ -208,7 +208,7 @@ $(document).ready(function() {
     function stopAudioPelakuBoy(){
         pauseAudioPelakuBoy()
         audioPelakuBoy.currentTime = 0;
-        $('#toggle-pelaku-boy').attr("class", "play-boy");
+        $('#toggle-pelaku-boy').attr("class", "play-boy toggle-audio");
     }
 
     function playAudioPelakuLili() { 
@@ -222,7 +222,7 @@ $(document).ready(function() {
     function stopAudioPelakuLili(){
         pauseAudioPelakuLili();
         audioPelakuLili.currentTime = 0;
-        $('#toggle-pelaku-lili').attr("class", "play-lili");
+        $('#toggle-pelaku-lili').attr("class", "play-lili toggle-audio");
     }
 
     function playAudioPelakuSuzana() { 
@@ -236,7 +236,7 @@ $(document).ready(function() {
     function stopAudioPelakuSuzana(){
         pauseAudioPelakuSuzana();
         audioPelakuSuzana.currentTime = 0;
-        $('#toggle-pelaku-suzana').attr("class", "play-suzana");
+        $('#toggle-pelaku-suzana').attr("class", "play-suzana toggle-audio");
     }
 
     function playAudioPelakuFara() { 
@@ -250,47 +250,47 @@ $(document).ready(function() {
     function stopAudioPelakuFara(){
         pauseAudioPelakuFara();
         audioPelakuFara.currentTime = 0;
-        $('#toggle-pelaku-fara').attr("class", "play-fara");
+        $('#toggle-pelaku-fara').attr("class", "play-fara toggle-audio");
     }
 
     $('#toggle-pelaku-lili').bind("click", function() {
-      if ($(this).attr("class") == "play-lili"){
+      if ($(this).attr("class") == "play-lili toggle-audio"){
         playAudioPelakuLili();
-        $(this).attr("class", "pause-lili");
+        $(this).attr("class", "pause-lili toggle-audio");
       } else{
         pauseAudioPelakuLili();
-        $(this).attr("class", "play-lili");
+        $(this).attr("class", "play-lili toggle-audio");
       }
          
     });
 
     $('#toggle-pelaku-boy').bind("click", function() {
-        if ($(this).attr("class") == "play-boy"){
+        if ($(this).attr("class") == "play-boy toggle-audio"){
             playAudioPelakuBoy();
-          $(this).attr("class", "pause-boy");
+          $(this).attr("class", "pause-boy toggle-audio");
         } else{
             pauseAudioPelakuBoy();
-        $(this).attr("class", "play-boy");
+        $(this).attr("class", "play-boy toggle-audio");
     }
     });
 
     $('#toggle-pelaku-suzana').bind("click", function() {
-    if ($(this).attr("class") == "play-suzana"){
+    if ($(this).attr("class") == "play-suzana toggle-audio"){
         playAudioPelakuSuzana();
-        $(this).attr("class", "pause-suzana");
+        $(this).attr("class", "pause-suzana toggle-audio");
     } else{
         pauseAudioPelakuSuzana();
-        $(this).attr("class", "play-suzana");
+        $(this).attr("class", "play-suzana toggle-audio");
     }
     });
 
     $('#toggle-pelaku-fara').bind("click", function() {
-        if ($(this).attr("class") == "play-fara"){
+        if ($(this).attr("class") == "play-fara toggle-audio"){
             playAudioPelakuFara();
-            $(this).attr("class", "pause-fara");
+            $(this).attr("class", "pause-fara toggle-audio");
         } else{
             pauseAudioPelakuFara();
-            $(this).attr("class", "play-fara");
+            $(this).attr("class", "play-fara toggle-audio");
         }
     });
 

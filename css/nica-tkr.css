@@ -27,17 +27,6 @@
   color: white;
 }
 
-/* .hasil-voting-nica-tkr:hover {
-
-  background-image:
-  linear-gradient(to top, yellow 50%, transparent 50%);
-  background-position: 0 50%;
-  transition: background-position 300ms, color 300ms ease;
-  -webkit-transition: background-position 300ms, color 300ms ease;
-  -moz-transition: background-position 300ms, color 300ms ease;
-  -ms-transition: background-position 300ms, color 300ms ease;
-
-} */
 
 @-webkit-keyframes Animation {
   0%{background-position:0%}
@@ -49,4 +38,36 @@
   from {background: -webkit-linear-gradient(bottom, yellow, yellow 0%, white 100%, white);}
   to {background: -webkit-linear-gradient(bottom, yellow, yellow 50%, white 50%, white);}
   /* 100% {background: -webkit-linear-gradient(bottom, yellow, yellow 100%, white 0%, white);} */
+}
+
+
+  
+@media only screen and (max-height: 360px) {
+
+  .title-voting-nica-tkr{
+    margin-top: -15%;
+  }
+
+  .title-voting-nica-tkr h1{
+    font-size: 3rem;
+  }
+
+.voting-nica-tkr-row {
+  padding-top: 1%;
+}
+
+.container-voting-nica-tkr .subtitle-voting-cc {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size : 1.5rem;
+}
+
+.subtitle-voting-nica-tkr #ayosimak {
+  font-weight: bold;
+  color: #FFD600;
+}
+
+
+
 }

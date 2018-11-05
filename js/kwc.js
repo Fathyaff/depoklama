@@ -43,16 +43,16 @@ $(document).ready(function() {
     function stopAudioKematianSuzana(){
         pauseAudioKematianSuzana();
         audioKematianSuzana.currentTime = 0;
-        $('#toggle-kematian-suzana').attr("class", "play-suzana");
+        $('#toggle-kematian-suzana').attr("class", "play-suzana toggle-audio");
     }
 
     $('#toggle-kematian-suzana').bind("click", function() {
-      if ($(this).attr("class") == "play-suzana"){
+      if ($(this).attr("class") == "play-suzana toggle-audio"){
         playAudioKematianSuzana();
-        $(this).attr("class", "pause-suzana");
+        $(this).attr("class", "pause-suzana toggle-audio");
       } else{
         pauseAudioKematianSuzana();
-        $(this).attr("class", "play-suzana");
+        $(this).attr("class", "play-suzana toggle-audio");
       }
          
     });
@@ -81,7 +81,7 @@ $(document).ready(function() {
     function stopAudioCikalYano(){
         pauseAudioCikalYano();
         audioCikalYano.currentTime = 0;
-        $('#toggle-cikal-yano').attr("class", "play-yano");
+        $('#toggle-cikal-yano').attr("class", "play-yano toggle-audio");
     }
 
     function playAudioCikalLili() { 
@@ -95,27 +95,27 @@ $(document).ready(function() {
     function stopAudioCikalLili(){
         pauseAudioCikalLili();
         audioCikalLili.currentTime =0;
-        $('#toggle-cikal-lili').attr("class", "play-lili");
+        $('#toggle-cikal-lili').attr("class", "play-lili toggle-audio");
     }
 
     $('#toggle-cikal-yano').bind("click", function() {
-      if ($(this).attr("class") == "play-yano"){
+      if ($(this).attr("class") == "play-yano toggle-audio"){
         playAudioCikalYano();
-        $(this).attr("class", "pause-yano");
+        $(this).attr("class", "pause-yano toggle-audio");
       } else{
         pauseAudioCikalYano();
-        $(this).attr("class", "play-yano");
+        $(this).attr("class", "play-yano toggle-audio");
       }
          
     });
 
     $('#toggle-cikal-lili').bind("click", function() {
-        if ($(this).attr("class") == "play-lili"){
+        if ($(this).attr("class") == "play-lili toggle-audio"){
             playAudioCikalLili();
-          $(this).attr("class", "pause-lili");
+          $(this).attr("class", "pause-lili toggle-audio");
         } else{
             pauseAudioCikalLili();
-          $(this).attr("class", "play-lili");
+          $(this).attr("class", "play-lili toggle-audio");
         }
            
       });
@@ -144,16 +144,16 @@ $(document).ready(function() {
     function stopAudioOtonomTiti(){
         pauseAudioOtonomTiti()
         audioOtonomTiti.currentTime = 0;
-        $('#toggle-otonom-titi').attr("class", "play-titi");
+        $('#toggle-otonom-titi').attr("class", "play-titi toggle-audio");
     }
 
     $('#toggle-otonom-titi').bind("click", function() {
-      if ($(this).attr("class") == "play-titi"){
+      if ($(this).attr("class") == "play-titi toggle-audio"){
         playAudioOtonomTiti();
-        $(this).attr("class", "pause-titi");
+        $(this).attr("class", "pause-titi toggle-audio");
       } else{
         pauseAudioOtonomTiti();
-        $(this).attr("class", "play-titi");
+        $(this).attr("class", "play-titi toggle-audio");
       }
          
     });

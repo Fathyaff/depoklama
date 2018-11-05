@@ -36,16 +36,16 @@ $(document).ready(function() {
     function stopAudioSaksiSuzana(){
         pauseAudioSaksiSuzana();
         audioSaksiSuzana.currentTime = 0;
-        $('#toggle-saksi-suzana').attr("class", "play-suzana");
+        $('#toggle-saksi-suzana').attr("class", "play-suzana toggle-audio");
     }
 
     $('#toggle-saksi-suzana').bind("click", function() {
-      if ($(this).attr("class") == "play-suzana"){
+      if ($(this).attr("class") == "play-suzana toggle-audio"){
         playAudioSaksiSuzana();
-        $(this).attr("class", "pause-suzana");
+        $(this).attr("class", "pause-suzana toggle-audio");
       } else{
         pauseAudioSaksiSuzana();
-        $(this).attr("class", "play-suzana");
+        $(this).attr("class", "play-suzana toggle-audio");
       }
          
     });
@@ -73,16 +73,16 @@ $(document).ready(function() {
     function stopAudioSaksiGovert(){
         pauseAudioSaksiGovert();
         audioSaksiGovert.currentTime = 0;
-        $('#toggle-saksi-govert').attr("class", "play-govert");
+        $('#toggle-saksi-govert').attr("class", "play-govert toggle-audio");
     }
 
     $('#toggle-saksi-govert').bind("click", function() {
-        if ($(this).attr("class") == "play-govert"){
+        if ($(this).attr("class") == "play-govert toggle-audio"){
             playAudioSaksiGovert();
-          $(this).attr("class", "pause-govert");
+          $(this).attr("class", "pause-govert toggle-audio");
         } else{
             pauseAudioSaksiGovert();
-          $(this).attr("class", "play-govert");
+          $(this).attr("class", "play-govert toggle-audio");
         }
     });
     

@@ -16,15 +16,36 @@
   .title-peristiwa-berdarah-depok h1{
       color: white;
   }
-  /* #depok-masa-chastelein {
-    background: url(images/bg-pop-up.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-image: url(../img/asets/bg-dmc.png);
-    background-position: center;
-    background-size: cover;
-    height: auto;
   
-  } */
+  
+@media only screen and (max-height: 360px) {
+
+  .title-peristiwa-berdarah-depok{
+    margin-top: -15%;
+    
+    
+  }
+
+  .title-peristiwa-berdarah-depok h1{
+    font-size: 3rem;
+  }
+
+.peristiwa-berdarah-depok-row {
+  padding-top: 1%;
+}
+
+.subtitle-peristiwa-berdarah-depok {
+  margin-top: -5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size : 1.5rem;
+}
+
+.subtitle-peristiwa-berdarah-depok #ayosimak {
+  font-weight: bold;
+  color: #FFD600;
+}
+
+
+
+}

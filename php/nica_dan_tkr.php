@@ -94,7 +94,7 @@ if (isset($_POST['nica_x']) || isset($_POST['nica_y']) ) {
                 <!-- <div class="col-6 col-md-3"></div> -->
                 <iframe name="votar" style="display:none;"></iframe>
                     <form method="post" class="form-horizontal" target="votar">
-                        <div class="col-6 col-md-4">
+                        <div class="col-6 col-md-4 col-xs-4">
                         <h4 id="angka-nica" class="angka-voting-nica-tkr"><?php echo $rowz['nica'];?></h4>
                         <div id="hasil-voting-nica" class="hasil-voting-nica-tkr"></div>
                         <input type="image"
@@ -109,7 +109,7 @@ if (isset($_POST['nica_x']) || isset($_POST['nica_y']) ) {
 
                         <h4 class="text-voting-button"> NICA </h4>
                     </div>
-                    <div class="col-6 col-md-4">
+                    <div class="col-6 col-md-4 col-xs-4">
                         <!-- <img name="tkr" id="voting-button-tkr" class="voting-button-nica-tkr" src="img/asets/voting/circle.png" onmouseover="onHoverTkr();" onmouseout="offHoverTkr();"/> -->
                         <h4 id="angka-tkr" class="angka-voting-nica-tkr"><?php echo $rowz['tkr'];?></h4>
                         <div id="hasil-voting-tkr" class="hasil-voting-nica-tkr"></div>

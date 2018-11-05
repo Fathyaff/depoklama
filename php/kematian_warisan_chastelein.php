@@ -38,7 +38,7 @@
             <div class="modal-content">
                 <span class="close-modal-kwc close-modal-kematian">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Kematian dan Surat Wasiat Chastelein</h2>
                             <p class="modal-desc-content">Cornelis Chastelein meninggal pada tahun 1714. Setahun sebelum ia meninggal, 
@@ -48,27 +48,27 @@
                                 Dengarkan kisah para penutur selengkapnya!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:40%;">
                                 <audio id="audioKematianSuzana">
                                     <source src="audio/kematian-cc/Audio-Kematian-Bu-Suzana-00.58.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-kematian-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-kematian-suzana" class="play-suzana toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="petaimg" src="img/asets/kwc/foto-wasiat.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-2%;text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-kwc">
                             Surat wasiat milik Cornelis Chastelein ini dibuat pada tahun 1714. Surat wasiat tersebut berisi tentang 
                             Chastelein yang memerdekakan budak-budaknya dan memberikan tanah Depok kepada mereka. 
                             Budak Chastelein tetap menaati peraturan yang diberikan Chastelein dalam mengembangkan wilayah Depok Lama.</p>
-                            <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Gambar: Surat wasiat Chastelein. <br>Sumber: http://infodepokontime.blogspot.com</p>
                         </div>
 
@@ -83,7 +83,7 @@
             <div class="modal-content">
                 <span class="close-modal-kwc close-modal-cikal">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Cikal Bakal Kota Depok</h2>
                             <p class="modal-desc-content">Wilayah Depok Lama terus berkembang selepas kematian Chastelein. 
@@ -95,13 +95,13 @@
                                 Dengarkan kisah penutur untuk mengetahui lebih jauh!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioCikalYano">
                                     <source src="audio/kematian-cc/Audio-Cikal-Om-Yano-39.55.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-cikal-yano" class="play-yano"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-cikal-yano" class="play-yano toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left:25%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Om Yano</p>
                                 </div>
                             </div>
@@ -109,25 +109,25 @@
                                 <audio id="audioCikalLili">
                                     <source src="audio/kematian-cc/Audio-Cikal-Meneer-Lilie-26.54.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-cikal-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-cikal-lili" class="play-lili toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
                             
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img src="img/asets/kwc/presiden-depok.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>  
-                            <p style="margin-top:-2%;text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-kwc">
                             Depok telah dipimpin oleh 5 generasi presiden, dari tabel diatas dapat kita 
                             lihat nama-nama presiden yang pernah memimpin Depok. 
                             Rumah presiden terakhir Depok, JM Jonathans (Meneer Lilie), 
                             masih dapat dikunjungi di seberang Rumah Sakit Harapan.</p>
-                            <br><br>
-                            <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
+                            <br>
+                            <p class="desc-gambar">
                             Gambar: Daftar nama Presiden Depok.<br>
                             Sumber:<br> http://poestahadepok.blogspot.com</p>
                         </div>
@@ -142,7 +142,7 @@
             <div class="modal-content">
                 <span class="close-modal-kwc close-modal-otonom">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Akhir Daerah Otonom Depok</h2>
                             <p class="modal-desc-content">
@@ -153,29 +153,29 @@
                             Dengarkan kisah para penutur untuk mengetahui selengkapnya!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:40%;">
                                 <audio id="audioOtonomTiti">
                                     <source src="audio/kematian-cc/Audio-Otonom-Bu-Titi-24.57.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-otonom-titi" class="play-titi"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 28%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-otonom-titi" class="play-titi toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 28%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Ibu Titi</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="deEersteimg" src="img/asets/kwc/peta-depok.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>  
-                            <p style="margin-top:-2%;text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-kwc">
                             Pada masa daerah otonom depok hanya terdapat 4 (empat) jalan utama di pusat kota Depok Lama, yaitu Kerkweg, 
                             Passerstraat, Middenweg, dan  Passerweg. 
                             Pasca pengakuan kedaulatan Republik Indonesia, beberapa nama jalan ini dinasionalisasi, 
                             seperti Kerkweg menjadi Jalan Pemuda, Passerweg menjadi Jalan Dewi Sartika, Middenweg menjadi Jalan Siliwangi, dan Passerstraat menjadi Jalan Kartini.</p>
                             
-                            <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Gambar: Peta Depok tahun 1901<br>
                             Sumber: http://maps.library.leiden.edu/apps/s7#focus</p>
                         </div>

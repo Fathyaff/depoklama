@@ -37,6 +37,21 @@
   color: white;
 }
 
+
+.modal-nica .modal-content .portfolio-hover .portfolio-hover-content .desc-gambar {
+  text-align:center;
+  margin-top:5%; 
+  font-size:8pt; 
+  line-height:10pt;
+}
+
+.modal-nica .modal-content .portfolio-hover .portfolio-hover-content .desc-nica{
+  margin-top:-3%;
+  text-align:center; 
+  font-size:7.5pt; 
+  line-height:10pt;
+}
+
  /* The Modal (background) */
  .modal-nica {
   display: none; /* Hidden by default */
@@ -125,4 +140,96 @@
 }
 .modal-nica .multi-item-carousel .carousel-inner .active .left .right{
   right:33%;
+}
+
+
+
+@media only screen and (max-height: 360px) {
+
+  .title-nica{
+    margin-top: -15%;
+    
+  }
+
+  .title-nica h1{
+    font-size: 3rem;
+  }
+
+.nica-row {
+  padding-top: 1%;
+}
+
+.subtitle-nica {
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size : 1.5rem;
+}
+
+.subtitle-nica #ayosimak {
+  font-weight: bold;
+  color: #FFD600;
+}
+
+/* Modal Content/Box */
+.modal-nica .modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 75%; /* Could be more or less, depending on screen size */
+  margin-top: 100px;
+  background-image: url("../img/asets/penutur_kisah/bg-pop-up.png");
+  background-size: contain;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 600px;
+}
+.modal-nica .modal-content .row-top {
+  padding-top: 5%;
+}
+.modal-nica .modal-content .modal-desc-content {
+  margin-top:-5%;
+  text-align: justify;
+  font-size: 0.8em;
+  line-height: 100%;
+}
+
+.modal-nica .modal-content .modal-desc-title{
+  font-size: 1.2em;
+  text-align: left;
+  margin-top :-2%;
+  margin-bottom: 3%;
+}
+.modal-nica .modal-content .portfolio-hover img{
+  margin-left: 2%;
+}
+
+.modal-nica .modal-content .portfolio-hover .portfolio-hover-content .desc-nica {
+  margin-top:-3%;
+  text-align:center;
+  font-size:0.3em;
+  line-height:8pt;
+}
+
+.modal-nica .modal-content .portfolio-hover .portfolio-hover-content .desc-gambar {
+  margin-top:-3%;
+  text-align:center;
+  font-size:0.3em;
+  line-height:1rem;
+}
+
+.modal-nica .modal-content .modal-audio .toggle-audio{
+  width:60px;
+  height: 80px;
+}
+.modal-nica .modal-content .modal-audio .toggle-audio-desc p{
+  margin-bottom: -1%;
+  font-size: 1rem;
+}
+
+
 }

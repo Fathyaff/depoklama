@@ -43,15 +43,37 @@
     border-radius: 15px 15px 0px 0px;
     background-size: 200% 200%;
   }
-  /* #depok-masa-chastelein {
-    background: url(images/bg-pop-up.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-image: url(../img/asets/bg-dmc.png);
-    background-position: center;
-    background-size: cover;
-    height: auto;
+  
 
-  } */
+@media only screen and (max-height: 360px) {
+
+  .title-voting-cc{
+    margin-top: -15%;
+  }
+
+  .title-voting-cc h1{
+    font-size: 3rem;
+  }
+
+.voting-cc-row {
+  padding-top: 1%;
+}
+
+.subtitle-voting-cc {
+  margin-top: -5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size : 1.5rem;
+}
+
+.subtitle-voting-cc #ayosimak {
+  font-weight: bold;
+  color: #FFD600;
+}
+
+.title-button-voting-cc-text {
+  font-size: 3rem;
+}
+
+
+}

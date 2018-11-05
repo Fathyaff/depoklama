@@ -42,7 +42,7 @@
             <div class="modal-content">
                 <span class="close-modal-gedoran close-modal-proklamasi">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                             <h2 class='modal-desc-title'>Warga Depok Lama Kala Proklamasi</h2>
                             <p class="modal-desc-content">Gaya hidup yang dijalani kaum Depok memang berbeda dengan warga di sekitarnya. 
@@ -55,13 +55,13 @@
                             Atas kesalahpahaman inilah, meletus peristiwa Gedoran Depok pada 11 Oktober 1945.
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:15%;" >
                                 <audio id="audioProklamasiBoy">
                                     <source src="audio/gedoran/Audio-proklamasi-Om-Boy-38.46.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-proklamasi-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-proklamasi-boy" class="play-boy toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -69,8 +69,8 @@
                                 <audio id="audioProklamasiLili">
                                     <source src="audio/gedoran/Audio-proklamasi-Meneer-Lilie-36.48.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-proklamasi-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-proklamasi-lili" class="play-lili toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -78,23 +78,23 @@
                                 <audio id="audioProklamasiFara">
                                     <source src="audio/gedoran/Audio-proklamasi-Bu-faradibah-22.45.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-proklamasi-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-proklamasi-fara" class="play-fara toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Ibu Faradiba</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="petaimg" src="img/asets/gedoran/proklamasi_gambar.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
+                            <p class="desc-gedoran">
                             Penyebaran berita kemerdekaan Republik Indonesia membutuhkan waktu yang tidak sebentar. 
                             Apalagi, media penyebaran informasi kala itu masih terbatas. Koran dan radio saat itu sangat dipantau oleh Jepang. 
                             Oleh karena itu, banyak warga Indonesia yang belum mengetahui bahwa 
                             Soekarno dan Hatta telah memproklamirkan kemerdekaan negara kita tercinta hingga beberapa bulan kemudian.</p>
-                            <p class="desc-gambar" style="text-align:center;font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Naskah Proklamasi. <br>Sumber: http://munasprok.or.id/index.php/web/koleksi/view/1/
                             <br>Naskah-Proklamasi-Ketik#prettyPhoto</p>
                         </div>
@@ -110,7 +110,7 @@
             <div class="modal-content">
                 <span class="close-modal-gedoran close-modal-alur">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Kronologi Kejadian</h2>
                             <p class="modal-desc-content">Tepat pada tanggal 7 Oktober 1945, terjadi penangkapan kaum Depok oleh 
@@ -119,13 +119,13 @@
                             para pemiliknya pun ditawan. Dengarkan kisah dari para penutur selengkapnya!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;" >
                                 <audio id="audioAlurSuzana">
                                     <source src="audio/gedoran/Audio-Kronologi-Bu-Suzana-14.42.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-alur-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-alur-suzana" class="play-suzana toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -133,21 +133,21 @@
                                 <audio id="audioAlurFara">
                                     <source src="audio/gedoran/Audio-Kronologi-Bu-faradibah-24.30.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-alur-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-alur-fara" class="play-fara toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Ibu Faradiba</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img src="img/asets/gedoran/kasur.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                                <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
+                                <p class="desc-gedoran">
                                 Gedoran Depok juga dikenal sebagai Pemberontakan Kapuk. Hal ini karena para pemberontak juga merobek kasur-kasur 
                                 kapuk yang pada masa itu merupakan tempat untuk menyimpan barang berharga.</p>
-                                <p class="desc-gambar" style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">Kasur yang dirobek</p>
+                                <p class="desc-gambar">Kasur yang dirobek</p>
                             </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
             <div class="modal-content">
                 <span class="close-modal-gedoran close-modal-pelaku">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Siapakah Pelakunya</h2>
                             <p class="modal-desc-content">
@@ -175,13 +175,13 @@
                             Simak kisah penutur selengkapnya!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3">
                                 <audio id="audioPelakuBoy">
                                         <source src="audio/gedoran/Audio-Siapakah-Pelakunya-Om-Boy-38.46.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-pelaku-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%">
+                                <div style="position:relative" id="toggle-pelaku-boy" class="play-boy toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%" class="toggle-audio-desc">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -189,8 +189,8 @@
                                 <audio id="audioPelakuLili">
                                     <source src="audio/gedoran/Audio-Siapakah-Pelakunya-Meneer-Lilie-40.30.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-pelaku-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%">
+                                <div style="position:relative" id="toggle-pelaku-lili" class="play-lili toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%" class="toggle-audio-desc">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -198,8 +198,8 @@
                                 <audio id="audioPelakuSuzana">
                                         <source src="audio/gedoran/Audio-Siapakah-Pelakunya-Bu-Suzana-20.03.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-pelaku-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 22%;margin-bottom: -3%;">
+                                <div style="position:relative" id="toggle-pelaku-suzana" class="play-suzana toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 22%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
@@ -207,22 +207,22 @@
                                 <audio id="audioPelakuFara">
                                         <source src="audio/gedoran/Audio-Siapakah-Pelakunya-Bu-Faradiba-26.00.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative" id="toggle-pelaku-fara" class="play-fara"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;">
+                                <div style="position:relative" id="toggle-pelaku-fara" class="play-fara toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Ibu Faradiba</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="deEersteimg" src="img/asets/gedoran/kala_proklamasi.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-5%;text-align:center;font-size:8pt; line-height:10pt;">
+                            <p class="desc-gedoran">
                             Peristiwa gedoran tidak hanya terjadi di Depok Lama. Di bulan dan tahun yang sama, 
                             peristiwa gedoran juga terjadi di tanah partikelir lainnya. 
                             Salah satunya terjadi di  Kampung Sawah, Bekasi yang dikenal dengan peristiwa Gedoran ‘45.</p>
-                            <p class="desc-gambar" style="margin-top:-2%;font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Foto Situasi masyarakat setelah proklamasi kemerdekaan.<br>
                             Sumber gambar: http://www.netralnews.com/news/singkapsejarah
                             <br>/read/154627/kekerasan-seksual-dan-tindak-kriminal-potret-buram-revolusi-kemerdekaan</p>
@@ -237,7 +237,7 @@
             <div class="modal-content">
                 <span class="close-modal-gedoran close-modal-bangunan">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Bangunan Penting</h2>
                             <p class="modal-desc-content">
@@ -249,17 +249,17 @@
                         </div>
                         
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="deEersteimg" src="img/asets/gedoran/rs_harapan.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-2%;text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-gedoran">
                             Rumah Sakit Harapan telah mengalami beberapa kali peralihan fungsi. 
                             Mulanya, bangunan ini berfungsi sebagai kantor pemerintahan Depok atau yang dikenal dengan istilah Gemeente Bestuur. 
                             Setelah peristiwa Gedoran, gedung ini menjadi markas NICA. Namun hal tersebut tidak bertahan lama, 
                             sampai TKR merebutnya dari tangan NICA. 
                             Kini, bangunan ini beralih fungsi menjadi rumah sakit.</p>
-                            <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Rumah Sakit Harapan</p>
                         </div>
                     </div>

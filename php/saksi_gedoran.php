@@ -37,7 +37,7 @@
             <div class="modal-content">
                 <span class="close-modal-saksi-gedoran close-modal-saksi-suzana">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Ibu Suzana</h2>
                             <p class="modal-desc-content">Ayah Ibu Suzana yang bernama Charles Richard Leander, 
@@ -46,29 +46,29 @@
                             Ia tidak diperbolehkan membawa apapun, hanya secarik baju yang dipakainya. Dengarkan kisah Ibu Suzana selengkapnya! 
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioSaksiSuzana">
                                     <source src="audio/saksi-gedoran/Audio-Saksi-Peristiwa-Gedoran-Depok-Bu-Suzana-14.54-18.25.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-saksi-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-saksi-suzana" class="play-suzana toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="petaimg" src="img/asets/saksi-gedoran/ayah-bu-suzana.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
+                            <p class="desc-saksi-gedoran">
                             Charles Richard Leander lahir pada 27 Juli 1930. Saat peristiwa Gedoran terjadi, ia berusia 15 tahun.
                              Memori tentang Gedoran menyisakan trauma yang mendalam kepada dirinya. 
                              Ibu Suzana sebagai anak pertama merupakan satu-satunya anak yang diberikan familiename Leander. 
                              Adik Ibu Suzana diberikan nama Marianti Yulia dan Heriati Susiati. 
                             Hal ini dilakukan agar anak-anaknya tidak diketahui identitasnya sebagai kaum Depok Lama oleh masyarakat umum.</p>
-                            <p class="desc-gambar" style="text-align:center;font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Gambar: Charles R. Leander, <br> Ayahanda dari Ibu Suzana</p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
             <div class="modal-content">
                 <span class="close-modal-saksi-gedoran close-modal-saksi-govert">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Opa Govert</h2>
                             <p class="modal-desc-content">Opa Govert adalah anak kelima dari lima bersaudara. 
@@ -91,28 +91,28 @@
                             Dengarkan kisah Opa Govert untuk mengetahui kisah beliau!
                             </p>
                         </div>
-                        <div class="row">
-                            <div class="col-6 col-md-4 col-xs-8" style="margin-left:40%;">
+                        <div class="row modal-audio">
+                            <div class="col-6 col-md-4 col-xs-4" style="margin-left:40%;">
                                 <audio id="audioSaksiGovert">
                                     <source src="audio/saksi-gedoran/Audio-Saksi-Peristiwa-Gedoran-Depok-(Gabungan)-Opa-Govert.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-saksi-govert" class="play-govert"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 16%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-saksi-govert" class="play-govert toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 16%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Opa Govert</p>
                                 </div>
                             </div>
                             
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img src="img/asets/saksi-gedoran/opa-govert.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                                <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
+                                <p class="desc-saksi-gedoran">
                                 Setelah peristiwa Gedoran, Opa Govert bersama keluarganya pindah ke Kota Bandung.
                                  Di sana ia tinggal bersama keluarga ibunya dan tidak pernah kembali ke Depok dalam waktu yang lama. 
                                 Opa kembali ke Depok pada tahun 60-an ketika mendapatkan pekerjaan di salah satu hotel di Jakarta. </p>
-                                <p class="desc-gambar" style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
+                                <p class="desc-gambar">
                                 Gambar: Opa Govert (kanan atas) bersama keluarganya ketika tinggal di Bandung</p>
                             </div>
                     </div>

@@ -45,7 +45,7 @@
             <div class="modal-content">
                 <span class="close-modal-kdmc close-modal-visi">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Visi Chastelein Membangun Depok</h2>
                             <p class="modal-desc-content">Chastelein memiliki visi membangun Depok menjadi sebuah komunitasi masyarakat 
@@ -55,13 +55,13 @@
                             Dengarkan cerita para penutur untuk mendapatkan informasi lebih lanjut!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioVisiLili">
                                     <source src="audio/kdmc/Audio-Visi-Meneer-Lilie-19.15.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-visi-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-visi-lili" class="play-lili toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
@@ -69,23 +69,23 @@
                                 <audio id="audioVisiBondan">
                                         <source src="audio/kdmc/Audio-Visi-Pak-Bondan-04.42.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-visi-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-visi-bondan" class="play-bondan toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:20%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="petaimg" src="img/asets/kehidupan-dmc/douwes_dekker.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">Pada masa penjajahan, tidak semua 
+                            <p class="desc-kdmc">Pada masa penjajahan, tidak semua 
                             warga Eropa menindas masyarakat pribumi. Selain Chastelein, ada juga sosok seperti Eduard Douwes Dekker dan 
                             Ernest Douwes Dekker yang menentang kekejaman Belanda terhadap masyarakat pribumi. 
                             Kedua sosok ini membantu rakyat Indonesia untuk berjuang melawan Belanda melalui karya-karyanya.</p>
-                            <br><br>
-                            <p class="desc-gambar" style="text-align:center;font-size:8pt;line-height:10pt;">Gambar:
+                            <br>
+                            <p class="desc-gambar">Gambar:
                             Eduard Douwes Dekker. <br>Sumber: http://core3.oomph.co.id</p>
                         </div>
 
@@ -100,7 +100,7 @@
             <div class="modal-content">
                 <span class="close-modal-kdmc close-modal-budak">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Budak-Budak Chastelein</h2>
                             <p class="modal-desc-content">“Praktek perbudakan di nusantara berbeda dengan perbudakan di Eropa!” Tandas Mas Bondan.
@@ -111,13 +111,13 @@
                             Simak kisah para penutur untuk mengetahui lebih lanjut!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioBudakBondan">
                                     <source src="audio/kdmc/Audio-Budak-Pak-Bondan-10.22.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-budak-bondan" class="play-bondan"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-budak-bondan" class="play-bondan toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 20%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Mas Bondan</p>
                                 </div>
                             </div>
@@ -125,24 +125,24 @@
                                 <audio id="audioBudakSuzana">
                                     <source src="audio/kdmc/Audio-Budak-Bu-Suzana-30.35.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-budak-suzana" class="play-suzana"></div>
-                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;">
+                                <div style="position:relative;" id="toggle-budak-suzana" class="play-suzana toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0; float:right;margin-left: 25%;margin-bottom: -3%;" class="toggle-audio-desc">
                                     <p>Ibu Suzana</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img src="img/asets/kehidupan-dmc/keturunan_budak.png" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                                <p style="margin-top:-5%;text-align:center;font-size:8pt; line-height:10pt;">Tahukah kamu? Salah satu pimpinan para 
+                                <p class="desc-kdmc">Tahukah kamu? Salah satu pimpinan para 
                                 budak Cornelis Chastelein bernama Jaron van Bali. Budak dari Bali didatangkan untuk membuat sistem pengairan 
                                 pertanian dan perkebunan di Depok. Saat ini, terdapat 12 familie budak Cornelis Chastelein, yaitu Bacas, Isakh, 
                                 Jonathans, Jacob, Joseph, Loen, Laurens, Leander, Tholense, Soedira, Samuel, dan Zadokh. Belum diketahui secara 
                                 pasti kapan nama-nama familie ini berasal dan siapa yang memberikannya. Hanya satu nama fam yang terdaftar di dalam 
                                 surat wasiat Chastelein, yaitu Soedira yang berasal dari Bali.</p>
-                                <p class="desc-gambar" style="margin-top:-3%;text-align:center;font-size:8pt; line-height:10pt;">
+                                <p class="desc-gambar">
                                 Gambar: Keturunan budak Chastelein di Depok. Sumber: www.intisasi.grid.id</p>
                             </div>
                     </div>
@@ -156,7 +156,7 @@
             <div class="modal-content">
                 <span class="close-modal-kdmc close-modal-perkebunan">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Pertanian dan Perkebunan</h2>
                             <p class="modal-desc-content">
@@ -168,13 +168,13 @@
                             Simak kisah selengkapnya dari para penutur! 
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%;">
                                 <audio id="audioPerkebunanYano">
                                         <source src="audio/kdmc/Audio-Perkebunan-Om-Yano-09.50.wav" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-perkebunan-yano" class="play-yano"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-perkebunan-yano" class="play-yano toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:25%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Om Yano</p>
                                 </div>
                             </div>
@@ -182,24 +182,24 @@
                                 <audio id="audioPerkebunanLili">
                                     <source src="audio/kdmc/Audio-Perkebunan-Meneer-Lilie-23.44.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-perkebunan-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-perkebunan-lili" class="play-lili toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
                             
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="deEersteimg" src="img/asets/kehidupan-dmc/cagar_alam.jpg" alt="" width="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-5%;text-align:center;font-size:8pt; line-height:10pt;">
+                            <p class="desc-kdmc">
                             Chastelein membuat hutan lindung untuk menjaga keasrian dan kebutuhan air di Depok. 
                             Kini, kawasan hutan lindung itu dikenal dengan nama Taman Hutan Raya Pancoran Mas atau Cagar Alam Pancoran Mas. 
                             Akan tetapi sangat disayangkan saat ini hanya tersisa tinggal 6 hektar dari 60 hektar hutan lindung 
                             pada masa Chastelein.</p>
-                            <p class="desc-gambar" style="margin-top:20%;font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Gambar: Cagar Alam Depok. Sumber: http://jakarta.panduanwisata.id</p>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
             <div class="modal-content">
                 <span class="close-modal-kdmc close-modal-aturan">&times;</span>
                 <div class="row row-top">
-                    <div class="col-8 col-md-8">
+                    <div class="col-8 col-md-8 col-xs-8">
                         <div class="row">
                         <h2 class='modal-desc-title'>Peraturan Chastelein</h2>
                             <p class="modal-desc-content">
@@ -224,13 +224,13 @@
                             Dengarkan kisah selengkapnya dari para penutur!
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row modal-audio">
                             <div class="col-6 col-md-3 col-xs-3" style="margin-left:28%">
                                 <audio id="audioAturanBoy">
                                         <source src="audio/kdmc/Audio-Peraturan-Om-Boy-27.37.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-aturan-boy" class="play-boy"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-aturan-boy" class="play-boy toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:28%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Om Boy</p>
                                 </div>
                             </div>
@@ -238,24 +238,24 @@
                                 <audio id="audioAturanLili">
                                     <source src="audio/kdmc/Audio-Peraturan-Meneer-Lilie-21.03.mp3" type="audio/mpeg">
                                 </audio>
-                                <div style="position:relative;" id="toggle-aturan-lili" class="play-lili"></div>
-                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;">
+                                <div style="position:relative;" id="toggle-aturan-lili" class="play-lili toggle-audio"></div>
+                                <div style="position:absolute; left:0; bottom:0;float:left;margin-left:18%;margin-bottom:-3%;" class="toggle-audio-desc">
                                     <p>Meneer Lilie</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4 portfolio-hover">
+                    <div class="col-4 col-md-4 col-xs-4 portfolio-hover">
                         <img id="deEersteimg" src="img/asets/kehidupan-dmc/pondok_cina.png" alt="" width="100%" height="100%" class=" img-responsive"/>
                         <div class="portfolio-hover-content" style="position:absolute; top:0">
                             <h2>Tahukah kamu?</h2>
-                            <p style="margin-top:-2%;text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-kdmc">
                             Chastelein membatasi orang-orang Depok bergaul dengan orang-orang di luar Depok, 
                             terutama pedagang Cina. Larangan tersebut dibuat untuk mencegah masuknya pengaruh 
                             buruk dari kebiasaan para pedagang cina yang kala itu suka berjudi dan berhutang. 
                             Oleh karena itu, pedagang Cina yang berdagang di Depok membuat pemukiman cina di daerah 
                             yang saat ini menjadi Margo City.</p>
-                            <p class="desc-gambar"  style="text-align:center; font-size:8pt; line-height:10pt;">
+                            <p class="desc-gambar">
                             Gambar: Rumah Tua Pondokcina. <br>Sumber: https://id.wikipedia.org/wiki/<br>
                             Rumah_Tua_Pondok_Cina </p>
                         </div>

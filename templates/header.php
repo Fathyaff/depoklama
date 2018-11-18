@@ -1,6 +1,8 @@
 <head>
         <title>DEPOK LAMA PROJECT</title>
         <meta charset="utf-8"/>
+        <meta name="description" content="Depok Lama Project">
+        <meta name="keywords" content="Depok, Depok Lama, Heritage, Virtual Tour, Depok Heritage Project, Depok Lama Project, Chastelein, Cornelis Chastelein">
         <meta
             content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
             name="viewport">

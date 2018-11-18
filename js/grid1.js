@@ -327,10 +327,10 @@ var Grid1 = (function() {
 			this.$description1 = $( '<p></p>' );
 			this.$href1 = $( '' );
 			this.$videosrc1 = $( '<iframe width="1300" height="480" src="#" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' );
-			this.$details1 = $( '<div class="og1-details"></div>' ).append( this.$title1, this.$description1, this.$href1);
+			this.$details1 = $( '<div class="og1-details col-xs-5"></div>' ).append( this.$title1, this.$description1, this.$href1);
 			// this.$loading1 = $( '<div class="og1-loading"></div>' );
 			this.$loading1 = $( '' );
-			this.$fullimage1 = $( '<div class="og1-fullimg"></div>' ).append( this.$loading1, this.$videosrc1 );
+			this.$fullimage1 = $( '<div class="og1-fullimg col-xs-5"></div>' ).append( this.$loading1, this.$videosrc1 );
 			this.$closePreview1 = $( '<span class="og1-close"></span>' );
 			this.$previewInner1 = $( '<div class="og1-expander-inner"></div>' ).append( this.$closePreview1, this.$fullimage1, this.$details1 );
 			this.$previewEl1 = $( '<div class="og1-expander"></div>' ).append( this.$previewInner1 );

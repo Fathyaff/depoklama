@@ -325,9 +325,9 @@ var Grid = (function() {
 			this.$description = $( '<p></p>' );
 			this.$href = $( '' );
 			// this.$videosrc = $( '<iframe width="1300" height="480" src="#" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>' );
-			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href);
+			this.$details = $( '<div class="og-details col-xs-5"></div>' ).append( this.$title, this.$description, this.$href);
 			this.$loading = $( '<div class="og-loading"></div>' );
-			this.$fullimage = $( '<div class="og-fullimg"></div>' ).append( this.$loading );
+			this.$fullimage = $( '<div class="og-fullimg col-xs-5"></div>' ).append( this.$loading );
 			this.$closePreview = $( '<span class="og-close"></span>' );
 			this.$previewInner = $( '<div class="og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
 			this.$previewEl = $( '<div class="og-expander"></div>' ).append( this.$previewInner );
